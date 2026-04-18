@@ -55,10 +55,12 @@ export function filterDashboardLogs({
     filtered = filtered.filter((log) => log.Status === 'Boarder');
   } else if (filterTab === 'non-boarder') {
     filtered = filtered.filter((log) => log.Status === 'Non-Boarder');
-  } else if (filterTab === 'invalid') {
-    filtered = filtered.filter(
-      (log) => log.Status !== 'Boarder' && log.Status !== 'Non-Boarder'
-    );
+  } else if (filterTab === 'arrears') {
+    // Show logs for students who have arrears
+    filtered = filtered.filter((log) => {
+      const student = allotments[log['QR Code']?.trim()];
+      return student?.Arrears;
+    });
   } else if (filterTab === 'missing') {
     const scannedRollNos = new Set(
       filtered.filter((l) => l.Status === 'Boarder').map((l) => l['QR Code'])

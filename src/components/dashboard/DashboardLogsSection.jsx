@@ -51,7 +51,7 @@ export function DashboardLogsSection({
                   ['boarder', 'Boarders'],
                   ['non-boarder', 'Non-Boarders'],
                   ['missing', 'Absent'],
-                  ['invalid', 'Invalid'],
+                  ['arrears', 'Arrears'],
                 ].map(([value, label]) => (
                   <TabsTrigger
                     key={value}

@@ -130,7 +130,7 @@ export default function Dashboard({
           actions={
             <div className="flex items-center gap-3">
               <Button
-                variant={showUnique ? 'default' : 'outline'}
+                variant="default"
                 onClick={onToggleUnique}
                 className="gap-2"
               >
@@ -159,7 +159,7 @@ export default function Dashboard({
         {isMobile && (
           <div className="flex gap-2">
             <Button
-              variant={showUnique ? 'default' : 'outline'}
+              variant="default"
               onClick={onToggleUnique}
               size="sm"
               className="flex-1 gap-2"
