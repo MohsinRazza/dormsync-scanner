@@ -100,38 +100,127 @@ const Reports = ({ logs, allotments }) => {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>${reportType} Report — ${dateLabel}</title>
 <style>
-  body{font-family:'Segoe UI',sans-serif;padding:40px;background:#f9fafb;color:#1f2937}
-  .wrap{max-width:1100px;margin:0 auto;background:#fff;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
-  h1{font-size:24px;font-weight:700;margin-bottom:4px}
-  .sub{color:#6b7280;font-size:14px;margin-bottom:24px}
-  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:32px}
-  .stat{background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px}
-  .stat .lbl{font-size:12px;color:#6b7280;margin-bottom:4px}
-  .stat .val{font-size:22px;font-weight:700}
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  th{background:#f3f4f6;padding:10px 12px;text-align:left;font-weight:600;border-bottom:2px solid #e5e7eb}
-  .footer{margin-top:32px;text-align:center;font-size:11px;color:#9ca3af}
-  @media print{body{padding:0;background:#fff}.wrap{box-shadow:none;padding:20px}}
+  :root {
+    --primary: #1e293b;
+    --border: #e2e8f0;
+  }
+
+  body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    color: var(--primary);
+    background: #f1f5f9; 
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+  }
+
+  /* Compact Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .stat-item { border-left: 3px solid var(--border); padding-left: 10px; }
+  .stat-item b { font-size: 14px; display: block; }
+
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    table-layout: fixed; /* Fixes the overflow immediately */
+    word-wrap: break-word;
+  }
+
+  th { 
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    text-align: left;
+  }
+
+  td { 
+    font-size: 10px; 
+    padding: 6px 8px; 
+    border: 1px solid #e2e8f0;
+    line-height: 1.2;
+    vertical-align: middle;
+  }
+
+  /* Specific Widths to prevent the "Shift" */
+  .col-dt { width: 15%; } /* Date & Time */
+  .col-roll { width: 15%; }
+  .col-name { width: 25%; }
+  .col-status { width: 15%; }
+  .col-room { width: 30%; } /* Hostel & Room */
+
+  @media print {
+    @page { size: portrait; margin: 1cm; }
+    body { background: white; }
+    .wrap { width: 100%; padding: 0; box-shadow: none; }
+    tr { page-break-inside: avoid; }
+  }
 </style>
 </head>
 <body>
+
 <div class="wrap">
-  <h1>UOG Hostel — ${reportType} Report</h1>
-  <div class="sub">${dateLabel}${uniqueOnly ? ' &nbsp;·&nbsp; Unique records only' : ''}</div>
-  <div class="stats">
-    <div class="stat"><div class="lbl">Total Scans</div><div class="val">${totalScans}</div></div>
-    <div class="stat"><div class="lbl">Boarders</div><div class="val">${boarders}</div></div>
-    <div class="stat"><div class="lbl">Non-Boarders</div><div class="val">${nonBoarders}</div></div>
-    <div class="stat"><div class="lbl">Late Entries</div><div class="val">${lateEntries}</div></div>
+  <div class="header">
+    <div>
+      <h2 style="margin:0; font-size: 18px;">UOG DormSync Monthly Report</h2>
+      <span style="font-size: 12px; color: #64748b;">${dateLabel}</span>
+    </div>
+    <div style="text-align: right; font-size: 11px;">
+      <b>Confidential Document</b><br>
+      Generated: ${moment().format('DD/MM/YYYY')}
+    </div>
   </div>
+
+  <div class="stats-row">
+    <div class="stat-item">Total Scans: <b>${totalScans}</b></div>
+    <div class="stat-item">Boarders: <b>${boarders}</b></div>
+    <div class="stat-item">Late: <b style="color:red">${lateEntries}</b></div>
+  </div>
+
   <table>
-    <thead><tr><th>Date</th><th>Time</th><th>Roll No.</th><th>Name</th><th>Status</th><th>Hostel</th><th>Room</th></tr></thead>
-    <tbody>${tableRows}</tbody>
+    <thead>
+      <tr>
+        <th class="col-date">Date & Time</th>
+        <th class="col-roll">Roll No.</th>
+        <th class="col-name">Name</th>
+        <th class="col-status">Status</th>
+        <th class="col-hostel">Hostel/Room</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${tableRows}
+      </tbody>
   </table>
-  <div class="footer">Generated ${moment().format('MMM DD, YYYY [at] hh:mm A')} · UOG Hostel Management System</div>
+
+  <div style="margin-top: 20px; font-size: 9px; color: #94a3b8; text-align: center;">
+    End of Report — Page traces for UOG Hostel Management System
+  </div>
 </div>
+
 </body>
 </html>`;
 

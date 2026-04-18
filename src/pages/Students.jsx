@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, Phone, User, Home, X, CreditCard, Mail, BookOpen, AlertCircle } from 'lucide-react';
+import { Search, MapPin, Phone, User, Home, X, CreditCard, Mail, BookOpen, AlertCircle, RefreshCw } from 'lucide-react';
 import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
@@ -17,7 +17,6 @@ const HOSTEL_LABELS = {
 
 const hostelLabel = (code) => HOSTEL_LABELS[code] || code || 'N/A';
 
-/** Eager avatar with click-to-fullscreen — used inside modals */
 const ClickableAvatar = ({ basePath, onClick, size = 'w-12 h-12', fallback }) => {
   const [src, setSrc] = useState(() => getCachedImageUrl(basePath));
   useEffect(() => {
@@ -46,7 +45,6 @@ const StudentModal = ({ student, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-3">
       <div className="bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 shadow-xl w-full max-w-sm max-h-[90svh] overflow-y-auto">
-        {/* Header */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-slate-200 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-950 z-10">
           <h2 className="text-base font-semibold text-slate-900 dark:text-white">Student Details</h2>
           <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
@@ -55,7 +53,6 @@ const StudentModal = ({ student, onClose }) => {
         </div>
 
         <div className="p-4 space-y-3">
-          {/* Identity row */}
           <div className="flex items-center gap-3">
             {profileImageBasePath ? (
               <ClickableAvatar
@@ -75,7 +72,6 @@ const StudentModal = ({ student, onClose }) => {
             </div>
           </div>
 
-          {/* Location + Contact */}
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><Home size={10} /> Hostel</p>
@@ -101,7 +97,6 @@ const StudentModal = ({ student, onClose }) => {
             </div>
           </div>
 
-          {/* Academic */}
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><BookOpen size={10} /> Degree</p>
@@ -117,7 +112,6 @@ const StudentModal = ({ student, onClose }) => {
             </div>
           </div>
 
-          {/* Email */}
           <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2 text-xs">
             <p className="text-slate-400 mb-1 flex items-center gap-1"><Mail size={10} /> Email</p>
             <p className="font-medium text-slate-900 dark:text-white truncate">{primaryEmail}</p>
@@ -126,7 +120,6 @@ const StudentModal = ({ student, onClose }) => {
             )}
           </div>
 
-          {/* Mess + Arrears */}
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><CreditCard size={10} /> Mess</p>
@@ -158,7 +151,7 @@ const StudentModal = ({ student, onClose }) => {
   );
 };
 
-const Students = ({ allotments }) => {
+const Students = ({ allotments, liveArrears = false, liveArrearsLoading = false, onToggleLiveArrears }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [selectedHostel, setSelectedHostel] = useState('');
@@ -167,12 +160,12 @@ const Students = ({ allotments }) => {
   const [selectedStudent, setSelectedStudent] = useState(null);
 
   const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
-
   const allotmentsList = useMemo(() => Object.values(allotments), [allotments]);
 
-  const hostels = useMemo(() => {
-    return [...new Set(allotmentsList.map(s => s.Hostel).filter(Boolean))].sort();
-  }, [allotmentsList]);
+  const hostels = useMemo(() =>
+    [...new Set(allotmentsList.map(s => s.Hostel).filter(Boolean))].sort(),
+    [allotmentsList]
+  );
 
   const rooms = useMemo(() => {
     if (!selectedHostel) return [];
@@ -210,12 +203,6 @@ const Students = ({ allotments }) => {
 
   return (
     <div className="p-3 flex-1 flex flex-col overflow-hidden">
-      {/* <div className="hidden md:block px-3 md:px-6 pt-1 md:pt-2 pb-2">
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Student Allotments</h1>
-        <p className="text-sm text-slate-500 mt-1">View and manage student hostel allotments</p>
-      </div> */}
-
-      {/* Filters */}
       <Card>
         <CardContent className="p-3">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
@@ -264,6 +251,7 @@ const Students = ({ allotments }) => {
 
             <div className="space-y-1">
               <label className="text-xs font-medium text-slate-600 dark:text-slate-400">Actions</label>
+              {/* Row 1: Arrears filter + Clear */}
               <div className="flex gap-2">
                 <Button
                   variant={showArrearsOnly ? 'default' : 'outline'}
@@ -278,14 +266,28 @@ const Students = ({ allotments }) => {
                   Clear
                 </Button>
               </div>
+              {/* Row 2: Live Arrears — full width, same size */}
+              {onToggleLiveArrears && (
+                <Button
+                  variant={liveArrears ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={onToggleLiveArrears}
+                  disabled={liveArrearsLoading}
+                  className="w-full gap-1.5"
+                >
+                  <RefreshCw size={14} className={liveArrearsLoading ? 'animate-spin' : ''} />
+                  {liveArrearsLoading ? 'Fetching…' : liveArrears ? 'Live Arrears On' : 'Load Live Arrears'}
+                </Button>
+              )}
             </div>
           </div>
 
-          <p className="text-xs text-slate-400 mt-2">{filteredStudents.length} student{filteredStudents.length !== 1 ? 's' : ''} found</p>
+          <p className="text-xs text-slate-400 mt-2">
+            {filteredStudents.length} student{filteredStudents.length !== 1 ? 's' : ''} found
+          </p>
         </CardContent>
       </Card>
 
-      {/* Students Grid */}
       <div className="flex-1 mt-3 overflow-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
           {filteredStudents.map((student) => {

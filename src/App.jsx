@@ -9,10 +9,14 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Students from './pages/Students';
 import Reports from './pages/Reports';
+import { fetchLiveArrears, mergeArrearsIntoAllotments } from './services/liveArrearsService';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [showUnique, setShowUnique] = useState(false);
+  const [liveArrears, setLiveArrears] = useState(false);
+  const [liveAllotments, setLiveAllotments] = useState(null);
+  const [liveArrearsLoading, setLiveArrearsLoading] = useState(false);
 
   const { isAuthenticated, setIsAuthenticated } = useAuthSession(
     activeTab,
@@ -48,9 +52,34 @@ const App = () => {
     );
   }, [showUnique]);
 
+  const toggleLiveArrears = useCallback(async () => {
+    if (liveArrears) {
+      // Switch back to local data
+      setLiveArrears(false);
+      toast.success('Showing local arrears data');
+      return;
+    }
+    // Switch to live data — use cache if already fetched
+    setLiveArrearsLoading(true);
+    try {
+      const arrearsMap = await fetchLiveArrears();
+      const merged = mergeArrearsIntoAllotments(allotments, arrearsMap);
+      setLiveAllotments(merged);
+      setLiveArrears(true);
+      toast.success('Live arrears data loaded');
+    } catch (err) {
+      console.error(err);
+      toast.error('Failed to fetch live arrears. Make sure the sheet is publicly shared.');
+    } finally {
+      setLiveArrearsLoading(false);
+    }
+  }, [liveArrears, allotments]);
+
   if (!isAuthenticated) {
     return <Login onLogin={handleLogin} />;
   }
+
+  const activeAllotments = liveArrears && liveAllotments ? liveAllotments : allotments;
 
   if (activeTab !== 'dashboard') {
     return (
@@ -63,12 +92,18 @@ const App = () => {
         onLogout={handleLogout}
       >
         {activeTab === 'students' && (
-          <Students allotments={allotments} isMobile={isMobile} />
+          <Students
+            allotments={activeAllotments}
+            isMobile={isMobile}
+            liveArrears={liveArrears}
+            liveArrearsLoading={liveArrearsLoading}
+            onToggleLiveArrears={toggleLiveArrears}
+          />
         )}
         {activeTab === 'reports' && (
           <Reports
             logs={logs}
-            allotments={allotments}
+            allotments={activeAllotments}
             isMobile={isMobile}
             showUnique={showUnique}
             toggleUnique={toggleUnique}
@@ -89,7 +124,7 @@ const App = () => {
     >
       <Dashboard
         logs={logs}
-        allotments={allotments}
+        allotments={activeAllotments}
         lastScan={lastScan}
         loading={loading}
         isMobile={isMobile}
