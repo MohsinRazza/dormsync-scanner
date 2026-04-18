@@ -55,17 +55,33 @@ function parseAllotmentsCsv(allotmentsText) {
         const allotMap = {};
         result.data.forEach((row) => {
           const rollNo = row['Roll No.']?.trim();
-          if (rollNo) {
-            allotMap[rollNo] = {
-              'Roll No.': rollNo,
-              Name: row.Name?.trim(),
-              Hostel: row.Hostel?.trim(),
-              Room: row.Room?.trim(),
-              Allotment: row.Hostel?.trim(),
-              Contact: row.Contact?.trim(),
-              Batch: row.Batch?.trim(),
-            };
-          }
+          if (!rollNo) return;
+
+          // Email ID column contains "primary, secondary" — extract secondary only
+          const emailRaw = row['Email ID']?.trim() || '';
+          const emailParts = emailRaw.split(',').map(e => e.trim()).filter(Boolean);
+          // Primary is always rollNo@uog.edu.pk — secondary is anything else
+          const secondaryEmail = emailParts.find(e => !e.startsWith(rollNo)) || '';
+
+          // Arrears: '-' means none
+          const arrears = row['Arrears']?.trim();
+          const hasArrears = arrears && arrears !== '-';
+
+          allotMap[rollNo] = {
+            'Roll No.': rollNo,
+            Name: row.Name?.trim(),
+            Hostel: row.Hostel?.trim(),
+            Room: row.Room?.trim(),
+            Contact: row.Contact?.trim(),
+            Batch: row.Batch?.trim(),
+            Arrears: hasArrears ? arrears : '',
+            MessStatus: row['Mess Status']?.trim(),
+            DegreeLevel: row['Degree Level']?.trim(),
+            Department: row['Department']?.trim(),
+            SecondaryEmail: secondaryEmail,
+            CNIC: row['CNIC']?.trim(),
+            City: row['City']?.trim(),
+          };
         });
         resolve(allotMap);
       },

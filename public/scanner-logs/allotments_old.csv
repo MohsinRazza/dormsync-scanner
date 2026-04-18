@@ -1,0 +1,1019 @@
+Sr. #,Hostel,Room,Occupied/ Capacity,Roll No.,Name,Quota,Degree,Degree Level,Department,Faculty,"Total 
+Collection",Arrears,Status,Mess,Mess Status,CNIC,Batch,SP_26 HF,SP_26 MF,Contact
+1,H1-ABH,A-01,02-Feb,25011519-014,Tahir Hussain,FATA,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"10,590","-4,090",Room Allotted,"11,350",ON,21505-8927654-5,25,-100,-3990,0336-4563610
+2,H1-ABH,A-01,02-Feb,25011519-088,Hamza Zahoor,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,33304-0352594-5,25,13890,3990,0334-8910673
+3,H1-ABH,A-02,09-Sept,25011519-085,Muhammad Umair Siddique,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,32880,,Room Allotted,-60,ON,34101-7750252-5,25,13890,3990,0325-5498404
+4,H1-ABH,A-02,09-Sept,25011519-095,Ali Zain,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,30800,-,Room Allotted,-,ON,34403-9709744-5,25,13890,3990,0342-4118149
+5,H1-ABH,A-02,09-Sept,25014119-140,Muhammad Usman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37045,,Room Allotted,-,ON,34604-0491864-9,25,13890,3990,0333-8621434
+6,H1-ABH,A-02,09-Sept,25014119-158,Abdul Manan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37045,-,Room Allotted,-,ON,34101-4937079-3,25,13890,3990,0320-6465894
+7,H1-ABH,A-02,09-Sept,25014119-241,Muhammad Amir,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37045,-,Room Allotted,-,ON,34101-0770783-5,25,13890,3990,0321-8125565
+8,H1-ABH,A-02,09-Sept,25014119-252,Bilal Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,33415,"-3,990",Room Allotted,-,ON,33301-7511726-9,25,14250,-3990,0300-5601939
+9,H1-ABH,A-02,09-Sept,25014198-029,Abdul Rehman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37045,-,Room Allotted,-,ON,34101-1347173-7,25,13890,3990,0302-6480246
+10,H1-ABH,A-02,09-Sept,25014198-154,Muhammad Sajawal,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37065,-,Room Allotted,-30,ON,81102-2381002-5,25,13890,4010,0317-9338895
+11,H1-ABH,A-02,09-Sept,25021519-018,Zeeshan Hassan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,37085,-,Room Allotted,-60,ON,34301-2140658-9,25,13890,4030,0348-1432874
+12,H1-ABH,A-03,09-Sept,25010920-246,Irfan Ullah,FATA,BBA,BS,Management Sciences Dept.,FMAS,14960,-,Room Allotted,-180,ON,21301-8835584-3,25,240,4130,0306-0207810
+13,H1-ABH,A-03,09-Sept,25011519-033,Haroon Ahmad,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-210,ON,34104-4910459-5,25,13890,3990,0324-3913749
+14,H1-ABH,A-03,09-Sept,25011519-040,Yaseen Ahmad Khan Wazir,FATA,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"15,000",-,Room Allotted,-240,ON,21708-6919340-3,25,260,4150,0308-0003878
+15,H1-ABH,A-03,09-Sept,25011519-053,Talha Imran,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"32,920",-,Room Allotted,-60,ON,34102-1820253-3,25,13930,3990,0318-7722489
+16,H1-ABH,A-03,09-Sept,25011519-075,Muneeb Ul Rehman,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,"37,085",-,Room Allotted,-60,ON,34301-1521675-7,25,13890,4030,0345-6833948
+17,H1-ABH,A-03,09-Sept,25011519-109,Khan Bahadur,Open Merit,BS(AI),BS,Computer Science Dept.,C & IT Fac.,19165,"-17,880",Room Allotted,"8,060",ON,72403-0341795-1,25,-13890,-3990,0355-4851436
+18,H1-ABH,A-03,09-Sept,25021556-128,Muhammad Shoaib Iftikhar,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,28890,"-3,990",Room Allotted,-90,ON,34101-1577860-7,25,13890,-3990,0324-7664865
+19,H1-ABH,A-03,09-Sept,25021578-050,Hikmat Ullah,Blochistan Q.,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,15280,-,Room Allotted,-300,ON,54305-0363274-1,25,400,4290,0310-3330411
+20,H1-ABH,A-03,09-Sept,25021598-139,Ali Sheraz,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,30800,-,Room Allotted,-240,ON,34403-5026921-7,25,13890,3990,0340-4983250
+21,H1-ABH,A-05,01-Jan,22011587-025,Maqsood Ahmed,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"152,550",-,Room Allotted,"4,120",ON,51201-5152930-1,22,14290,4390,0344-3690283
+22,H1-ABH,A-06,09-Sept,24014119-006,Ata Ul Rehman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"48,200","-3,990",Room Allotted,-,ON,34101-0139330-1,24,13890,-3990,0306-7338667
+23,H1-ABH,A-06,09-Sept,24014119-042,Malik Abdul Mueez Zulfiqar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,310",-,Room Allotted,-90,ON,34101-8632140-7,24,13890,3990,0334-8178461
+24,H1-ABH,A-06,09-Sept,24014119-078,Sheraz Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,070",-,Room Allotted,-480,ON,34301-9291509-7,24,14030,4130,0328-1524579
+25,H1-ABH,A-06,09-Sept,24014119-145,Fazeel Ghafar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"87,880",-,Room Allotted,-300,ON,34103-9343851-3,24,14090,4190,0349-6460431
+26,H1-ABH,A-06,09-Sept,24014119-166,Muhammad Qasim,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,980","-3,990",Room Allotted,-,ON,34104-4028610-5,24,13930,4470,0332-8611413
+27,H1-ABH,A-06,09-Sept,24014119-182,Luqman Javed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,590",-,Room Allotted,-,ON,34403-2607178-3,24,13890,3990,0348-7253471
+28,H1-ABH,A-06,09-Sept,24014119-191,Haroon Asif,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,950",-,Room Allotted,-,ON,34103-1581952-1,24,14150,4250,0300-2454668
+29,H1-ABH,A-06,09-Sept,24014119-211,Farhan Khalid,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,330",-,Room Allotted,-,ON,81101-8256640-9,24,13890,3990,0329-8658601
+30,H1-ABH,A-06,09-Sept,25014119-264,Muhammad Irfan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37045,-,Room Allotted,-,ON,34102-8378476-5,25,13890,3990,0321-6453279
+31,H1-ABH,A-07,09-Sept,24014119-003,Mohsin Akram,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"58,900","-13,890",Room Allotted,-450,ON,34104-1854579-1,24,-13890,4410,0329-6921989
+32,H1-ABH,A-07,09-Sept,24014119-028,Muhammad Husnain,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,550",-,Room Allotted,-210,ON,34502-6982184-9,24,14030,4130,0317-0727387
+33,H1-ABH,A-07,09-Sept,24014119-036,Azfar Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,190",-,Room Allotted,-,ON,34502-1576672-1,24,13890,3990,0302-9551702
+34,H1-ABH,A-07,09-Sept,24014119-037,Awais Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,790",-,Room Allotted,-90,ON,34101-0917499-9,24,14310,4090,0300-7799986
+35,H1-ABH,A-07,09-Sept,24014119-044,Muhammed Abdul Moiz Akram,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,590",-,Room Allotted,-30,ON,38201-5715025-1,24,13930,4010,0321-1773912
+36,H1-ABH,A-07,09-Sept,24014119-049,Muhammad Samiullah Afzal,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,190",-,Room Allotted,-,ON,34502-4477094-9,24,13890,3990,0327-8508119
+37,H1-ABH,A-07,09-Sept,24014119-085,Muhammad Shawal Ilyas,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,310",-,Room Allotted,-510,ON,81101-0302775-7,24,14150,4410,0324-8931884
+38,H1-ABH,A-07,09-Sept,24014119-090,Abdullah Tariq,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"65,330",-,Room Allotted,-450,ON,81102-7442819-5,24,13930,4030,0316-1989514
+39,H1-ABH,A-07,09-Sept,24014119-186,Taymoor Asif,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,330",-,Room Allotted,-,ON,34502-5411920-7,24,13890,3990,0320-6019461
+40,H1-ABH,A-09,02-Feb,24021710-017,Hamaad Ali,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"69,310",-,Room Allotted,-300,ON,34104-4552492-3,24,14070,4190,0344-7529621
+41,H1-ABH,A-09,02-Feb,24021710-019,Zohaib Hassan,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"73,310",-,Room Allotted,-,ON,34202-1892255-5,24,14090,4190,0306-6157875
+42,H1-ABH,A-10,07-Sept,24014119-071,Talha Masood,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,590",-,Room Allotted,-,ON,35405-0590796-5,24,13890,3990,"0303-9555140, 0302-4441973"
+43,H1-ABH,A-10,07-Sept,24014119-084,Ahmad Manzoor,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,190",-,Room Allotted,-,OFF,34101-9845021-9,24,13890,3990,0309-0003456
+44,H1-ABH,A-10,07-Sept,24014119-128,Ahsan Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,990",-,Room Allotted,-30,ON,34202-6376793-3,24,13930,4010,0310-5089714
+45,H1-ABH,A-10,07-Sept,24014119-146,Ahmad Khursheed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,210",-,Room Allotted,-,ON,38403-7628756-9,24,13890,3990,0312-7800997
+46,H1-ABH,A-10,07-Sept,24014119-185,Ateeq Ur Rehman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,190",-,Room Allotted,-,ON,34102-1134826-7,24,13890,3990,0325-2010003
+47,H1-ABH,A-10,07-Sept,24014119-219,Muhammad Ali Khan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,750",-,Room Allotted,-60,ON,34101-1574251-9,24,14050,4150,0313-7443874
+48,H1-ABH,A-10,07-Sept,24814119-012,Saim Ijaz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,510",-,Room Allotted,-,ON,34101-4295595-3,24,13890,3990,0327-8400028
+49,H1-ABH,A-11,09-Sept,24014119-033,Muhammad Assam,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"52,210",-,Room Allotted,-,ON,34101-3047501-5,24,13890,3990,0307-0004403
+50,H1-ABH,A-11,09-Sept,24014119-067,Saad Anis,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,770",-,Room Allotted,-30,ON,37301-5443991-3,24,13890,4010,0319-5311899
+51,H1-ABH,A-11,09-Sept,24014119-076,Muhammad Afaan Saleem,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,630",-,Room Allotted,-480,ON,34101-3908652-1,24,13930,4310,0322-6737071
+52,H1-ABH,A-11,09-Sept,24014119-108,Moin Ud Din,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"55,050","-17,880",Room Allotted,-,ON,34101-4092037-3,24,-13890,-3990,0335-4173819
+53,H1-ABH,A-11,09-Sept,24014119-115,Muhammad Siddique Haider,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,570",-,Room Allotted,-60,ON,61101-6155215-9,24,13930,4030,0319-2165363
+54,H1-ABH,A-11,09-Sept,24014119-139,Subhan Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"54,410","-17,880",Room Allotted,"4,770",ON,34104-8924410-1,24,-13890,-3990,"0301-5949535,0341-8787977"
+55,H1-ABH,A-11,09-Sept,24014119-144,Muhammad Siran Mehboob,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,790",-,Room Allotted,-60,ON,34104-2355556-1,24,13890,3990,0342-6377313
+56,H1-ABH,A-11,09-Sept,24014119-192,Shameer Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,410",-,Room Allotted,-480,ON,34601-3240179-5,24,13890,4310,0325-6194114
+57,H1-ABH,A-11,09-Sept,24014119-234,Taha Rashid,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,630",-,Room Allotted,-,ON,34101-6459157-5,24,13890,4110,0315-6036988
+58,H1-ABH,A-12,02-Feb,25021519-237,Ali Abbas,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,37085,-,Room Allotted,-,ON,35301-0927846-1,25,13930,3990,0301-6937847
+59,H1-ABH,A-12,02-Feb,25021556-212,Zaman Khan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,37085,-,Room Allotted,-30,ON,71202-4203826-3,25,13890,4030,0346-9596025
+60,H1-ABH,A-14,09-Sept,25011524-004,Muhammad Ammar,Open Merit,LLB,BS,School of Law,Arts Fac.,32880,-,Room Allotted,-180,ON,34101-3036098-5,25,13890,3990,0321-0307779
+61,H1-ABH,A-14,09-Sept,25011524-028,Muhammad Danial Kareem,Open Merit,LLB,BS,School of Law,Arts Fac.,37105,-,Room Allotted,-180,ON,32304-6976342-1,25,13930,4010,0307-5565840
+62,H1-ABH,A-14,09-Sept,25011556-118,Muhammad Fahad,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,32880,-,Room Allotted,-,ON,37301-6927597-1,25,13890,3990,0311-1419570
+63,H1-ABH,A-14,09-Sept,25013122-015,Muhammad Hassaan Qadri,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,30800,,Room Allotted,-,ON,34403-4618200-3,25,13890,3990,0302-0845776
+64,H1-ABH,A-14,09-Sept,25013123-049,Dawood Musawar,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,19165,"-17,880",Room Allotted,"1,430",ON,31102-8515029-1,25,-13890,-3990,0320-6508852
+65,H1-ABH,A-14,09-Sept,25014119-097,Abubakar Suleman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37085,-,Room Allotted,-30,ON,34103-0753771-7,25,13910,4010,0313-7447572
+66,H1-ABH,A-14,09-Sept,25014156-120,Saad Ahmad Ijaz,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,37045,-,Room Allotted,-90,ON,34202-7674516-9,25,13890,3990,0335-4405430
+67,H1-ABH,A-14,09-Sept,25021519-161,Muhammad Asim,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,32880,,Room Allotted,"3,070",ON,34101-3235458-9,25,13890,3990,0301-6663440
+68,H1-ABH,A-14,09-Sept,25814641-001,Arsal Raza Habib,Open Merit,BS(Design),BS,Product Design Dept.,SADA,33620,-,Room Allotted,-,ON,34603-3049227-5,25,14290,4330,0336-6059053
+69,H1-ABH,A-15,09-Sept,24014119-011,Muhammad Zain Ul Abideen,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,330",-,Room Allotted,-,ON,34101-9011712-3,24,13890,3990,0330-0270666
+70,H1-ABH,A-15,09-Sept,24014119-058,Yahya Shahid,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"75,250",-,Room Allotted,"1,900",ON,34101-0985218-9,24,14330,4450,0329-7893584
+71,H1-ABH,A-15,09-Sept,24014119-118,Taha Imran,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,050",-,Room Allotted,-30,ON,34103-7051666-1,24,13910,4010,0301-6146022
+72,H1-ABH,A-15,09-Sept,24014119-123,Aryaan Sajjad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"56,650","-17,880",Room Allotted,-,ON,34202-0329730-7,24,-13890,-3990,0336-5165577
+73,H1-ABH,A-15,09-Sept,24014119-133,Asfand Yar Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"68,470",-,Room Allotted,-,ON,34102-6866174-7,24,14030,4130,0320-7239390
+74,H1-ABH,A-15,09-Sept,24014119-167,Muhammad Mahad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,050",-,Room Allotted,-,ON,37406-5133570-5,24,14090,4250,0311-4496308
+75,H1-ABH,A-15,09-Sept,24014119-199,Ahmad Raza Bhatti,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"65,170",-,Room Allotted,-,ON,34101-9569335-9,24,13890,3990,0324-6043802
+76,H1-ABH,A-15,09-Sept,24014119-266,Abdul Moiz Malik,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"65,050",-,Room Allotted,-,ON,37301-0201083-9,24,13910,4050,0335-9584777
+77,H1-ABH,A-15,09-Sept,25021598-182,Zain Ul Abideen,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,37045,-,Room Allotted,-90,ON,34301-4602210-7,25,13890,3990,0329-0363606
+78,H1-ABH,A-16,01-Jan,21011624-092,Muamar Shah,Blochistan Q.,LLB,BS,School of Law,Arts Fac.,"49,100",-,Room Allotted,-600,ON,54401-8000889-1,21,540,4430,0317-8029543
+79,H1-ABH,A-17,06-Jun,24014119-008,Abdul Rehman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"65,370",-,Room Allotted,-,ON,34301-5781243-3,24,13890,3990,0320-6207720
+80,H1-ABH,A-17,06-Jun,24014119-052,Usama Afzal,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,630",-,Room Allotted,"2,730",ON,34502-2157903-7,24,14030,4130,0315-7938159
+81,H1-ABH,A-17,06-Jun,24014119-056,Saim Altaf,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,490",-,Room Allotted,-300,ON,34502-9859116-5,24,13890,3990,0305-8045557
+82,H1-ABH,A-17,06-Jun,24014119-068,Hamza Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"69,330","-3,990",Room Allotted,-,ON,34202-9189781-3,24,13890,-3990,0314-4819321
+83,H1-ABH,A-17,06-Jun,24014119-075,Muhammad Tanzeel Azam,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,390",-,Room Allotted,-210,ON,32202-6613359-5,24,14130,4270,0313-0624729
+84,H1-ABH,A-17,06-Jun,24014119-286,Muhammad Summer Rashid,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,770",-,Room Allotted,-90,ON,34502-3991137-3,24,13890,3990,0302-1222948
+85,H1-ABH,A-18,02-Feb,25021598-240,Muhammad Sinan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,19165,"-17,880",Room Allotted,"4,020",ON,21403-3108482-5,25,-13890,-3990,0304-8937216
+86,H1-ABH,A-18,02-Feb,25021598-264,Mudassir Ur Rasool,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,37045,-,Room Allotted,"3,970",ON,71301-0929886-5,25,13890,3990,0355-5137945
+87,H1-ABH,A-19,09-Sept,25010920-012,Muhammad Zain,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,30800,-,Room Allotted,-,ON,34402-8725538-1,25,13890,3990,0330-8656010
+88,H1-ABH,A-19,09-Sept,25010920-188,Ali Ahmed,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,32880,-,Room Allotted,"1,510",ON,34601-5711072-9,25,13890,3990,0312-1798221
+89,H1-ABH,A-19,09-Sept,25011518-045,Muhammad Waqas,FATA,BS(Criminology),BS,Sociology Dept.,Social Sc. Fac.,"10,590","-4,090",Room Allotted,"4,040",ON,21506-2780038-1,25,-100,-3990,0333-7600487
+90,H1-ABH,A-19,09-Sept,25014597-013,Zabih Ullah,FATA,BS(Fine Arts),BS,Fine Arts Dept.,SADA,"15,320",-,Room Allotted,"5,310",ON,21701-5474856-5,25,420,4310,0334-5360339
+91,H1-ABH,A-19,09-Sept,25021554-002,Junaid Khan,FATA,BS(Islamic B&F),BS,Commerce Dept.,FMAS,"10,590","-4,090",Room Allotted,"1,950",ON,21706-6110160-7,25,-100,-3990,0340-9668857
+92,H1-ABH,A-19,09-Sept,25024641-025,Kamran Nazir,Open Merit,BS(Design),BS,Product Design Dept.,SADA,"26,810","-3,990",Room Allotted,-,ON,34401-2393189-7,25,13890,4470,0342-7969804
+93,H1-ABH,A-19,09-Sept,25041554-002,Ehtisham Ul Hassan,Disable,BS(A&F-E),BS-E,Commerce Dept.,FMAS,"14,680",-,Room Allotted,-,ON,34402-7129638-5,25,100,3990,0340-0546849
+94,H1-ABH,A-19,09-Sept,25041554-008,Shahzaib Ali,Open Merit,BS(A&F-E),BS-E,Commerce Dept.,FMAS,"33,140",-,Room Allotted,-,ON,37301-8138197-5,25,13890,4250,0311-5427860
+95,H1-ABH,A-19,09-Sept,25041554-045,Muhammad Qasim,Open Merit,BS(A&F-E),BS-E,Commerce Dept.,FMAS,"33,080",-,Room Allotted,-,ON,37301-8020157-3,25,13890,4190,0332-5877344
+96,H1-ABH,A-20,09-Sept,25014156-089,Waseel Abbas,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,125",-,Room Allotted,-60,ON,21303-0916911-1,25,13930,4030,0325-8610229
+97,H1-ABH,A-20,09-Sept,25014156-130,Ali Hassan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,37301-0178055-9,25,13890,3990,0312-1610312
+98,H1-ABH,A-20,09-Sept,25014198-013,Ali Hassan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,81101-6532056-5,25,13890,3990,0323-8535474
+99,H1-ABH,A-20,09-Sept,25014198-033,Atta Rasool,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34502-4869813-3,25,13890,3990,0311-8406554
+100,H1-ABH,A-20,09-Sept,25014198-066,Naeem,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,90403-0273257-3,25,13890,3990,0341-7612633
+101,H1-ABH,A-20,09-Sept,25014198-086,Zain Tanveer,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,81103-4766635-3,25,13890,3990,0347-7962283
+102,H1-ABH,A-20,09-Sept,25014198-107,Muhammad Zain Zahid,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,185",-,Room Allotted,-60,ON,81101-7391902-3,25,13890,4130,0323-1679565
+103,H1-ABH,A-20,09-Sept,25014198-189,Abdullah Mazhar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34203-9095509-5,25,13890,3990,0345-0290564
+104,H1-ABH,A-20,09-Sept,25014198-190,Muhammad Ali Mazhar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34203-7927040-5,25,13890,3990,0345-0290564
+105,H1-ABH,A-21,02-Feb,25041554-133,Riaz Afridi,FATA,BS(A&F),BS,Commerce Dept.,FMAS,"14,760",-,Room Allotted,-,ON,21201-0264951-7,25,120,4050,0331-9261252
+106,H1-ABH,A-21,02-Feb,25044641-008,Moiz Ur Rehman,Open Merit,BS(Film & D. Art),BS,Design Dept.,SADA,"37,925",-,Room Allotted,"4,180",ON,42201-9997743-5,25,14330,4430,0337-4009848
+107,H1-ABH,A-22,01-Jan,23011624-022,Mahboob Nawaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"99,670","-3,990",Room Allotted,-,ON,33202-5242214-9,23,14350,-3990,0346-8176900
+108,H1-ABH,A-23,10-Sept,25014198-011,Muhammad Abu Bakar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34603-6605810-1,25,13890,3990,0322-8816696
+109,H1-ABH,A-23,10-Sept,25014198-072,Shuban Ashraf,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",,Room Allotted,-420,ON,42501-8065741-7,25,13890,3990,0320-1031544
+110,H1-ABH,A-23,10-Sept,25014198-073,Muhammad Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34601-9703161-7,25,13890,3990,0317-1275858
+111,H1-ABH,A-23,10-Sept,25014198-080,Hamza Shahzad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34403-9642656-1,25,13890,3990,0370-4150520
+112,H1-ABH,A-23,10-Sept,25014198-092,Muhammad Azhar Nasrullah,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",,Room Allotted,-,ON,34601-4075601-5,25,13890,3990,0319-4936914
+113,H1-ABH,A-23,10-Sept,25014198-132,Farhan Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",,Room Allotted,-,ON,34604-0476797-5,25,13890,3990,0331-6752173
+114,H1-ABH,A-23,10-Sept,25014198-149,Muhammad Nafay Khokhar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37045,,Room Allotted,-,ON,34101-0103735-9,25,13890,3990,0345-6251899
+115,H1-ABH,A-23,10-Sept,25014198-169,Hafiz Zohaib Mehmood,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34601-5854665-3,25,13890,3990,0311-7232636
+116,H1-ABH,A-23,10-Sept,25014198-171,Muhammad Arslan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34602-2674035-3,25,13890,3990,0345-6642561
+117,H1-ABH,A-23,10-Sept,25014198-215,Malik Ali Shair,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37125,-,Room Allotted,-,ON,34601-4986680-7,25,13890,4070,0346-4220353
+118,H1-ABH,A-24,09-Sept,25011524-012,Muhammad Suleman,Open Merit,LLB,BS,School of Law,Arts Fac.,"23,375",-,Room Allotted,-90,ON,31302-3511495-7,25,160,4050,0303-3432089
+119,H1-ABH,A-24,09-Sept,25011524-042,Atif Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"32,880",-,Room Allotted,-,ON,34602-2503863-3,25,13890,3990,0321-5539121
+120,H1-ABH,A-24,09-Sept,25011524-061,Muhammad Faseeh Ahmed,Open Merit,LLB,BS,School of Law,Arts Fac.,"31,100",-,Room Allotted,-90,ON,34403-7513687-1,25,14030,4150,0342-4333329
+121,H1-ABH,A-24,09-Sept,25011524-066,Mudassar Ali Hamza,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,045",-,Room Allotted,-,ON,32303-1786811-3,25,13890,3990,0319-3787904
+122,H1-ABH,A-24,09-Sept,25011524-078,Tazair Hassan,Open Merit,LLB,BS,School of Law,Arts Fac.,"30,800",-,Room Allotted,-,ON,34403-0981802-7,25,13890,3990,0318-6926295
+123,H1-ABH,A-24,09-Sept,25011524-082,Muhammad Anas,Open Merit,LLB,BS,School of Law,Arts Fac.,"31,040",-,Room Allotted,-180,ON,34403-1458062-7,25,14010,4110,0316-7091951
+124,H1-ABH,A-24,09-Sept,25011524-084,Abdul Rehman,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,365",-,Room Allotted,-30,ON,38201-0811794-5,25,14050,4150,0347-9683574
+125,H1-ABH,A-24,09-Sept,25011524-088,Ahmad Hassan Raza Durrani,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,125",-,Room Allotted,-30,ON,36203-2100513-1,25,13930,4030,0320-3065202
+126,H1-ABH,A-24,09-Sept,25011524-097,Muhammad Sameer,Open Merit,LLB,BS,School of Law,Arts Fac.,33160,-,Room Allotted,-210,ON,34102-5986275-1,25,14030,4130,0318-4810068
+127,H1-ABH,A-25,01-Jan,25817110-002,Muhammad Usman,Open Merit,BS 5th (Physics),MA/MSc-E,Physics Dept.,Sciences Fac.,"19,165","-17,880",Room Allotted,-,ON,81101-7344309-5,25,-13890,-3990,0355-8039681
+128,H1-ABH,A-26,06-Jun,25011516-026,Kamran Ullah,FATA,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"10,590","-4,090",Room Allotted,"12,700",ON,21302-8024456-5,25,-100,-3990,0301-9884996
+129,H1-ABH,A-26,06-Jun,25011524-019,Zeeshan Ahmad,FATA,LLB,BS,School of Law,Arts Fac.,"14,940",-,Room Allotted,-,ON,14101-3096603-9,25,240,4110,0336-9184567
+130,H1-ABH,A-26,06-Jun,25011524-029,Akram Ullah,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,305",-,Room Allotted,-,ON,21506-9848420-9,25,14030,4110,0332-9129604
+131,H1-ABH,A-26,06-Jun,25011524-030,Hamayoon Saeed,Open Merit,LLB,BS,School of Law,Arts Fac.,"23,375",-,Room Allotted,-,ON,43504-0533485-1,25,160,4050,0323-3196820
+132,H1-ABH,A-26,06-Jun,25011524-031,Naseeb Ullah,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,565",-,Room Allotted,-180,ON,56301-6128420-5,25,14150,4250,0336-4956630
+133,H1-ABH,A-26,06-Jun,25011524-048,Tariq Jamil,Open Merit,LLB,BS,School of Law,Arts Fac.,"37,085",-,Room Allotted,"5,340",ON,14202-9543396-1,25,13910,4010,0331-9402962
+134,H1-ABH,A-27,02-Feb,22014641-179,Aftab Amjid,Blochistan Q.,BS(Design),BS,Product Design Dept.,SADA,"38,450",-,Room Allotted,-,OFF,52203-7651232-3,22,100,4130,0313-1265268
+135,H1-ABH,A-27,02-Feb,25011516-094,Shahan Amjed,Blochistan Q.,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,14880,-,Room Allotted,-,ON,52203-9975457-3,25,100,4130,0311-1017076
+136,H1-ABH,AFCR,04-Apr,25013122-006,Muhammad Shaheer,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"37,065",-,Room Allotted,-240,ON,34301-4573960-9,25,13890,4010,0301-3877707
+137,H1-ABH,AFCR,04-Apr,25013123-012,Zaryab Hassan,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"32,880",-,Room Allotted,-,ON,34102-2207522-1,25,13890,3990,0349-6619546
+138,H1-ABH,AFCR,04-Apr,25013123-018,Mohaiz Qamar Abbasi,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"37,045",-,Room Allotted,-,ON,13101-7929120-1,25,13890,3990,0349-5207943
+139,H1-ABH,AFCR,04-Apr,25013123-045,Huzaifa Shabir,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,37035,-,Room Allotted,-,ON,33202-7605046-9,25,13860,3990,0342-7517478
+140,H1-ABH,ASCR,04-Apr,25013123-036,Muhammad Abdullah Bin Sajid,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,37165,-,Room Allotted,-,ON,33301-8421993-3,25,13950,4050,0346-7575217
+141,H1-ABH,ASCR,04-Apr,25013386-048,Muhammad Hashim Ali,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,33740,-,Room Allotted,-600,ON,34602-6268970-5,25,14330,4410,0324-7260502
+142,H1-ABH,ASCR,04-Apr,25017322-003,Safyan Ali,Open Merit,BS(CS Eng. Tech.),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"33,180",-,Room Allotted,-,ON,34601-2064512-9,25,14030,4150,0324-7722488
+143,H1-ABH,ASCR,04-Apr,25813122-002,Abdullah Abid,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"15,000","-17,880",Room Allotted,-,ON,34602-8324159-3,25,-13890,-3990,0337-8627521
+144,H1-ABH,B-01,02-Feb,21011624-083,Hasham Hassan,Open Merit,LLB,BS,School of Law,Arts Fac.,"183,700",-,Room Allotted,-,ON,34501-2729296-7,21,14310,4410,0340-5650612
+145,H1-ABH,B-01,02-Feb,21011624-091,Shafique Ur Rehman,Open Merit,LLB,BS,School of Law,Arts Fac.,"181,720",-,Room Allotted,-210,ON,33202-9470850-1,21,13890,3990,0308-4036833
+146,H1-ABH,B-02,08-Sept,21014795-006,Hassan Iqbal,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"183,120",-,Room Allotted,-,OFF,34403-1592759-3,21,14050,4150,0348-4777402
+147,H1-ABH,B-02,08-Sept,21014795-009,Muhammad Zain Ul Hassan,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"182,040",-,Room Allotted,-,OFF,37203-7533661-5,21,14050,4150,0300-1733350
+148,H1-ABH,B-02,08-Sept,21014795-017,Mufeez Ur Rehman,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"165,630",-,Room Allotted,-,OFF,37301-0731923-9,21,14050,4150,0346-2476761
+149,H1-ABH,B-02,08-Sept,21014795-021,Taha Hussain,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"132,750",-,Room Allotted,-,OFF,34601-8066308-5,21,14090,4190,0316-7984807
+150,H1-ABH,B-02,08-Sept,22014795-007,Shahzaib Hassan,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"134,360","-17,880",Room Allotted,"3,300",OFF,34302-4441719-5,22,-13890,-3990,0321-8024000
+151,H1-ABH,B-02,08-Sept,22014795-009,Zain Ul Abideen,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"117,890","-17,880",Room Allotted,"24,770",ON,81202-8100801-7,22,-13890,-3990,0348-5766691
+152,H1-ABH,B-02,08-Sept,22014795-034,Syed Muzammil Ahmad,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"135,650","-17,880",Room Allotted,"8,810",ON,71103-9569449-3,22,-13890,-3990,0349-0523779
+153,H1-ABH,B-02,08-Sept,22014795-037,Bilal Ahmed Chudhry,Open Merit,BS(Architecture),BS,Architecture Dept.,SADA,"119,410",-,Room Allotted,"6,920",ON,82203-8898249-5,22,14170,4330,0343-3985868
+154,H1-ABH,B-03,10-Sept,25011502-292,Zia Ur Rahman,FATA,BS(English),BS,English Dept.,Arts Fac.,14740,-,Room Allotted,-60,ON,21103-8259902-7,25,120,4030,0303-9125559
+155,H1-ABH,B-03,10-Sept,25011512-039,Abdul Raziq,Blochistan Q.,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,14760,-,Room Allotted,-60,ON,56201-4794653-5,25,140,4030,0333-4957158
+156,H1-ABH,B-03,10-Sept,25011524-100,Zafran Khan,Blochistan Q.,LLB,BS,School of Law,Arts Fac.,14760,-,Room Allotted,-60,ON,56201-6821320-3,25,140,4030,0311-8210004
+157,H1-ABH,B-03,10-Sept,25014119-257,Muhammad Zaeem Mansoor,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37325,-,Room Allotted,-180,ON,34101-0459096-7,25,14030,4130,0307-6499898
+158,H1-ABH,B-03,10-Sept,25014156-073,Talal Hassan,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,33535,"-3,990",Room Allotted,-240,ON,34101-0674376-3,25,14310,-3990,0314-4344175
+159,H1-ABH,B-03,10-Sept,25014156-125,Muhammad Ahmad Habib,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,37085,-,Room Allotted,-30,ON,37405-0764373-3,25,13910,4010,0342-1705510
+160,H1-ABH,B-03,10-Sept,25014198-232,Mirza Ahmer Shahzad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,19165,"-17,880",Room Allotted,-390,ON,34103-5842065-1,25,-13890,-3990,0348-4860440
+161,H1-ABH,B-03,10-Sept,25014198-236,Ali Hassan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,33495,"-3,990",Room Allotted,-60,ON,34301-9424989-7,25,14330,-3990,0346-5914876
+162,H1-ABH,B-03,10-Sept,25021519-236,Furman Ali,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,045",,Room Allotted,-30,ON,72402-0342635-5,25,13890,3990,0355-5684554
+163,H1-ABH,B-03,10-Sept,25031578-025,Muhammad Afnan,FATA,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"10,590","-4,090",Room Allotted,-,ON,22101-6874930-5,25,-100,-3990,0347-9548345
+164,H1-ABH,B-04,02-Feb,24024641-004,Arshad Ali,FATA,BS(Design),BS,Product Design Dept.,SADA,"23,400",-,Room Allotted,-,ON,21303-9800973-3,24,100,3990,0306-5927548
+165,H1-ABH,B-04,02-Feb,24814641-003,Jawad Bashir,Blochistan Q.,BS(Design),BS,Product Design Dept.,SADA,"22,550","-3,990",Room Allotted,"12,090",OFF,53402-7927165-9,24,580,4470,0334-4497915
+166,H1-ABH,B-05,01-Jan,22016115-002,Muhammad Awais Ahmed,Disable Q.,PhD(Political Sc.),PhD,Political Sciences Dept.,Social Sc. Fac.,"50,700","-4,090",Room Allotted,-,OFF,81302-8419508-5,22,-100,-3990,0310-5545145
+167,H1-ABH,B-09,02-Feb,25017119-002,Rehan Majeed,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,"1,160",ON,34203-8932862-7,25,-13890,-3990,0330-3029211
+168,H1-ABH,B-09,02-Feb,25017119-025,Muhammad Hamza,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"37,485",-,Room Allotted,-,ON,34203-5844525-9,25,13930,4390,0341-5081407
+169,H1-ABH,B-10,09-Sept,24011556-206,Abdul Rahman,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,450",-,Room Allotted,-,ON,34104-9603639-9,24,13890,3990,0300-7497721
+170,H1-ABH,B-10,09-Sept,24014156-007,Muhammad Ozair Omer,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,590",-,Room Allotted,-,ON,34502-5795798-1,24,14050,4150,0325-6100599
+171,H1-ABH,B-10,09-Sept,24014156-016,Mirza Abdullah,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,650",-,Room Allotted,-,ON,34301-4242245-5,24,14090,4190,0321-7248338
+172,H1-ABH,B-10,09-Sept,24014156-192,Ghulam Muhammad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,350",-,Room Allotted,-,ON,37301-5041697-3,24,13930,4030,0334-8657742
+173,H1-ABH,B-10,09-Sept,24014156-240,Ahmad Iftikhar,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"71,620",-,Room Allotted,-,ON,34101-6623177-1,24,13930,4030,0346-6093880
+174,H1-ABH,B-10,09-Sept,24014156-260,Syed Saim Ul Hassan,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"73,570",-,Room Allotted,-240,ON,34301-9532692-3,24,14050,4150,0343-1255388
+175,H1-ABH,B-10,09-Sept,24014156-266,Muhammad Rehan Zafar,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"74,210",-,Room Allotted,-,ON,34104-3949412-7,24,14350,4410,0301-6687827
+176,H1-ABH,B-10,09-Sept,24014156-279,Mugheera Bin Abdullah,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"68,640",-,Room Allotted,-,ON,33103-1203920-3,24,14010,4110,0305-6529547
+177,H1-ABH,B-10,09-Sept,25011551-036,Zahid Rehman,FATA,BS(History),BS,History and Pakistan Studies Dept.,Social Sc. Fac.,10590,"-4,090",Room Allotted,"12,820",ON,21301-2558943-3,25,-100,-3990,0303-9290831
+178,H1-ABH,B-11,08-Sept,24014156-021,Fahad Naveed Aziz,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,670",-,Room Allotted,-30,ON,34202-0467007-9,24,14050,4150,0340-4340897
+179,H1-ABH,B-11,08-Sept,24014156-027,Muhammad Sultan Cheema,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,210",-,Room Allotted,-,ON,34302-5908441-5,24,13890,3990,0317-9971658
+180,H1-ABH,B-11,08-Sept,24014156-095,Muhammad Tallal Arshad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"68,630",-,Room Allotted,-,ON,34603-3399518-1,24,14030,4130,0346-9849149
+181,H1-ABH,B-11,08-Sept,24014156-151,Muhammad Jawad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"73,070",-,Room Allotted,-210,ON,37301-2470272-5,24,14030,4130,0332-1518335
+182,H1-ABH,B-11,08-Sept,24814156-012,Muhammad Huzaifa,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,630",-,Room Allotted,-,ON,34203-3565520-7,24,14050,4150,0347-5113722
+183,H1-ABH,B-11,08-Sept,24814156-013,Ali Shajran,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"72,510",-,Room Allotted,-30,ON,34202-8606608-7,24,14050,4150,0304-4175851
+184,H1-ABH,B-11,08-Sept,24814156-014,Muhammad Usman,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"78,180",-,Room Allotted,-,ON,37402-4291698-1,24,14090,4190,0328-5735835
+185,H1-ABH,B-11,08-Sept,25044641-029,Raja Wasi Riaz,Open Merit,BS(Design),BS,Product Design Dept.,SADA,15000,"-17,880",Room Allotted,-90,ON,61101-2138148-3,25,-13890,-3990,0323-6362421
+186,H1-ABH,B-12,02-Feb,25011753-008,Muhammad Talha,Open Merit,MPhil(Bio-Chem. & Tech.),MS/M.Phil,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"15,000","-17,880",Room Allotted,"2,440",ON,34101-8832712-5,25,-13890,-3990,0320-4345953
+187,H1-ABH,B-12,02-Feb,25811753-001,Ali Hamza,Open Merit,MPhil(Bio-Chem. & Tech.),MS/M.Phil,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"33,420",-,Room Allotted,-,ON,34101-7366730-1,25,14150,4270,0325-4745381
+188,H1-ABH,B-13,01-Jan,23021519-005,Mummad Talha Khalid,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,47570,-,Room Allotted,-30,ON,34101-8969443-5,23,13890,4010,0320-5929108
+189,H1-ABH,B-14,09-Sept,24011556-008,Asad Rauf,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"72,370",-,Room Allotted,-,ON,34403-5865613-9,24,13890,3990,0329-7304942
+190,H1-ABH,B-14,09-Sept,24011556-013,Waqar Ilyas,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"68,730",-,Room Allotted,-,ON,34103-8471399-3,24,13890,3990,0345-4936413
+191,H1-ABH,B-14,09-Sept,24014119-039,Hassan Jamil,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,450",-,Room Allotted,-210,ON,34101-2291057-7,24,14350,4430,0323-4675447
+192,H1-ABH,B-14,09-Sept,24014156-024,Muhammad Abdullah,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"66,470",-,Room Allotted,-30,ON,34201-5924040-5,24,14050,4150,0318-7859922
+193,H1-ABH,B-14,09-Sept,24014156-122,Muhammad Abdullah,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"68,380","-3,990",Room Allotted,-210,ON,34202-1114584-1,24,13890,-3990,0333-3689268
+194,H1-ABH,B-14,09-Sept,24014156-200,Hafiz Abdul Rehman Nadeem,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"68,910",-,Room Allotted,"3,230",ON,34101-0331294-7,24,14090,4190,0302-4445139
+195,H1-ABH,B-14,09-Sept,24014156-248,Afnan,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"73,750",-,Room Allotted,"3,600",ON,34101-5156892-7,24,14350,4450,0313-7189740
+196,H1-ABH,B-14,09-Sept,24014156-254,Farhan Imtiaz,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"57,430","-17,880",Room Allotted,-210,ON,34301-9578349-5,24,-13890,-3990,0340-0842038
+197,H1-ABH,B-14,09-Sept,24014156-272,Hussain Muqaddas Butt,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"75,960",-,Room Allotted,-390,ON,34104-6356089-1,24,14150,4250,"0301-6628566, 0306-3969140"
+198,H1-ABH,B-15,09-Sept,25011598-057,Ahmad Siraj,Open Merit,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34501-4331867-9,25,13890,3990,0332-8391201
+199,H1-ABH,B-15,09-Sept,25011598-065,Zeeshan Haider Khan,Open Merit,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"37,065",,Room Allotted,-,ON,71303-0345839-1,25,13890,4010,0344-4298135
+200,H1-ABH,B-15,09-Sept,25011598-113,Raja Rehan Ali,Open Merit,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"33,800",-,Room Allotted,-,ON,37301-4646885-1,25,14350,4450,0333-5838303
+201,H1-ABH,B-15,09-Sept,25011598-121,Muhammad Hanzla Gill,Open Merit,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,35102-2021923-9,25,13890,3990,0300-6586842
+202,H1-ABH,B-15,09-Sept,25011598-129,Muhammad Awais,Open Merit,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"32,880",-,Room Allotted,-,ON,34103-8986462-9,25,13890,3990,0344-6138366
+203,H1-ABH,B-15,09-Sept,25021556-018,Muneeb Ur Rehman,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"30,860",-,Room Allotted,-390,ON,34403-8188607-9,25,13930,4010,0348-3977394
+204,H1-ABH,B-15,09-Sept,25021556-070,Shehryar Hussain,FATA,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"14,780",-,Room Allotted,-60,ON,21303-2213222-7,25,160,4030,0301-9772350
+205,H1-ABH,B-15,09-Sept,25021556-095,Saad Khan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"34,960",,Room Allotted,-30,ON,81103-8374971-1,25,13890,3990,0347-8993828
+206,H1-ABH,B-15,09-Sept,25041554-127,Adnan Raza,FATA,BS(A&F-E),BS-E,Commerce Dept.,FMAS,10730,"-3,990",Room Allotted,"5,210",ON,21603-8242566-7,25,120,-3990,0308-8971108
+207,H1-ABH,B-16,01-Jan,25017119-009,Muhammad Abdullah,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34104-4026720-7,25,13890,3990,0325-8808890
+208,H1-ABH,B-17,06-Jun,25011507-041,Rab Nawaz,Blochistan Q.,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,15000,-,Room Allotted,"3,100",ON,53330-38903549-1,25,260,4150,0336-7705823
+209,H1-ABH,B-17,06-Jun,25011508-025,Ameer Hamza,Blochistan Q.,BS(Geography),BS,Geography Dept.,Sciences Fac.,14720,-,Room Allotted,-30,ON,53402-3222117-5,25,120,4010,0324-2527641
+210,H1-ABH,B-17,06-Jun,25021598-067,Rahat Ullah,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"14,980",-,Room Allotted,-90,ON,21104-0879844-7,25,140,4250,0323-1863690
+211,H1-ABH,B-17,06-Jun,25021598-117,Muhammad Usman,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"37,085",-,Room Allotted,-30,ON,21701-9173816-3,25,13910,4010,0331-8644587
+212,H1-ABH,B-17,06-Jun,25021598-130,Abdullah,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"14,780",-,Room Allotted,-90,ON,21708-4129022-5,25,140,4050,0330-8315272
+213,H1-ABH,B-17,06-Jun,25041554-130,Wazir Tathteer Haider,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,37045,-,Room Allotted,-30,ON,71104-7178596-9,25,13890,3990,0341-0152134
+214,H1-ABH,B-18,02-Feb,24014198-117,Muhammad Shah Nawaz,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,410",-,Room Allotted,"3,580",ON,34301-5843348-9,24,14330,4450,0346-2415095
+215,H1-ABH,B-18,02-Feb,24014198-228,Tanveer Tariq,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"57,460","-17,880",Room Allotted,-210,ON,35102-5522097-9,24,-13890,-3990,0324-6944741
+216,H1-ABH,B-19,09-Sept,25021598-026,Saad Shaukat,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"37,045",,Room Allotted,-,ON,34501-8989325-5,25,13890,3990,0315-7540886
+217,H1-ABH,B-19,09-Sept,25021598-051,Rizwan Asif,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,880",-,Room Allotted,-,ON,34603-5726360-1,25,13890,3990,0302-6106346
+218,H1-ABH,B-19,09-Sept,25021598-064,Sufyan Ali,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,880",-,Room Allotted,-90,ON,34602-2948584-7,25,13890,3990,0309-1628496
+219,H1-ABH,B-19,09-Sept,25021598-069,Muhammad Zaid,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,880",-,Room Allotted,-,ON,34601-2309681-3,25,13890,3990,0346-0818255
+220,H1-ABH,B-19,09-Sept,25021598-082,Hasham Ahmed,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,880",-,Room Allotted,"4,280",ON,34602-2436218-1,25,13890,3990,0333-0099578
+221,H1-ABH,B-19,09-Sept,25021598-083,Muhammad Awais,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,880",,Room Allotted,-420,ON,35501-0437095-7,25,13890,3990,0328-5906714
+222,H1-ABH,B-19,09-Sept,25021598-101,Assam Ahmed,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"33,160",-,Room Allotted,-,ON,34601-4449616-5,25,14030,4130,0313-7810693
+223,H1-ABH,B-19,09-Sept,25021598-116,Muhammad Ali Shehzad,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"33,680",-,Room Allotted,-,ON,34102-7560896-5,25,14290,4390,0340-1564345
+224,H1-ABH,B-19,09-Sept,25021598-228,Ali Hussnain,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,900",,Room Allotted,-,ON,34103-4378314-3,25,13890,4010,0342-4221907
+225,H1-ABH,B-20,10-Sept,25014641-026,Zeeshan Ahmad Sherani,FATA,BS(Design),BS,Product Design Dept.,SADA,10590,"-4,090",Room Allotted,"5,620",ON,22301-8678351-1,25,-100,-3990,0322-8981606
+226,H1-ABH,B-20,10-Sept,25021598-062,Eitzaz Hassan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"34,960",-,Room Allotted,-180,ON,81103-1506011-7,25,13890,3990,0327-7520946
+227,H1-ABH,B-20,10-Sept,25021598-112,Abu Bakar,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"14,680",-,Room Allotted,-,ON,12101-3328574-5,25,100,3990,0302-1615320
+228,H1-ABH,B-20,10-Sept,25021598-144,Muneeb Ur Rehman,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,-,ON,34203-5490901-3,25,-13890,-3990,0336-6030761
+229,H1-ABH,B-20,10-Sept,25021598-152,Muhammad Arslan Jamil,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"35,240",-,Room Allotted,-60,ON,81103-2122642-1,25,14030,4130,0355-6237268
+230,H1-ABH,B-20,10-Sept,25021598-153,Ubaid Ullah,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"17,080","-17,880",Room Allotted,"8,400",ON,81103-8532458-3,25,-13890,-3990,0355-6851570
+231,H1-ABH,B-20,10-Sept,25021598-171,Adeel Riaz,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"35,240",-,Room Allotted,-60,ON,81103-3226955-5,25,14030,4130,0342-5753424
+232,H1-ABH,B-20,10-Sept,25021598-248,Fahad Iqbal,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,"7,010",ON,38301-8599257-1,25,13890,3990,0344-8385257
+233,H1-ABH,B-20,10-Sept,25031554-063,Haider Ali,Blochistan Q.,BS(B&F),BS,Commerce Dept.,FMAS,14940,-,Room Allotted,-240,ON,55103-0472864-3,25,260,4090,0331-9601311
+234,H1-ABH,B-20,10-Sept,25811551-006,Maqbool Ahmed,Open Merit,BS(History),BS,History and Pakistan Studies Dept.,Social Sc. Fac.,37605,-,Room Allotted,-,ON,51803-0341697-3,25,14170,4270,0302-2531285
+235,H1-ABH,B-21,02-Feb,22011587-060,Bilawal,Blochistan Q.,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"38,430",-,Room Allotted,-,ON,55202-6106514-1,22,140,4030,0333-6979887
+236,H1-ABH,B-21,02-Feb,22811561-003,Ifikhar Ahmed,Blochistan Q.,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"38,030",-,Room Allotted,-,OFF,55202-0824011-7,22,140,4030,0336-7121648
+237,H1-ABH,B-23,10-Sept,25014198-003,Muhammad Luqman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,035",-,Room Allotted,-30,ON,34301-8409369-7,25,13860,4010,0314-1199049
+238,H1-ABH,B-23,10-Sept,25014198-005,Ahsan Zulfiqar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,605",-,Room Allotted,-,ON,34301-4772311-5,25,14170,4270,0340-4468325
+239,H1-ABH,B-23,10-Sept,25014198-015,Ahmad Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,325",-,Room Allotted,-30,ON,34101-6831564-7,25,14030,4130,0313-0708091
+240,H1-ABH,B-23,10-Sept,25014198-021,Muhammad Musa Saqib,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-30,ON,34101-6594592-3,25,13890,3990,0302-6465800
+241,H1-ABH,B-23,10-Sept,25014198-084,Zaigham Nazam,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,325",-,Room Allotted,-,ON,34101-0973307-3,25,14030,4130,0309-4271398
+242,H1-ABH,B-23,10-Sept,25014198-138,Abdul Hadi,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,065",-,Room Allotted,-,ON,34301-6005788-3,25,13890,4010,0307-8308286
+243,H1-ABH,B-23,10-Sept,25014198-162,Muhammad Haseeb Arfan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,145",-,Room Allotted,-,ON,34104-5980271-1,25,13890,4090,0318-1232536
+244,H1-ABH,B-23,10-Sept,25014198-172,Talha Waseem,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34101-3306235-1,25,13890,3990,0319-8874930
+245,H1-ABH,B-23,10-Sept,25014198-234,Hamid Mazhar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,19185,"-17,880",Room Allotted,"3,780",ON,81103-8565276-3,25,-13890,-3990,0343-7360758
+246,H1-ABH,B-23,10-Sept,25811578-005,Abdul Nasir,FATA,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,10590,"-4,090",Room Allotted,-,ON,21506-4352979-5,25,-100,-3990,0332-5563421
+247,H1-ABH,B-24,08-Sept,25014156-005,Muhammad Bin Tahir,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,365",-,Room Allotted,-210,ON,34101-3152513-5,25,14050,4150,0330-4637459
+248,H1-ABH,B-24,08-Sept,25014156-006,Abdullah Asjad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,"2,320",ON,34104-2299599-9,25,-13890,-3990,0346-6674159
+249,H1-ABH,B-24,08-Sept,25014156-007,Syed Muqadam Dastgeer,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34604-0577495-3,25,13890,3990,0348-0074766
+250,H1-ABH,B-24,08-Sept,25014156-019,Muhammad Ahmar Yasin,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,365",-,Room Allotted,-,ON,81101-5874120-7,25,14050,4150,0344-8862840
+251,H1-ABH,B-24,08-Sept,25014156-049,Tasawar Hussain,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,-510,ON,34603-3500480-7,25,-13890,-3990,0329-6329003
+252,H1-ABH,B-24,08-Sept,25014156-092,Bilal Haider,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34101-3403964-7,25,13890,3990,0343-1914433
+253,H1-ABH,B-24,08-Sept,25014156-093,Muhammad Waleed,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34104-4771296-5,25,13890,3990,0329-1169497
+254,H1-ABH,B-24,08-Sept,25014156-094,Sahil Yousaf Cheema,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"37,045",-,Room Allotted,-480,ON,34104-3037087-5,25,13890,3990,0340-2038084
+255,H1-ABH,B-25,01-Jan,25027102-002,Husnain Ali,Open Merit,BS 5th (English),MA/MSc-E,English Dept.,Arts Fac.,"37,045",,Room Allotted,-,ON,34403-9621958-9,25,13890,3990,0344-9995761
+256,H1-ABH,B-26,06-Jun,25011514-018,Maaz Ullah,FATA,BS(Zoology),BS,Zoology Dept.,Sciences Fac.,"11,130","-3,990",Room Allotted,"4,570",ON,21104-9519324-7,25,540,-3990,0308-5580621
+257,H1-ABH,B-26,06-Jun,25011514-030,Murad Ali,FATA,BS(Zoology),BS,Zoology Dept.,Sciences Fac.,"11,130","-3,990",Room Allotted,-300,ON,21106-1514478-1,25,540,-3990,0305-7875479
+258,H1-ABH,B-26,06-Jun,25021553-071,Khan Zada,FATA,BS(MLT),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"10,590","-4,090",Room Allotted,"4,140",ON,21701-1816635-7,25,-100,-3990,0309-9767610
+259,H1-ABH,B-26,06-Jun,25021553-088,Inam Ullah,FATA,BS(MLT),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"14,680",-,Room Allotted,-,ON,22601-0370510-1,25,100,3990,0335-9850740
+260,H1-ABH,B-26,06-Jun,25031553-059,Zahid,FATA,BS(Human N&D),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"10,590","-4,090",Room Allotted,-390,ON,21303-4803415-5,25,-100,-3990,0318-5674232
+261,H1-ABH,B-26,06-Jun,25051553-058,Umar Farooq,FATA,BS(Bio-Chemistry),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"14,640",-100,Room Allotted,"3,220",ON,22201-3426087-1,25,-100,4050,0335-4703437
+262,H1-ABH,B-27,02-Feb,25011509-092,Wisal Malik,FATA,BS(Math),BS,Mathematics Dept.,Sciences Fac.,15360,-,Room Allotted,-510,ON,14101-6760593-7,25,440,4330,0324-0552207
+263,H1-ABH,B-27,02-Feb,25011514-048,Abdul Baseer,Blochistan Q.,BS(Zoology),BS,Zoology Dept.,Sciences Fac.,15640,-,Room Allotted,-210,ON,55501-0359439-9,25,540,4430,0336-2764218
+264,H1-ABH,C-03,09-Sept,24014198-078,Toseef Ahmed,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,430",-,Room Allotted,-,ON,34201-2750374-5,24,13890,3990,0312-6863544
+265,H1-ABH,C-03,09-Sept,24014198-094,Husnain Ahmad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,050",-,Room Allotted,-60,ON,34101-6205259-9,24,13930,4030,0348-9257805
+266,H1-ABH,C-03,09-Sept,24014198-115,Hasnat Qayyum,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,210",-,Room Allotted,-,ON,34102-6788706-2,24,13890,3990,"0324-5412705, 0323-5412705"
+267,H1-ABH,C-03,09-Sept,24014198-130,Arbaz Mehmood,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,530",-,Room Allotted,-300,ON,34403-9945965-1,24,13890,3990,0315-0799250
+268,H1-ABH,C-03,09-Sept,24014198-150,Rohan Khalid,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,870",-,Room Allotted,-300,ON,34403-5270182-1,24,14030,4130,0349-7444560
+269,H1-ABH,C-03,09-Sept,24014198-161,Muhammad Asfand Yar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,370",-,Room Allotted,-420,ON,34403-5007679-5,24,13890,3990,0343-8600264
+270,H1-ABH,C-03,09-Sept,24014198-264,Muhammad Sohaib Butt,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"52,410",-,Room Allotted,-210,ON,34101-4487838-1,24,13890,4010,0326-7133696
+271,H1-ABH,C-03,09-Sept,24014198-268,Muhammad Awais Safdar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"55,150",-,Room Allotted,-,OFF,34402-7861846-3,24,13910,4010,0310-7657922
+272,H1-ABH,C-03,09-Sept,24014198-272,Syed Shahbaz Hussain Shah,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"65,050",-,Room Allotted,-,ON,34301-7245164-1,24,13890,3990,0340-1489839
+273,H1-ABH,C-05,01-Jan,24011519-147,Usman Ghani,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"82,470",-,Room Allotted,-,OFF,34603-6654817-9,24,13890,3990,0333-7891616
+274,H1-ABH,C-06,09-Sept,24014198-016,Roshan Shahzad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"68,370",-,Room Allotted,840,ON,34101-3649890-3,24,14010,3990,0324-6075065
+275,H1-ABH,C-06,09-Sept,24014198-017,Haseeb Riaz,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,630",-,Room Allotted,-30,ON,34502-9165727-5,24,14110,4130,0312-7746118
+276,H1-ABH,C-06,09-Sept,24014198-018,Muhammad Sheraz,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,250",-,Room Allotted,-30,ON,34503-0435338-3,24,13930,4010,0317-7180949
+277,H1-ABH,C-06,09-Sept,24014198-021,Haseeb Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,210",-,Room Allotted,-30,ON,34403-7413694-5,24,13890,3990,0344-4859531
+278,H1-ABH,C-06,09-Sept,24014198-038,Ali Husnain,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,650",-,Room Allotted,-450,ON,35401-4326170-7,24,13890,3990,0328-4236179
+279,H1-ABH,C-06,09-Sept,24014198-062,Syed Muhammad Aneeb Hassan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,710",-,Room Allotted,-300,ON,37302-0662689-5,24,14150,4190,0345-5963260
+280,H1-ABH,C-06,09-Sept,24014198-072,Muhammad Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,410",-,Room Allotted,-,ON,34202-8363014-7,24,13890,4410,0334-4652021
+281,H1-ABH,C-06,09-Sept,24014198-075,Ahmad Hassan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,230",-,Room Allotted,-,ON,34101-3205661-9,24,13910,4010,0334-4402414
+282,H1-ABH,C-06,09-Sept,24014198-095,Umar Raza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"68,230",-,Room Allotted,-,ON,34102-1054397-5,24,13910,4010,0320-8508426
+283,H1-ABH,C-09,02-Feb,25014119-019,Muhammad Sajeel Azam,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,565",-,Room Allotted,-180,ON,32202-6614309-5,25,14150,4250,0317-1489193
+284,H1-ABH,C-09,02-Feb,25014119-053,Khuzaima Aleem,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,465",-,Room Allotted,"4,430",ON,32304-3217863-7,25,14210,4090,0305-6822232
+285,H1-ABH,C-10,09-Sept,25010920-036,Muhammad Aliyan Kousar,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"33,020",-,Room Allotted,-,ON,37301-9080342-1,25,13890,4130,0325-5444205
+286,H1-ABH,C-10,09-Sept,25010920-080,Mohammad Faizan Ahmed,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"37,015",-,Room Allotted,"1,830",ON,34203-5800590-3,25,13860,3990,0334-6011122
+287,H1-ABH,C-10,09-Sept,25010920-114,Azan Nadeem,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"37,045",-,Room Allotted,-,ON,35201-2045096-3,25,13890,3990,0319-5573988
+288,H1-ABH,C-10,09-Sept,25010920-189,Asmat Ullah,FATA,BBA,BS,Management Sciences Dept.,FMAS,"15,080",-,Room Allotted,-450,ON,21104-5324651-7,25,400,4090,0326-5782402
+289,H1-ABH,C-10,09-Sept,25011520-039,Habib Ullah,FATA,BS(Bsn. Analytics),BS,Management Sciences Dept.,FMAS,"10,590","-4,090",Room Allotted,"2,330",ON,21103-8642627-9,25,-100,-3990,0302-5572144
+290,H1-ABH,C-10,09-Sept,25011598-155,Mustaqeem Khan,FATA,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,"10,930","-3,990",Room Allotted,-390,ON,21201-5253504-9,25,340,-3990,0336-5814804
+291,H1-ABH,C-10,09-Sept,25020920-006,Muhammad Abdullah,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"37,015",-,Room Allotted,-,ON,34104-6966180-3,25,13860,3990,0344-6101532
+292,H1-ABH,C-10,09-Sept,25031554-056,Farhan Ullah,FATA,BS(Islamic B&F),BS,Commerce Dept.,FMAS,"14,760",-,Room Allotted,-,ON,21105-5843562-1,25,140,4030,0305-9210244
+293,H1-ABH,C-10,09-Sept,25810920-006,Sharjeel Ahmed,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"33,260",-,Room Allotted,-,ON,34102-2127935-7,25,14070,4190,0317-5549604
+294,H1-ABH,C-11,10-Sept,24014198-029,Hafiz Muhammad Faizan Saqib,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,310",-,Room Allotted,-,ON,34101-0532603-9,24,13890,3990,0302-6465800
+295,H1-ABH,C-11,10-Sept,24014198-046,Muhammad Ahmed,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,560",-,Room Allotted,-,ON,34604-0562992-1,24,14350,4450,0333-8739585
+296,H1-ABH,C-11,10-Sept,24014198-131,Muhammad Tabish,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"57,270","-17,880",Room Allotted,-,ON,34101-6617919-5,24,-13890,-3990,0318-7313903
+297,H1-ABH,C-11,10-Sept,24014198-134,Abdul Hadi,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"70,130",-,Room Allotted,-210,ON,34101-2541777-1,24,14030,4190,0326-6486320
+298,H1-ABH,C-11,10-Sept,24014198-136,Touseef Khalid,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"68,510",-,Room Allotted,-,ON,34102-7229522-3,24,13890,3990,0327-9594645
+299,H1-ABH,C-11,10-Sept,24014198-147,Abdurrehman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,910",-,Room Allotted,-,ON,34403-9735464-7,24,13890,3990,"0347-5403831, 0346-6134511"
+300,H1-ABH,C-11,10-Sept,24014198-151,Rana Ruman Akram,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,370",-,Room Allotted,-300,ON,34104-9007647-7,24,14350,4450,0314-4529671
+301,H1-ABH,C-11,10-Sept,24014198-154,Muhammad Mobeen Gilani,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,430",-,Room Allotted,-180,ON,34201-8078122-5,24,14330,4430,0315-4694242
+302,H1-ABH,C-11,10-Sept,24014198-181,Zulqarnain Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"68,330",-,Room Allotted,"2,130",ON,34104-4298515-9,24,13930,4030,0329-7923120
+303,H1-ABH,C-11,10-Sept,24014198-215,Usman E Ghani,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,950",-,Room Allotted,-240,ON,34601-7687928-3,24,14030,4150,0340-1569996
+304,H1-ABH,C-12,02-Feb,24017119-006,Ahmad Rabbani,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"73,190",-,Room Allotted,-90,OFF,34402-6008973-7,24,14090,4190,0322-5247028
+305,H1-ABH,C-12,02-Feb,24017156-018,Ali Haider,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"72,830",-,Room Allotted,-510,ON,34201-9331420-3,24,13930,4030,0330-8328381
+306,H1-ABH,C-13,01-Jan,22013901-062,Hidayat Ullah,Blochistan Q.,BS(Education),BS,Education Dept.,Social Sc. Fac.,"39,890",-,Room Allotted,-210,ON,54400-2428895-7,22,240,4130,0330-2808720
+307,H1-ABH,C-14,08-Sept,25014198-007,Sohaib Munir,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37045,,Room Allotted,-,ON,34602-5151503-9,25,13890,3990,0348-6835235
+308,H1-ABH,C-14,08-Sept,25014198-055,Hamid Raza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37085,-,Room Allotted,-,ON,34101-4063902-5,25,13910,4010,0307-1072163
+309,H1-ABH,C-14,08-Sept,25021511-108,Bilal Khalid,Open Merit,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,37565,-,Room Allotted,"4,450",ON,52205-7158329-3,25,14150,4250,0319-6698366
+310,H1-ABH,C-14,08-Sept,25021519-060,Sayab Wazir,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,045",,Room Allotted,-30,ON,35201-9564808-7,25,13890,3990,0313-4842477
+311,H1-ABH,C-14,08-Sept,25021519-068,Ali Raza,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,085",-,Room Allotted,-,ON,32302-7414326-1,25,13910,4010,0324-1490862
+312,H1-ABH,C-14,08-Sept,25021519-136,Maaz Arif,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"29,370","-3,990",Room Allotted,-,ON,37301-0902169-5,25,14370,4470,0325-9093599
+313,H1-ABH,C-14,08-Sept,25021519-173,Mian Muhammad Zain,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,085",-,Room Allotted,-,ON,34102-2067225-7,25,13910,4010,0333-8790350
+314,H1-ABH,C-14,08-Sept,25021519-189,Muhammad Ahmad Ali,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,085",-,Room Allotted,-,ON,34502-9790403-3,25,13910,4010,0342-1482435
+315,H1-ABH,C-15,10-Sept,25011508-006,Nouman Ahmad,Open Merit,BS(Geography),BS,Geography Dept.,Sciences Fac.,"31,320",-,Room Allotted,"6,340",ON,34403-9647312-3,25,14150,4250,0344-9345467
+316,H1-ABH,C-15,10-Sept,25011508-013,Abdul Samad,FATA,BS(Geography),BS,Geography Dept.,Sciences Fac.,"10,590","-4,090",Room Allotted,"20,720",ON,21302-9194783-9,25,-100,-3990,0306-9166243
+317,H1-ABH,C-15,10-Sept,25011510-031,Abdullah Habib,Open Merit,BS(Physics),BS,Physics Dept.,Sciences Fac.,"32,920",-,Room Allotted,-30,ON,37301-3996537-1,25,13910,4010,0340-5442982
+318,H1-ABH,C-15,10-Sept,25011553-003,Muhammad Haras,Open Merit,BS(Bio-Chemistry),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"37,085",-,Room Allotted,-30,ON,34301-5936377-3,25,13910,4010,0321-1019230
+319,H1-ABH,C-15,10-Sept,25021513-004,Muhammad Daniyal,Open Merit,BS(Statistics),BS,Statistics Dept.,Sciences Fac.,"32,880",-,Room Allotted,-,ON,37301-8423433-5,25,13890,3990,0349-2424938
+320,H1-ABH,C-15,10-Sept,25021513-006,Muhammad Saqib Javed,Open Merit,BS(Statistics),BS,Statistics Dept.,Sciences Fac.,"32,880",-,Room Allotted,-,ON,37304-0403972-1,25,13890,3990,0341-8220791
+321,H1-ABH,C-15,10-Sept,25021513-017,Muhammad Essa,Open Merit,BS(Statistics),BS,Statistics Dept.,Sciences Fac.,"12,920","-17,880",Room Allotted,"1,700",ON,34402-3235810-5,25,-13890,-3990,0347-7485521
+322,H1-ABH,C-15,10-Sept,25031561-007,Muhammad Hassan,Open Merit,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"30,800",-,Room Allotted,-,ON,34403-8556501-9,25,13890,3990,0345-5862642
+323,H1-ABH,C-15,10-Sept,25041553-020,Jahanzaib Sikandar,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"26,810","-3,990",Room Allotted,-,ON,34403-7150332-7,25,13890,-3990,0315-7349844
+324,H1-ABH,C-15,10-Sept,25041553-069,Munir Khan,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"37,045",-,Room Allotted,-,ON,56302-4328502-7,25,13890,3990,0303-6888170
+325,H1-ABH,C-16,01-Jan,24017104-016,Abdul Rehman,Open Merit,BS 5th (ISL),MA/MSc-E,Islamic Studies Dept.,Arts Fac.,"66,100","-17,880",Room Allotted,-,ON,34603-5523771-7,24,-13890,-3990,0334-5611111
+326,H1-ABH,C-17,07-Jun,25011506-016,Abdul Wahid,Blochistan Q.,BS(Botany),BS,Botany Dept.,Sciences Fac.,14760,-,Room Allotted,-60,ON,56503-3256071-3,25,140,4030,0311-1432429
+327,H1-ABH,C-17,07-Jun,25021508-024,Ajmal Khan,Open Merit,BS(RS&GIS),BS,Geography Dept.,Sciences Fac.,23155,"-13,890",Room Allotted,-600,ON,21708-6932804-3,25,-13890,3990,0323-9105912
+328,H1-ABH,C-17,07-Jun,25021519-005,Iqrar Khan,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"10,590","-4,090",Room Allotted,"11,650",ON,21201-7272593-9,25,-100,-3990,0333-4271970
+329,H1-ABH,C-17,07-Jun,25021519-006,Farman Ullah,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"14,760",-,Room Allotted,-30,ON,21201-7870239-7,25,140,4030,0302-5914842
+330,H1-ABH,C-17,07-Jun,25021519-037,Muhammad Umer,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"14,760",-,Room Allotted,-30,ON,11101-3038733-7,25,140,4030,0325-5570186
+331,H1-ABH,C-17,07-Jun,25021519-108,Muhammad Adnan,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"14,760",-,Room Allotted,-30,ON,21201-0659596-5,25,140,4030,0333-6814299
+332,H1-ABH,C-17,07-Jun,25021519-110,Hazrat Amin,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"37,605",-,Room Allotted,-30,ON,21201-3305924-7,25,14170,4270,0326-5690903
+333,H1-ABH,C-18,04-Feb,24014119-045,Muhammad Hassnain Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"71,530","-3,990",Room Allotted,-,ON,34202-0360073-7,24,14350,-3990,0332-4226733
+334,H1-ABH,C-18,04-Feb,24014198-003,Usman Murtaza Khan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,210",-,Room Allotted,-,ON,37301-9138662-5,24,14030,4150,0328-5696433
+335,H1-ABH,C-18,04-Feb,24014198-053,Haider Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"55,330","-17,880",Room Allotted,-,ON,34101-8448073-1,24,-13890,-3990,0308-8076937
+336,H1-ABH,C-18,04-Feb,24014198-209,Mirza Sajawal Baig,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"56,410","-17,880",Room Allotted,"13,160",ON,34201-4521023-7,24,-13890,-3990,0321-5608176
+337,H1-ABH,C-19,10-Sept,25014119-042,Adan Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,325",-,Room Allotted,-180,ON,34101-7069830-7,25,14030,4130,0310-4117100
+338,H1-ABH,C-19,10-Sept,25014119-052,Muhammad Umar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,-240,ON,34301-2885072-5,25,-13890,-3990,0325-3996622
+339,H1-ABH,C-19,10-Sept,25014119-068,Muhammad Wasif Sajjad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34102-3659126-7,25,13890,3990,0331-6531633
+340,H1-ABH,C-19,10-Sept,25014119-107,Syed Moajid Ali Mehdi,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,365",-,Room Allotted,-,ON,35202-1243307-5,25,14050,4150,0323-9946030
+341,H1-ABH,C-19,10-Sept,25014119-135,Muhammad Fahad Asif,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,325",-,Room Allotted,-90,ON,34101-7817268-9,25,14030,4130,0324-8776239
+342,H1-ABH,C-19,10-Sept,25014119-151,Anas Abdullah,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,"12,830",ON,34301-3774716-7,25,-13890,-3990,0349-1762266
+343,H1-ABH,C-19,10-Sept,25014119-165,Zain Ul Abideen,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34101-5713417-9,25,13890,3990,0305-5262436
+344,H1-ABH,C-19,10-Sept,25014156-109,Masroor Ahmad Mansoor,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,37965,-,Room Allotted,-,ON,34104-8661835-1,25,14350,4450,0320-4523158
+345,H1-ABH,C-19,10-Sept,25014198-060,Hammad Ali Sandhu,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37385,-,Room Allotted,-210,ON,34601-5944652-1,25,14090,4130,0341-6280582
+346,H1-ABH,C-19,10-Sept,25021556-124,Shahzaib,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,31120,-,Room Allotted,-,ON,34403-9451042-1,25,14050,4150,0348-6542995
+347,H1-ABH,C-20,09-Sept,25014119-036,Hamad Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,-30,ON,34104-4526321-9,25,-13890,-3990,0324-4718340
+348,H1-ABH,C-20,09-Sept,25014119-041,Muhammad Hashim Cheema,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,125",-,Room Allotted,-60,ON,34104-4454759-5,25,13930,4030,0347-6290412
+349,H1-ABH,C-20,09-Sept,25014119-056,Syed Fakhar Hussnain Gilani,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34101-8351578-3,25,13890,3990,0329-7798952
+350,H1-ABH,C-20,09-Sept,25014119-065,Abdul Hadi,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,225",-,Room Allotted,-90,ON,34104-8569280-1,25,14030,4030,0313-7830399
+351,H1-ABH,C-20,09-Sept,25014119-114,Ahmad Naeem,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"33,025","-3,990",Room Allotted,"4,070",ON,34104-8928513-5,25,13860,-3990,0328-5895063
+352,H1-ABH,C-20,09-Sept,25014119-125,Shahzaib,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,185",-,Room Allotted,-,ON,34101-2584578-5,25,14030,3990,0370-7839744
+353,H1-ABH,C-20,09-Sept,25014119-133,Babar Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"33,025","-3,990",Room Allotted,"7,310",ON,34101-3038680-3,25,13860,-3990,0300-6289474
+354,H1-ABH,C-20,09-Sept,25014119-137,Luqman Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34104-8867883-1,25,13890,3990,0329-6948868
+355,H1-ABH,C-20,09-Sept,25014119-156,Muhammad Furqan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34104-7307549-5,25,13890,3990,0343-6186427
+356,H1-ABH,C-21,02-Feb,24011519-148,Abdullah Ayoub,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"54,490","-17,880",Room Allotted,"2,980",ON,34501-7613843-3,24,-13890,-3990,0370-4894031
+357,H1-ABH,C-21,02-Feb,24014198-248,Abdulrehman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,150",-,Room Allotted,-60,ON,34501-3968846-7,24,13910,4030,0370-5294117
+358,H1-ABH,C-22,01-Jan,25017119-018,Abdullah Javed,Open Merit,BS 5th (CS),MA/MSc-E,Computer Science Dept.,C & IT Fac.,"37,355",-,Room Allotted,-420,ON,34202-5992870-1,25,13940,4250,0300-7890814
+359,H1-ABH,C-23,09-Sept,25014119-014,Saad Rasheed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34502-6789357-9,25,13890,3990,0324-5727053
+360,H1-ABH,C-23,09-Sept,25014119-015,Faraz Bin Ayub,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,125",-,Room Allotted,-60,ON,81101-4406976-9,25,13930,4030,0355-8354215
+361,H1-ABH,C-23,09-Sept,25014119-054,Mohsin Haneef,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,35404-3078114-9,25,13890,3990,0303-5841943
+362,H1-ABH,C-23,09-Sept,25014119-086,Ahmad Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34601-4007384-7,25,13890,3990,0326-2857071
+363,H1-ABH,C-23,09-Sept,25014119-118,Abdulrehman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,-240,ON,34602-6063716-1,25,-13890,-3990,0370-5411197
+364,H1-ABH,C-23,09-Sept,25014119-196,Muhammad Yaseen,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,165",-,Room Allotted,-,ON,34602-7852752-5,25,13890,4110,0318-7796812
+365,H1-ABH,C-23,09-Sept,25014119-220,Adan Dar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37365,-,Room Allotted,-,ON,34402-1536941-8,25,14050,4150,0340-6902078
+366,H1-ABH,C-23,09-Sept,25014119-258,Abdul Hanan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37345,-,Room Allotted,-,ON,34403-4888680-3,25,14050,4130,0345-4193701
+367,H1-ABH,C-23,09-Sept,25014198-207,Zeeshan Shakir,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,81103-1623082-5,25,13890,3990,0355-6012508
+368,H1-ABH,C-24,09-Sept,25013386-050,Tanzeel Ur Rehman,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"37,085",-,Room Allotted,-60,ON,34202-0193783-9,25,13890,4030,0304-9608529
+369,H1-ABH,C-24,09-Sept,25014119-076,Muhammad Anees,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34403-7413040-1,25,13890,3990,0318-7695343
+370,H1-ABH,C-24,09-Sept,25014119-090,Ali Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34403-7216345-5,25,13890,3990,0348-7840354
+371,H1-ABH,C-24,09-Sept,25014119-111,Ali Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,34202-8890898-1,25,13890,3990,0344-7493502
+372,H1-ABH,C-24,09-Sept,25014119-157,Affan Bin Tanveer,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-,ON,37301-3434249-1,25,13890,3990,0319-0524305
+373,H1-ABH,C-24,09-Sept,25014119-163,Muhammad Husnain Syed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"19,165","-17,880",Room Allotted,"8,330",ON,34403-2473252-1,25,-13890,-3990,0345-2925765
+374,H1-ABH,C-24,09-Sept,25014119-189,Muhammad Abdullah,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,045",-,Room Allotted,-240,ON,37301-1377169-7,25,13890,3990,0336-9524333
+375,H1-ABH,C-24,09-Sept,25014119-198,Ammar Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"37,085",-,Room Allotted,-240,ON,37301-9311582-5,25,13890,4030,0342-5418945
+376,H1-ABH,C-24,09-Sept,25014119-221,Ameer Hamza,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37325,-,Room Allotted,-210,ON,34101-8638948-7,25,14030,4130,00310-7131602
+377,H1-ABH,C-25,01-Jan,20014102-057,Ahmad Ali,Open Merit,BS(English-E),BS-E,English Dept.,Arts Fac.,"107,930",-,Room Allotted,-,ON,34103-9467994-3,20,13890,3990,0303-8471617
+378,H1-ABH,C-26,06-Jun,25011556-014,Ihsan Ullah,FATA,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"14,760",-,Room Allotted,-,ON,21201-6675283-3,25,140,4030,0300-5495721
+379,H1-ABH,C-26,06-Jun,25011556-027,Nazir Khan,FATA,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"14,740",-,Room Allotted,-,ON,21201-6606929-9,25,140,4010,0325-5081368
+380,H1-ABH,C-26,06-Jun,25011556-028,Zeeshan Iftikhar,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"30,800",-,Room Allotted,-,ON,34402-1433993-3,25,13890,3990,0317-7417564
+381,H1-ABH,C-26,06-Jun,25011556-032,Sami Ullah,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"35,280",-,Room Allotted,-,ON,81102-1778478-1,25,13890,4310,0322-6207172
+382,H1-ABH,C-26,06-Jun,25011556-035,Umar Farooq,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"37,105",-,Room Allotted,-,ON,14101-7373299-7,25,13930,4010,0330-5155509
+383,H1-ABH,C-26,06-Jun,25011556-062,Shahzaib,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,"32,880",-,Room Allotted,-,ON,34101-5239738-3,25,13890,3990,0301-5680036
+384,H1-ABH,C-27,02-Feb,25011506-012,Afsar Ullah,FATA,BS(Botany),BS,Botany Dept.,Sciences Fac.,10590,"-4,090",Room Allotted,"12,830",ON,21302-8953003-1,25,-100,-3990,0327-5959219
+385,H1-ABH,C-27,02-Feb,25011553-022,Bait Ullah,FATA,BS(BMB),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,10590,"-4,090",Room Allotted,"1,730",ON,21301-7256234-7,25,-100,-3990,0306-9343553
+386,H1-ABH,CFCR,04-Apr,22014641-139,Hamad Ali,Open Merit,BS(Design),BS,Product Design Dept.,SADA,"153,260",-,Room Allotted,-30,ON,34601-7096867-9,22,13910,4010,0341-8421001
+387,H1-ABH,CFCR,04-Apr,22014641-183,Hassan Nawaz,Open Merit,BS(Design),BS,Product Design Dept.,SADA,"135,970","-17,880",Room Allotted,-,ON,71101-1917229-7,22,-13890,-3990,0342-5362519
+388,H1-ABH,CFCR,04-Apr,23014641-021,Saham Ahmad,Open Merit,BS(Design),BS,Product Design Dept.,SADA,"81,140","-21,870",Room Allotted,"23,830",ON,34601-8366295-1,23,-13890,-3990,0313-1485343
+389,H1-ABH,CFCR,04-Apr,23024641-043,Hasnain Abbas,Gilgat Baltistan Q.,BS(Design),BS,Product Design Dept.,SADA,"87,540","-17,880",Room Allotted,"7,070",ON,71105-0348811-7,23,-13890,-3990,0341-8668320
+390,H1-ABH,CSCR,04-Apr,25011524-075,Hasnain Malik,Open Merit,LLB,BS,School of Law,Arts Fac.,37445,-,Room Allotted,"3,780",ON,51401-2184649-7,25,14090,4190,0317-8475563
+391,H1-ABH,CSCR,04-Apr,25013386-009,Muhammad Hamza Bukhari,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"32,920",-,Room Allotted,-30,ON,37301-1303390-7,25,13910,4010,0349-1179501
+392,H1-ABH,CSCR,04-Apr,25013386-010,Sarmed Asif,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"32,900",-,Room Allotted,-30,ON,34103-6817195-1,25,13890,4010,0310-4552342
+393,H1-ABH,CSCR,04-Apr,25013386-014,Muhammad Fayyaz Ud Din,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"32,920",-,Room Allotted,-30,ON,37301-8118463-7,25,13890,4030,0321-5409502
+394,H2-UH,A-02N,03-Mar,21011624-002,Muhammad Umer,Open Merit,LLB,BS,School of Law,Arts Fac.,"182,790",-,Room Allotted,"3,590",ON,35201-6427341-7,21,14050,4150,0316-4989161
+395,H2-UH,A-02N,03-Mar,21011624-010,Muhammad Hammad Aman Khan,Open Merit,LLB,BS,School of Law,Arts Fac.,"183,100",-,Room Allotted,-240,ON,38302-9945322-7,21,14050,4150,0306-7962971
+396,H2-UH,A-02N,03-Mar,21011624-048,Abdullah Ahmad Yamin,Open Merit,LLB,BS,School of Law,Arts Fac.,"117,040",-,Room Allotted,-450,ON,34402-6734916-7,21,14170,4270,0307-6297073
+397,H2-UH,A-03N,03-Mar,21011624-019,Muhammad Jamal,Open Merit,LLB,BS,School of Law,Arts Fac.,"143,730",-,Room Allotted,-240,ON,34403-9285282-1,21,13890,3990,0344-8574758
+398,H2-UH,A-03N,03-Mar,21011624-034,Muhammad Zain Zia Warraich,Open Merit,LLB,BS,School of Law,Arts Fac.,"115,360",-,Room Allotted,-,OFF,34101-5197833-5,21,13890,3990,0313-8068080
+399,H2-UH,A-03N,03-Mar,21011624-039,Syed Hassan Raza,Open merit,LLB,BS,School of Law,Arts Fac.,"115,880",-,Room Allotted,-390,ON,34102-3688284-3,21,14150,4250,0310-4210390
+400,H2-UH,A-04N,03-Mar,21011624-009,Ali Khan Hamza,Open Merit,LLB,BS,School of Law,Arts Fac.,"143,070",-,Room Allotted,-300,ON,34402-1351961-3,21,14090,4190,0346-4660454
+401,H2-UH,A-04N,03-Mar,21011624-035,Muhammad Ahtisham Ul Haq,Open Merit,LLB,BS,School of Law,Arts Fac.,"182,400",-,Room Allotted,-300,ON,34501-0376542-1,21,14050,4150,0349-1404496
+402,H2-UH,A-04N,03-Mar,21011624-047,Hafiz Waleed Ahmad Khan,Open Merit,LLB,BS,School of Law,Arts Fac.,"141,930",-,Room Allotted,-,ON,34103-0210965-1,21,13890,3990,0308-2509727
+403,H2-UH,A-05N,03-Mar,21011624-059,Muhammad Khuzaima Imtiaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"153,380",-,Room Allotted,670,ON,34602-8031477-3,21,14270,4430,0343-6465221
+404,H2-UH,A-05N,03-Mar,21011624-067,Adil Ehsan,Open Merit,LLB,BS,School of Law,Arts Fac.,"117,210",-,Room Allotted,-,OFF,35401-1885432-1,21,14030,4130,0311-4508140
+405,H2-UH,A-05N,03-Mar,21011624-095,Rizwan Mustafa,Open Merit,LLB,BS,School of Law,Arts Fac.,"133,430",-,Room Allotted,-,ON,35404-2237966-7,21,13890,4090,0321-1868037
+406,H2-UH,A-06N,02-Feb,21011624-075,Muhammad Zeeshan Khan,IDP Q.,LLB,BS,School of Law,Arts Fac.,"105,600",-,Room Allotted,-30,ON,21702-4281730-9,21,140,4050,0308-9353064
+407,H2-UH,A-06N,02-Feb,21011624-076,Ali Hasnain,Open Merit,LLB,BS,School of Law,Arts Fac.,"182,720",-,Room Allotted,-,ON,34501-0165858-3,21,14350,4450,0306-4108039
+408,H2-UH,A-07N,09-Sept,24011624-001,Musyuib Abbas,Open Merit,LLB,BS,School of Law,Arts Fac.,"82,470",-,Room Allotted,-,ON,37201-6465626-5,24,13890,3990,0325-1050622
+409,H2-UH,A-07N,09-Sept,24011624-013,Murad Ali,FATA,LLB,BS,School of Law,Arts Fac.,"22,670",-,Room Allotted,-,ON,21107-9638238-3,24,100,3990,0326-5787387
+410,H2-UH,A-07N,09-Sept,24011624-032,Shah Meer Ahmed Raza,Open Merit,LLB,BS,School of Law,Arts Fac.,"65,150","-17,880",Room Allotted,-,OFF,34601-2093198-7,24,-13890,-3990,0302-6486648
+411,H2-UH,A-07N,09-Sept,24011624-048,Sajid Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"72,690",-,Room Allotted,-210,ON,52203-7723087-5,24,13890,4130,0337-8284910
+412,H2-UH,A-07N,09-Sept,24011624-061,Zakki Usman Shahbaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"68,650",-,Room Allotted,"2,050",ON,34602-7894552-1,24,13930,4030,0346-6061660
+413,H2-UH,A-07N,09-Sept,24011624-074,Muhammad Murtaza Eshan,Open Merit,LLB,BS,School of Law,Arts Fac.,"72,310",-,Room Allotted,-60,ON,35501-0487732-9,24,13930,4030,0304-7844646
+414,H2-UH,A-07N,09-Sept,24011624-078,Zahoor Ahmed,Open Merit,LLB,BS,School of Law,Arts Fac.,"73,410",-,Room Allotted,-30,ON,52202-6984538-1,24,13910,4010,0312-3387099
+415,H2-UH,A-07N,09-Sept,24011624-084,Huzaifa Shamshad,Open Merit,LLB,BS,School of Law,Arts Fac.,"48,070",-,Room Allotted,670,ON,34601-9965363-1,24,14290,4390,0348-4022365
+416,H2-UH,A-07N,09-Sept,24011624-098,Syed Kifayat Ullah,Blochistan Q.,LLB,BS,School of Law,Arts Fac.,"20,270","-4,090",Room Allotted,-,ON,54303-8125377-1,24,-100,-3990,0334-1706154
+417,H2-UH,A-08N,09-Sept,23014156-001,Muhammad Ahmad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"98,380",-,Room Allotted,-,ON,34603-8187791-3,23,14030,4130,0337-8647020
+418,H2-UH,A-08N,09-Sept,23014156-115,Anees Sajjad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"99,400",-,Room Allotted,-,ON,81101-1293802-9,23,14030,4130,0322-8508756
+419,H2-UH,A-08N,09-Sept,23014156-125,Muhammad Talha Abid,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,380",-,Room Allotted,-,ON,34301-0243774-5,23,14030,4130,0327-9799579
+420,H2-UH,A-08N,09-Sept,23814156-004,Husnain Manzoor,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"83,130",-,Room Allotted,-,ON,81101-2157167-1,23,13910,4010,0309-9032366
+421,H2-UH,A-08N,09-Sept,23814156-011,Ahmed Aziz,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"86,360","-17,880",Room Allotted,-,ON,34202-1435036-9,23,-13890,-3990,0344-1753171
+422,H2-UH,A-08N,09-Sept,23814156-024,Amar Zia,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"55,670","-17,880",Room Allotted,"6,800",ON,33105-4773235-7,23,-13890,-3990,0344-2140443
+423,H2-UH,A-08N,09-Sept,25014119-231,Muhammad Musa,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37125,-,Room Allotted,-30,ON,34202-5829420-3,25,13930,4030,0318-7747506
+424,H2-UH,A-08N,09-Sept,25014119-246,Zunair Bashir,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37125,-,Room Allotted,-30,ON,34604-0509041-1,25,13930,4030,03107-339762
+425,H2-UH,A-08N,09-Sept,25021598-267,Fareed Ullah,Blochistan Q.,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,14680,-,Room Allotted,-90,ON,54303-1330242-5,25,100,3990,0319-8121180
+426,H2-UH,A-09N,02-Feb,24011556-214,Abdul Muiz,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"68,230",-,Room Allotted,-,ON,34603-7020526-9,24,13890,3990,0326-6313574
+427,H2-UH,A-09N,02-Feb,24011556-238,Muhammad Arshad,FATA,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"22,920",-,Room Allotted,-,ON,21303-7662930-5,24,100,3990,0301-5602066
+428,H2-UH,A-10N,04-Mar,21011624-015,Muhammad Ammar,Open Merit,LLB,BS,School of Law,Arts Fac.,"160,780",-,Room Allotted,-300,ON,17201-0200664-7,21,14070,4190,0318-9085558
+429,H2-UH,A-10N,04-Mar,21011624-043,Syed Muhammad Mesam Raza,Open Merit,LLB,BS,School of Law,Arts Fac.,"183,120",-,Room Allotted,-240,ON,38101-0967175-3,21,14050,4150,0330-3251212
+430,H2-UH,A-10N,04-Mar,21014102-064,Muhammad Abbas,Open Merit,BS(English-E),BS-E,English Dept.,Arts Fac.,"155,340",-,Room Allotted,-,,21104-1977309-1,21,13910,4010,0344-6561588
+431,H2-UH,A-10N,04-Mar,21014107-013,Ayyan Umer,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"166,230",-,Room Allotted,"3,530",ON,34501-1665997-9,21,,,0314-3071997
+432,H2-UH,A-11N,03-Mar,21011624-033,Muhammad Hassan,Open Merit,LLB,BS,School of Law,Arts Fac.,"192,950",-,Room Allotted,-,ON,34403-1608023-7,21,13890,3990,0342-6832301
+433,H2-UH,A-11N,03-Mar,21011624-088,Mubeen Afzal,Open Merit,LLB,BS,School of Law,Arts Fac.,"178,340","-3,990",Room Allotted,-,ON,34403-7748808-3,21,13890,-3990,0345-6534759
+434,H2-UH,A-11N,03-Mar,25011524-074,Muhammad Shahzad,Open Merit,LLB,BS,School of Law,Arts Fac.,37285,-,Room Allotted,-60,ON,32302-3158054-7,25,14010,4110,0304-1918965
+435,H2-UH,A-12N,03-Mar,21011624-066,Saif Ullah,Open Merit,LLB,BS,School of Law,Arts Fac.,"142,890",-,Room Allotted,-,ON,33402-0370966-9,21,14150,4250,0305-6573560
+436,H2-UH,A-12N,03-Mar,21011624-070,Amir Abbas,Open Merit,LLB,BS,School of Law,Arts Fac.,"181,820",-,Room Allotted,-,ON,33401-0541916-5,21,13890,3990,0345-0657108
+437,H2-UH,A-12N,03-Mar,21011624-077,Rao Sufyan Ashraf Chohan,Open Merit,LLB,BS,School of Law,Arts Fac.,"82,590",-,Room Allotted,-,OFF,34101-0619866-1,21,13890,3990,0345-4414771
+438,H2-UH,A-13N,03-Mar,22011502-028,Usman Ali,Open Merit,BS(English),BS,English Dept.,Arts Fac.,"149,270",-,Room Allotted,"-1,190",ON,38401-1236681-7,22,13860,4130,0345-0459780
+439,H2-UH,A-13N,03-Mar,22011502-051,Dilawer Ali,Gilgat Baltistan Q.,BS(English),BS,English Dept.,Arts Fac.,"149,940",-,Room Allotted,"6,020",ON,71301-7032612-5,22,13930,4250,0355-4467044
+440,H2-UH,A-13N,03-Mar,22011502-053,Zubair Ahmed,Blochistan Q.,BS(English),BS,English Dept.,Arts Fac.,"39,540",-,Room Allotted,-450,ON,54302-3395035-1,22,400,4090,0313-6472787
+441,H2-UH,A-14N,03-Mar,22011516-102,Shayan Javed,Open Merit,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"149,040",-,Room Allotted,-30,ON,37406-6653079-3,22,13930,4030,0317-4701207
+442,H2-UH,A-14N,03-Mar,22011516-116,Hasnain Ali,Open Merit,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"140,790","-17,880",Room Allotted,"13,560",ON,71504-0395632-5,22,-13890,-3990,0342-5102451
+443,H2-UH,A-14N,03-Mar,23011516-104,Naqeeb Ahmed,Open Merit,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"97,300",-,Room Allotted,-180,ON,34601-2310987-3,23,13890,3990,0349-7061425
+444,H2-UH,A-15N,03-Mar,22011512-001,Mubeen Asif,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"62,060","-3,990",Room Allotted,-,ON,35402-1621560-3,22,14370,4470,0312-4370865
+445,H2-UH,A-15N,03-Mar,22011512-002,Mohsin Khan,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"52,270",-,Room Allotted,-,ON,35501-0704378-5,22,14290,4390,0300-4294717
+446,H2-UH,A-15N,03-Mar,22011512-041,Shahwaz Bajwa,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"66,320","-17,880",Room Allotted,-,ON,34604-0525679-3,22,-13890,-3990,0314-0436144
+447,H2-UH,A-16N,03-Mar,22011512-019,Usman Hussain,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"98,040","-17,880",Room Allotted,"2,860",ON,34203-3379648-3,22,-13890,-3990,0309-5283261
+448,H2-UH,A-16N,03-Mar,22011512-022,Muhammad Hassan,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"83,370",-,Room Allotted,-,ON,14301-7212784-7,22,14150,4250,0349-0747674
+449,H2-UH,A-16N,03-Mar,22011512-065,Abdal Khan,Blochistan Q.,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"41,450",-,Room Allotted,-450,ON,54400-4320685-7,22,360,4250,0313-8017436
+450,H2-UH,A-17N,02-Feb,22011504-056,Sher Afzal,Blochistan Q.,BS(ISL),BS,Islamic Studies Dept.,Arts Fac.,"33,770","-3,990",Room Allotted,"5,840",ON,56302-2859873-3,22,120,-3990,0331-8086801
+451,H2-UH,A-17N,02-Feb,23011561-112,Shams Ur Rahman,Blochistan Q.,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"24,620","-7,980",Room Allotted,390,ON,56201-0722673-3,23,140,-3990,0313-8208311
+452,H2-UH,A-18N,03-Mar,22011624-047,Usman Ijaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"149,920",-,Room Allotted,-,OFF,34402-1810309-5,22,13930,4030,0314-6071185
+453,H2-UH,A-18N,03-Mar,22011624-055,Hassan Abbas,Open Merit,LLB,BS,School of Law,Arts Fac.,"116,580",-,Room Allotted,-,OFF,34403-5317152-3,22,14050,4150,0316-7728487
+454,H2-UH,A-18N,03-Mar,22011624-083,Muhammad Fahad Iqbal,Open Merit,LLB,BS,School of Law,Arts Fac.,"150,620",-,Room Allotted,-,OFF,34402-7794693-7,22,14090,4430,0322-6452884
+455,H2-UH,A-19N,03-Mar,22011624-006,Rafaqat Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"149,580",-,Room Allotted,-180,ON,34403-9728242-1,22,14030,4130,0344-8393854
+456,H2-UH,A-19N,03-Mar,22011624-010,Muhammad Ahmad,Open Merit,LLB,BS,School of Law,Arts Fac.,"150,730",-,Room Allotted,"3,380",ON,35404-6549872-7,22,14170,4270,0322-1651003
+457,H2-UH,A-19N,03-Mar,22011624-027,Jahanzaib Khalil,Open Merit,LLB,BS,School of Law,Arts Fac.,"116,880",-,Room Allotted,-180,ON,34603-1548362-3,22,14030,4130,0319-1159459
+458,H2-UH,A-20N,03-Mar,22011624-003,Zain Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"131,580",-,Room Allotted,"3,980",ON,34101-1022625-5,22,14170,4270,0308-6042536
+459,H2-UH,A-20N,03-Mar,22011624-007,Ali Raza,Open Merit,LLB,BS,School of Law,Arts Fac.,"149,500",-,Room Allotted,-210,ON,37105-7344261-3,22,14030,4130,0335-5281537
+460,H2-UH,A-20N,03-Mar,22011624-079,Waqas Ahmad,Open Merit,LLB,BS,School of Law,Arts Fac.,"118,940",-,Room Allotted,-480,ON,34104-7900455-7,22,14210,4310,0342-8382272
+461,H2-UH,A-21N,03-Mar,22011624-085,Muhammad Shahzaib Nawaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"151,570",-,Room Allotted,"1,330",OFF,55302-5541973-3,22,14230,4430,0301-0639275
+462,H2-UH,A-21N,03-Mar,22011624-087,Muhammad Sohaib Anwar,Open Merit,LLB,BS,School of Law,Arts Fac.,"98,640",-,Room Allotted,-,OFF,34403-1386120-5,22,14090,4030,0341-5152157
+463,H2-UH,A-21N,03-Mar,22011624-093,Munir Khan,Blochistan Q.,LLB,BS,School of Law,Arts Fac.,"36,550","-4,090",Room Allotted,"25,240",ON,56503-9050603-3,22,-100,-3990,0315-1615187
+464,H2-UH,A-22N,02-Feb,22014116-026,Saqib Ali,Open Merit,BS(MCM-E),BS-E,Centre for Media and Communication Studies,Arts Fac.,"149,300",-,Room Allotted,-,ON,34104-3012846-1,22,13930,4030,0348-4785812
+465,H2-UH,A-22N,02-Feb,22034102-018,Mohsin Raza Cheema,Open Merit,BS(English-E),BS-E,English Dept.,Arts Fac.,"113,080","-3,990",Room Allotted,"2,590",ON,34601-1549011-7,22,13860,-3990,0310-7648610
+466,H2-UH,A-23N,03-Mar,22011624-030,Talha Iqbal,Open Merit,LLB,BS,School of Law,Arts Fac.,"137,440","-13,890",Room Allotted,840,ON,34501-5247283-1,22,-13890,4450,0318-7271879
+467,H2-UH,A-23N,03-Mar,22011624-032,Asad Ijaz,Open Merit,LLB,BS,School of Law,Arts Fac.,"149,540",-,Room Allotted,-210,ON,34501-7789272-9,22,14030,4130,0344-1200367
+468,H2-UH,A-23N,03-Mar,25011524-043,Gulzar Ahmed,Open Merit,LLB,BS,School of Law,Arts Fac.,37045,-,Room Allotted,-,ON,53501-0344730-1,25,13890,3990,0324-8744821
+469,H2-UH,A-24N,03-Mar,23011624-003,Shehryar Akbar,Open Merit,LLB,BS,School of Law,Arts Fac.,"88,090","-17,880",Room Allotted,"3,580",ON,31304-7328002-5,23,-13890,-3990,0332-0369136
+470,H2-UH,A-24N,03-Mar,23011624-031,Ghulam Jalani,Open Merit,LLB,BS,School of Law,Arts Fac.,"83,010",-,Room Allotted,-30,ON,34101-9454253-9,23,13890,3990,0348-0137941
+471,H2-UH,A-24N,03-Mar,23011624-047,Syed Ali Sher Shah,Open Merit,LLB,BS,School of Law,Arts Fac.,"97,600",-,Room Allotted,-180,ON,34402-1136641-3,23,13890,3990,0349-5853512
+472,H2-UH,A-25N,03-Mar,23011624-080,Shahmir Bilal,Open Merit,LLB,BS,School of Law,Arts Fac.,"82,530",-,Room Allotted,"1,220",ON,File(9040601289309),23,13890,3990,0310-1766641
+473,H2-UH,A-25N,03-Mar,23011624-082,Adnan Haider,FATA,LLB,BS,School of Law,Arts Fac.,"35,940",-,Room Allotted,-600,ON,21303-6394505-3,23,540,4410,0304-8796636
+474,H2-UH,A-25N,03-Mar,23011624-093,Zulfiqar Khan,Open Merit,LLB,BS,School of Law,Arts Fac.,"103,190",-,Room Allotted,"2,720",ON,56101-6334641-3,23,14150,3990,0333-3014879
+475,H2-UH,A-26N,03-Mar,23011624-041,Muhammad Waqar,Open Merit,LLB,BS,School of Law,Arts Fac.,"86,170","-17,880",Room Allotted,"3,020",ON,34501-1692254-5,23,-13890,-3990,0340-9073592
+476,H2-UH,A-26N,03-Mar,23011624-062,Sami Ullah,Open Merit,LLB,BS,School of Law,Arts Fac.,"103,990",-,Room Allotted,-240,ON,51401-2621304-9,23,14050,4150,0333-7980703
+477,H2-UH,A-26N,03-Mar,25021518-056,Siraj Ahmed,Blochistan Q.,BS(Sociology),BS,Sociology Dept.,Social Sc. Fac.,15000,-,Room Allotted,-210,ON,53403-3929281-3,25,260,4150,0346-2073631
+478,H2-UH,A-27N,03-Mar,23011624-023,Fawad Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"98,420",-,Room Allotted,-,ON,34402-3270022-9,23,14030,4130,0344-4584481
+479,H2-UH,A-27N,03-Mar,23011624-039,Muhammed Anas,Open Merit,LLB,BS,School of Law,Arts Fac.,"105,260",-,Room Allotted,-210,ON,36603-6907700-5,23,14050,4250,0327-4064269
+480,H2-UH,A-27N,03-Mar,23811624-002,Abbas Ahmed,Open Merit,LLB,BS,School of Law,Arts Fac.,"100,390",-,Room Allotted,-,ON,34601-0174111-3,23,14370,4450,0349-6070542
+481,H2-UH,A-28N,03-Mar,23011624-005,Israr Ullah,Open Merit,LLB,BS,School of Law,Arts Fac.,"102,340",-,Room Allotted,"3,510",ON,56301-9297640-3,23,14090,4190,0341-8162618
+482,H2-UH,A-28N,03-Mar,23011624-018,Muhammad Farhan,Open Merit,LLB,BS,School of Law,Arts Fac.,"82,880",-,Room Allotted,-,OFF,34603-4671013-1,23,13930,4060,0349-3981842
+483,H2-UH,A-28N,03-Mar,23011624-100,Muhammad Yousaf,Blochistan Q.,LLB,BS,School of Law,Arts Fac.,"27,450","-3,990",Room Allotted,"3,690",ON,56503-8034113-3,23,580,-3990,0318-8039638
+484,H2-UH,A-29N,03-Mar,23011624-038,Naeem Akram,Open Merit,LLB,BS,School of Law,Arts Fac.,"97,610","-3,990",Room Allotted,-,OFF,38406-0566023-1,23,13890,-3990,0303-5534981
+485,H2-UH,A-29N,03-Mar,23011624-044,Rashid Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"81,040","-17,880",Room Allotted,-,OFF,34403-2968644-3,23,-13890,-3990,0312-7212385
+486,H2-UH,A-29N,03-Mar,23011624-046,Shahadat Hamza,Open Merit,LLB,BS,School of Law,Arts Fac.,"95,510","-3,990",Room Allotted,-,ON,37302-2555676-1,23,14350,-3990,0342-4268371
+487,H2-UH,A-30N,03-Mar,23811624-003,Muhammad Afaq,Open Merit,LLB,BS,School of Law,Arts Fac.,"98,890",-,Room Allotted,-,ON,34601-2998463-1,23,13910,4010,0345-6478189
+488,H2-UH,A-30N,03-Mar,23811624-004,Ali Hamza,Open Merit,LLB,BS,School of Law,Arts Fac.,"66,960","-17,880",Room Allotted,-,ON,34403-6804782-3,23,-13890,-3990,0343-0572911
+489,H2-UH,A-30N,03-Mar,25031578-097,Hammad Uddin,Blochistan Q.,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,15080,-,Room Allotted,830,ON,56202-9939277-3,25,400,4090,0312-8024354
+490,H2-UH,A-31N,04-Mar,24011502-115,Muhammad Hussain,Open Merit,BS(English),BS,English Dept.,Arts Fac.,"72,590",-,Room Allotted,-,ON,34403-5076495-5,24,13890,3990,0345-4447141
+491,H2-UH,A-31N,04-Mar,24011502-128,Muneeb Ur Rahman,FATA,BS(English),BS,English Dept.,Arts Fac.,"36,400",-,Room Allotted,-30,ON,21104-8273330-7,24,140,4010,0308-7172412
+492,H2-UH,A-31N,04-Mar,25011510-079,Naseebullah,Blochistan Q.,BS(Physics),BS,Physics Dept.,Sciences Fac.,10590,"-4,090",Room Allotted,"18,590",ON,56201-4878976-3,25,-100,-3990,0334-2230275
+493,H2-UH,A-31N,04-Mar,25021511-185,Umar Gul,Blochistan Q.,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,11170,"-3,990",Room Allotted,-30,ON,56202-0551020-7,25,580,4470,0336-3798613
+494,H2-UH,A-32N,02-Feb,23011502-105,Hamza Khan,FATA,BS(English),BS,English Dept.,Arts Fac.,"35,740",-,Room Allotted,-600,ON,22601-5869082-9,23,380,4270,0335-8384445
+495,H2-UH,A-32N,02-Feb,23011502-130,Muhammad Aslam,Blochistan Q.,BS(English),BS,English Dept.,Arts Fac.,"26,840","-4,090",Room Allotted,"5,950",ON,56302-7140587-9,23,-100,-3990,0336-3082053
+496,H2-UH,A-33N,03-Mar,24011512-011,Muhammad Sharjeel,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"72,270",-,Room Allotted,-,ON,81302-2573744-7,24,13890,3990,0319-0899626
+497,H2-UH,A-33N,03-Mar,24011512-024,Abdullah Razaq,Open Merit,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"67,410",-,Room Allotted,-30,ON,34402-4305808-7,24,14170,4270,0342-8448396
+498,H2-UH,A-33N,03-Mar,24011512-043,Muhammad Ayaz,FATA,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"23,600",-,Room Allotted,-,ON,21301-4486093-5,24,240,4130,0302-5661212
+499,H2-UH,A-34N,02-Mar,24011516-042,Zabi Ullah,Open Merit,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"67,890","-17,880",Room Allotted,"3,520",ON,34403-1858975-3,24,-13890,-3990,0347-0917042
+500,H2-UH,A-34N,02-Mar,25014119-132,Subhan Naveed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,14800,-,Room Allotted,-,ON,34201-7977541-7,25,160,4050,0319-0460271
+501,H2-UH,A-35N,03-Mar,24011624-015,Abdul Wahab,Open Merit,LLB,BS,School of Law,Arts Fac.,"72,450",-,Room Allotted,-,ON,32103-2490606-9,24,13910,4010,0334-7582062
+502,H2-UH,A-35N,03-Mar,24011624-050,Awais Raza,Open Merit,LLB,BS,School of Law,Arts Fac.,"51,750","-17,880",Room Allotted,"2,650",ON,34103-1147936-9,24,-13890,-3990,0300-8918325
+503,H2-UH,A-35N,03-Mar,24011624-077,Muhammad Jameel,Open Merit,LLB,BS,School of Law,Arts Fac.,"73,610",-,Room Allotted,-,OFF,32304-4054941-9,24,13890,3990,0308-2862906
+504,H2-UH,A-36N,03-Mar,24011561-108,Muhammad Farhan,Blochistan Q.,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"25,730",-,Room Allotted,-240,ON,53301-2693488-9,24,260,4150,0311-3909898
+505,H2-UH,A-36N,03-Mar,24011624-026,Muhammad Bilal,Open Merit,LLB,BS,School of Law,Arts Fac.,"72,930",-,Room Allotted,-180,ON,43504-0545670-7,24,14350,4270,0313-7302724
+506,H2-UH,A-36N,03-Mar,24011624-070,Salman Shah,FATA,LLB,BS,School of Law,Arts Fac.,"23,430",-,Room Allotted,-,ON,21402-1167144-5,24,140,4030,0303-8840127
+507,H2-UH,A-37N,02-Feb,23011517-038,Mir Hazar,Blochistan Q.,BS(Urdu),BS,CeLTS,Arts Fac.,"27,030","-3,990",Room Allotted,-90,ON,51503-2013106-7,23,140,-3990,0313-8433693
+508,H2-UH,A-37N,02-Feb,23021517-102,Waheed Ali,Blochistan Q.,BS(Urdu),BS,CeLTS,Arts Fac.,"31,240",-,Room Allotted,-180,ON,53402-6935446-1,23,240,4150,0345-7083878
+509,H2-UH,A-38N,03-Mar,24011624-002,Muhammad Awais,Open Merit,LLB,BS,School of Law,Arts Fac.,"72,350",-,Room Allotted,-60,ON,34602-2924349-3,24,13930,4030,0333-8675788
+510,H2-UH,A-38N,03-Mar,24011624-008,Muhammad Saran,Open Merit,LLB,BS,School of Law,Arts Fac.,"68,190",-,Room Allotted,-,ON,34104-1649144-3,24,13890,3990,0300-9880250
+511,H2-UH,A-38N,03-Mar,24011624-041,Muhammad Mawiz,Open Merit,LLB,BS,School of Law,Arts Fac.,"82,580",-,Room Allotted,-60,ON,34403-0681455-1,24,13930,4030,0319-1851948
+512,H2-UH,A-39N,04-Mar,23011512-056,Koh Mir,Blochistan Q.,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"32,450",-,Room Allotted,-,OFF,55203-3102583-3,23,160,4050,0331-5161430
+513,H2-UH,A-39N,04-Mar,24011624-058,Amir Ali,Open Merit,LLB,BS,School of Law,Arts Fac.,"73,910",-,Room Allotted,-240,ON,51701-0351453-7,24,14050,4150,0335-5131100
+514,H2-UH,A-39N,04-Mar,24021517-005,Muhammad Ilyas,FATA,BS(Urdu),BS,CeLTS,Arts Fac.,"23,410",-,Room Allotted,-450,ON,21105-5195012-7,24,400,4130,0309-9616355
+515,H2-UH,A-39N,04-Mar,25010920-250,Siraj Ahmed,Blochistan Q.,BBA,BS,Management Sciences Dept.,FMAS,14960,-,Room Allotted,"4,190",ON,53201-3663869-7,25,240,4130,0346-4782335
+516,H2-UH,B-01N,03-Mar,22013123-013,Shahzaib Hassan,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"150,020",-,Room Allotted,-,ON,35101-8534518-7,22,13890,3990,"0326-6041045,
+0326-5975403"
+517,H2-UH,B-01N,03-Mar,22013123-018,Syed Faizan Abbas,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"148,880",-,Room Allotted,-,ON,37301-9098586-3,22,13890,3990,0340-2302369
+518,H2-UH,B-01N,03-Mar,22013123-029,Yahya Naveed,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"98,340",-,Room Allotted,-,ON,37301-7979881-1,22,13890,3990,0316-5901082
+519,H2-UH,B-02N,03-Mar,22013123-003,Muhammad Tufail,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"149,520",-,Room Allotted,-,ON,32304-4779034-7,22,13890,3990,0306-0573791
+520,H2-UH,B-02N,03-Mar,22813123-001,Ehsan Mazhar,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"150,670",-,Room Allotted,-,ON,42301-7159944-5,22,13930,4030,"0312-4969127,
+0349-4630170"
+521,H2-UH,B-02N,03-Mar,24017786-066,Suleman Nazir Ahmad Ghumman,Open Merit,BS(ME),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"18,860",-,Room Allotted,-,ON,34603-9016840-1,24,100,4010,0320-0072451
+522,H2-UH,B-03N,03-Mar,22013123-006,Ezaz Tayyab,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"113,710",-,Room Allotted,-,OFF,34101-6603234-5,22,14030,4130,0322-6474737
+523,H2-UH,B-03N,03-Mar,22013123-010,Humayun Asghar,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"149,820",-,Room Allotted,-,ON,32103-2733386-1,22,13890,3990,0301-9139755
+524,H2-UH,B-03N,03-Mar,22013123-017,Faheem Qaisar,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"131,740",-,Room Allotted,-,ON,36501-3523987-9,22,14150,4250,0304-8362121
+525,H2-UH,B-04N,04-Mar,24011519-173,Muhammad Mahmood,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"74,190",-,Room Allotted,-,OFF,34502-1848479-5,24,14030,3990,0309-6531709
+526,H2-UH,B-04N,04-Mar,24011556-053,Muhammad Rehan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"72,320",-,Room Allotted,-,OFF,34502-8451942-3,24,13890,4010,0328-3957487
+527,H2-UH,B-04N,04-Mar,24011556-125,Daniyal Ahmed,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"72,370",-,Room Allotted,-,ON,37101-1765662-5,24,13890,4050,0314-0055647
+528,H2-UH,B-04N,04-Mar,24011556-142,Ahmad Faraz,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"69,890","-3,990",Room Allotted,-,ON,38103-3137100-5,24,14330,-3990,0340-5035429
+529,H2-UH,B-06N,02-Feb,22013123-022,Abu Bakar,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"131,540",-,Room Allotted,-,ON,34101-7467351-3,22,13890,3990,0341-6290448
+530,H2-UH,B-06N,02-Feb,22013123-034,Muhammad Tahir Khalid,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"149,280",-,Room Allotted,-,ON,34101-4941990-3,22,13890,3990,0301-6603717
+531,H2-UH,B-07N,09-Sept,24011598-070,Muhammad Sami Ullah Arif,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,290",-,Room Allotted,-,ON,32502-0351248-3,24,13890,3990,0370-5705356
+532,H2-UH,B-07N,09-Sept,24011598-166,Abdul Sattar,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"36,190",-,Room Allotted,-,ON,21706-1075880-1,24,100,3990,0335-9476448
+533,H2-UH,B-07N,09-Sept,24011598-205,Hashim Ali,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"68,710",-,Room Allotted,-300,ON,34102-2886695-5,24,14150,4250,0336-6347983
+534,H2-UH,B-07N,09-Sept,24014198-190,Ameer Hamza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"65,990",-,Room Allotted,-60,ON,34101-4234852-1,24,14290,4450,0341-2006811
+535,H2-UH,B-07N,09-Sept,24014198-276,Waleed Ahmad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"64,970",-,Room Allotted,-,ON,34101-0305050-1,24,13890,3990,0317-6823949
+536,H2-UH,B-07N,09-Sept,25011502-289,Gularam Khan,FATA,BS(English),BS,English Dept.,Arts Fac.,14680,-,Room Allotted,-60,ON,21106-2566930-1,25,100,3990,0342-2916038
+537,H2-UH,B-07N,09-Sept,25021556-217,Ihtesham Ul Haq,FATA,BS(IT),BS,Information Technology Dept.,C & IT Fac.,15020,-,Room Allotted,-420,ON,21506-6823778-1,25,160,4270,0332-5906682
+538,H2-UH,B-07N,09-Sept,25021598-268,Muhammad Yar,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,10590,"-4,090",Room Allotted,-,ON,21708-1651789-5,25,-100,-3990,0334-6812170
+539,H2-UH,B-07N,09-Sept,25033323-022,Ahsan Ali,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,32920,-,Room Allotted,-,ON,37405-4703262-3,25,13910,4010,0324-9351254
+540,H2-UH,B-08N,08-Sept,24014198-022,Ahmad Raza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,030",-,Room Allotted,-,ON,34102-2086272-1,24,13890,3990,0309-1696532
+541,H2-UH,B-08N,08-Sept,24014198-043,Syed Ali Zamin Bukhari,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"73,090",-,Room Allotted,-210,ON,81103-9420729-1,24,14090,4190,0340-8428577
+542,H2-UH,B-08N,08-Sept,24014198-055,Raja Tayyab Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,570",-,Room Allotted,-,ON,34104-5182825-7,24,13890,3990,0335-4962077
+543,H2-UH,B-08N,08-Sept,24014198-114,Athar Abdul Rehman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"72,770",-,Room Allotted,"3,540",ON,34601-6910552-9,24,13930,4250,0321-6162150
+544,H2-UH,B-08N,08-Sept,24014198-201,Anas Bilal,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"69,380",-,Room Allotted,-240,OFF,34601-5164673-9,24,14030,4150,0310-7888762
+545,H2-UH,B-08N,08-Sept,24014198-226,Umar Nisar Butt,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,030",-,Room Allotted,"1,690",ON,34104-7747320-5,24,14150,4250,0349-6312303
+546,H2-UH,B-08N,08-Sept,24014198-277,Sammeer Ahsan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"74,110",-,Room Allotted,-60,ON,34104-6742704-7,24,13910,4030,0319-6185180
+547,H2-UH,B-08N,08-Sept,25011502-290,Naseeb Ullah,FATA,BS(English),BS,English Dept.,Arts Fac.,15560,-,Room Allotted,"2,890",ON,21106-7635914-9,25,540,4430,0321-5590682
+548,H2-UH,B-09N,02-Feb,22011516-114,Habib Ullah,Blochistan Q.,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"31,530","-8,730",Room Allotted,"36,490",ON,56201-6554717-3,22,160,-3990,0316-8194775
+549,H2-UH,B-09N,02-Feb,22031554-051,Fida Muhammad,Blochistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"38,450",-,Room Allotted,-90,ON,56302-2772044-7,22,160,3990,0334-3217475
+550,H2-UH,B-10N,03-Mar,22013122-003,Saif Ur Rehman,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"148,880",-,Room Allotted,-,ON,38407-0410874-9,22,13890,3990,0303-4300002
+551,H2-UH,B-10N,03-Mar,22013122-024,Muhammad Ahmad,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"148,940",-,Room Allotted,-,ON,34101-5340118-1,22,13890,3990,0317-7274648
+552,H2-UH,B-10N,03-Mar,22013122-035,Badar Ali Sajjad,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"149,200",-,Room Allotted,-,ON,34603-9090837-3,22,13890,4130,0315-1480080
+553,H2-UH,B-11N,03-Mar,22013122-052,Muhammad Daim,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"136,270",-,Room Allotted,-110,ON,35404-9909708-9,22,13890,3990,0319-7187883
+554,H2-UH,B-11N,03-Mar,22013122-053,Muhammad Anas Warraich,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"134,480","-17,880",Room Allotted,"31,530",ON,34101-7336028-5,22,-13890,-3990,0323-0740969
+555,H2-UH,B-11N,03-Mar,24027322-025,Muhammad Usman Ali,Open Merit,BS(EE Technology),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"72,350",-,Room Allotted,-60,ON,34601-2637746-3,24,13930,4030,0346-8660071
+556,H2-UH,B-12N,03-Mar,22013122-021,Junaid Suleman,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"148,880",-,Room Allotted,-60,ON,34203-7034266-3,22,13890,3990,0317-5044729
+557,H2-UH,B-12N,03-Mar,22013122-049,Umer Farooq,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"149,220",-,Room Allotted,-60,ON,34603-5589885-7,22,13890,3990,0318-1798158
+558,H2-UH,B-12N,03-Mar,22013122-050,Ashir Mehmood,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"64,970",-,Room Allotted,-60,ON,34101-3264021-1,22,13890,3990,0318-6705959
+559,H2-UH,B-13N,03-Mar,22013122-005,Muhammad Tayyab Aftab,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"148,940",-,Room Allotted,-,ON,34301-9300916-9,22,13890,3990,0318-7201329
+560,H2-UH,B-13N,03-Mar,22013122-014,Muhammad Saad Bin Imran,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"148,960",-,Room Allotted,-,ON,81103-4054285-7,22,13910,4030,0312-9545190
+561,H2-UH,B-13N,03-Mar,22013122-031,Abdulahad,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"149,290",-,Room Allotted,-,ON,34603-1228179-1,22,13940,4270,0326-9604868
+562,H2-UH,B-14N,03-Mar,23021519-058,Mohsin Raza,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"83,130",-,Room Allotted,-390,ON,34403-0240487-3,23,13890,4250,0334-2100786
+563,H2-UH,B-14N,03-Mar,23021519-140,Habibullah,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"97,640",-,Room Allotted,-,ON,81102-5480233-3,23,14030,4130,0314-3067409
+564,H2-UH,B-14N,03-Mar,23021519-154,Muhammad Zafeer Butt,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"65,390","-17,880",Room Allotted,"4,950",ON,34104-4542107-3,23,-13890,-3990,0327-9706951
+565,H2-UH,B-15N,03-Mar,23021519-086,Yasir Iftikhar,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"98,120",-,Room Allotted,-90,ON,34602-0834305-1,23,14030,4130,0344-3409251
+566,H2-UH,B-15N,03-Mar,23021519-170,Muhammad Khushnood Rehman Rana,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"68,250",-,Room Allotted,"2,850",ON,34101-8289401-5,23,13890,3990,0341-6818257
+567,H2-UH,B-15N,03-Mar,23021519-174,Rana Muhammad Fahad,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"99,250",-,Room Allotted,"2,880",ON,34101-2620710-3,23,14030,4130,0346-6072649
+568,H2-UH,B-16N,03-Mar,23021519-111,Hamza Nazir,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"97,580",-,Room Allotted,-210,ON,34101-9093621-1,23,13910,4010,0349-4074471
+569,H2-UH,B-16N,03-Mar,23021519-177,Hamza Muzafar,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"101,580",-,Room Allotted,-,ON,34502-3877664-7,23,13890,3990,0305-6531599
+570,H2-UH,B-16N,03-Mar,23021519-180,Ghulam Zakriya,Blochistan Q.,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"31,060",-,Room Allotted,-90,ON,54401-5460188-1,23,120,4050,0332-2947342
+571,H2-UH,B-17N,02-Feb,23013386-004,Junaid Tariq Abbasi,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"102,740",-,Room Allotted,-210,ON,13302-9084830-1,23,14210,4310,0348-1477703
+572,H2-UH,B-17N,02-Feb,23013386-011,Muhammad Abdullah,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"101,910",-,Room Allotted,-450,ON,34101-2222332-1,23,13890,3990,0333-8252845
+573,H2-UH,B-18N,03-Mar,23021519-020,Taimoor Ali,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"93,930","-3,990",Room Allotted,-,ON,34104-8621205-5,23,14210,-3990,0340-4525251
+574,H2-UH,B-18N,03-Mar,23021519-076,Abdullah,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"99,500","-3,990",Room Allotted,-,ON,33301-7521321-9,23,14190,-3990,0300-5601939
+575,H2-UH,B-18N,03-Mar,23021519-081,Muhammad Furqan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"95,720","-3,990",Room Allotted,-,ON,34101-0228536-9,23,14210,-3990,0301-0615053
+576,H2-UH,B-19N,03-Mar,23021519-016,Hassan Imam Amjad,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"98,870",-,Room Allotted,-,OFF,34101-0953636-5,23,13910,4010,0339-6441854
+577,H2-UH,B-19N,03-Mar,23021519-018,Muhammad Ibrahim,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"98,100",-,Room Allotted,"3,070",ON,34102-9224859-5,23,13890,3990,0347-6445835
+578,H2-UH,B-19N,03-Mar,23021519-097,Hamza Tahir,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"101,870",-,Room Allotted,-480,ON,34102-5070325-5,23,13890,4310,0305-9537284
+579,H2-UH,B-20N,03-Mar,23013122-007,Husnain Ali,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"101,640",-,Room Allotted,-30,ON,34301-1702015-5,23,13930,4010,0336-6561054
+580,H2-UH,B-20N,03-Mar,23013122-010,Ameer Hamza,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"101,680",-,Room Allotted,-30,ON,38303-7440665-5,23,14010,4110,0330-3844500
+581,H2-UH,B-20N,03-Mar,23013122-031,Muhammad Abu Bakar,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"105,320",-,Room Allotted,-390,ON,34502-4371746-1,23,14150,4250,0316-0776047
+582,H2-UH,B-21N,03-Mar,23013122-013,Muhammad Umer Manzoor,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"99,610","-3,910",Room Allotted,-30,ON,35202-8299346-9,23,14030,4130,0321-4079655
+583,H2-UH,B-21N,03-Mar,23013122-018,Muhammad Aqib Sohail,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"82,770","-17,880",Room Allotted,"4,550",ON,34403-5271026-3,23,-13890,-3990,0346-3830903
+584,H2-UH,B-21N,03-Mar,23013122-019,Muhammad Awais,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"83,440","-17,880",Room Allotted,"6,900",ON,34601-1891879-5,23,-13890,-3990,032-87143328
+585,H2-UH,B-22N,02-Feb,23013123-001,Moeez Ahmed,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"102,860",-,Room Allotted,-,ON,34603-4920265-5,23,13890,3990,0306-6477149
+586,H2-UH,B-22N,02-Feb,23013123-013,Muhammad Asif,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"98,140","-3,990",Room Allotted,-60,ON,33202-3690439-5,23,13890,-3990,0341-7422182
+587,H2-UH,B-23N,03-Mar,23011556-096,Muhammad Salman Ahmad,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"95,050","-3,990",Room Allotted,-,ON,34101-0336487-5,23,13860,-3990,0306-9600124
+588,H2-UH,B-23N,03-Mar,23011556-101,Subhan Qaiser,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"83,310",-,Room Allotted,-210,ON,34104-5078222-7,23,14030,4130,0327-6403948
+589,H2-UH,B-23N,03-Mar,23014156-143,Muhammad Abdullah,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"101,900",-,Room Allotted,-,ON,34301-2570503-1,23,14030,4130,0316-7014254
+590,H2-UH,B-24N,03-Mar,23011556-057,Muhammad Faizan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"98,260",-,Room Allotted,-,ON,34401-7879549-5,23,14090,4190,0340-6780131
+591,H2-UH,B-24N,03-Mar,23011556-102,Uzair Khalid Awan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"97,860",-,Room Allotted,-30,ON,34101-5375358-1,23,13890,4010,0314-6999298
+592,H2-UH,B-24N,03-Mar,23011556-131,Muhammad Abdullah,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"102,990",-,Room Allotted,-,ON,34402-2334516-9,23,13890,3990,0345-4380277
+593,H2-UH,B-25N,03-Mar,23011556-023,Waleed Ul Hassan,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"97,260",-,Room Allotted,-,OFF,34402-5865175-7,23,13890,3990,0348-6603907
+594,H2-UH,B-25N,03-Mar,23011556-027,Hussnain Ahmad,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"99,080",-,Room Allotted,-,ON,34502-9985748-9,23,13890,3990,0326-9465470
+595,H2-UH,B-25N,03-Mar,23011556-032,Abdul Momin,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"98,520",-,Room Allotted,-,ON,34301-7771286-9,23,14090,4010,0323-6004749
+596,H2-UH,B-26N,03-Mar,23011598-139,Syed Zargham Haider,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"102,210",-,Room Allotted,-,ON,34301-6053167-7,23,13890,3990,0346-6758348
+597,H2-UH,B-26N,03-Mar,23011598-156,Ahsan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"84,800","-17,880",Room Allotted,-390,ON,35102-5900795-7,23,-13890,-3990,0322-4209339
+598,H2-UH,B-26N,03-Mar,23011598-181,Sharoon Alyab,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"86,560",-,Room Allotted,-60,ON,34102-6465422-5,23,13930,4030,0341 1408433
+599,H2-UH,B-27N,03-Mar,23011598-033,Zain Jabbar,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"98,100",-,Room Allotted,-,ON,81103-9595556-5,23,13890,3990,0348-8870154
+600,H2-UH,B-27N,03-Mar,23011598-036,Muhammad Amir,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"97,860",-,Room Allotted,-900,ON,34502-3454262-3,23,14090,4190,0304-8509081
+601,H2-UH,B-27N,03-Mar,23011598-049,Faran Mir,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"97,580",-,Room Allotted,-60,ON,34602-7239067-3,23,13910,3990,0335-0735677
+602,H2-UH,B-28N,03-Mar,23011598-034,Muhammad Abdullah Riaz,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"97,680",-,Room Allotted,-,ON,34602-6335933-9,23,13890,3990,0346-8199885
+603,H2-UH,B-28N,03-Mar,23011598-093,Abdul Manan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"99,780",-,Room Allotted,-,ON,34602-6691574-5,23,13890,3990,0341-6160419
+604,H2-UH,B-28N,03-Mar,23011598-114,Talha Sajjad,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"97,360",-,Room Allotted,-,ON,34101-6370143-1,23,13890,3990,0301-1535163
+605,H2-UH,B-29N,03-Mar,23011598-028,Muhammad Zaki,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"101,720",-,Room Allotted,-240,ON,34203-9362125-5,23,13890,3990,0311-4053885
+606,H2-UH,B-29N,03-Mar,23011598-062,Muhammad Umair,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"97,260",-,Room Allotted,-60,ON,34402-6358180-5,23,13910,4190,0312-7599636
+607,H2-UH,B-29N,03-Mar,23011598-109,Muhammad Shahzaib,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"101,940",-,Room Allotted,-60,ON,34203-4325677-7,23,13910,4190,0314-0521236
+608,H2-UH,B-30N,03-Mar,23011598-046,Hammad Ali,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"102,300",-,Room Allotted,-,ON,34502-9169690-1,23,13890,3990,0307-7254651
+609,H2-UH,B-30N,03-Mar,23011598-115,Habibullah,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"84,980","-17,880",Room Allotted,"7,330",ON,71102-7098377-9,23,-13890,-3990,0355-4258496
+610,H2-UH,B-30N,03-Mar,23011598-140,Asim Siddique,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"98,400",-,Room Allotted,-390,ON,34101-0556989-5,23,14050,4150,0314-3350014
+611,H2-UH,B-31N,03-Mar,23011598-142,Hamid Ghous,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"98,460",-,Room Allotted,-420,ON,81103-2567734-3,23,14170,4270,0355-8155146
+612,H2-UH,B-31N,03-Mar,23011598-154,Waqas Hanif,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"98,500",-,Room Allotted,-480,ON,34502-5835313-5,23,14190,4310,0322-5941395
+613,H2-UH,B-31N,03-Mar,23011598-187,Munawar Shah,Gilgat Baltistan Q.,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"90,080","-17,880",Room Allotted,"7,640",ON,71702-0341154-3,23,-13890,-3990,0349-1520366
+614,H2-UH,B-32N,02-Feb,24017786-025,Sultan Mohaiudeen,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"72,770",-,Room Allotted,-,ON,35502-0174130-1,24,14030,4130,0315-1001961
+615,H2-UH,B-32N,02-Feb,24817786-002,Hammad Sajid,Open Merit,BS(Mech. Technology),BS,Mechanical Engineering Dept.,Eng. & Tech. Fac.,"38,350","-17,880",Room Allotted,-,OFF,34602-3222724-5,24,-13890,-3990,0305-4652832
+616,H2-UH,B-33N,03-Mar,23011598-085,Muhammad Shahbaz,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"47,370",-,Room Allotted,-,ON,34102-8102842-7,23,13890,3990,0309-6562582
+617,H2-UH,B-33N,03-Mar,23011598-118,Haider Ali,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"94,690","-3,990",Room Allotted,"5,070",ON,34101-6517615-5,23,13890,-3990,0309-7406182
+618,H2-UH,B-33N,03-Mar,23011598-186,Rahmatullah,Blochistan Q.,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"32,040",-,Room Allotted,-240,ON,52203-8199796-1,23,540,4430,0323 8081175
+619,H2-UH,B-34N,03-Mar,24013123-006,Muhammad Nasir,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"72,430",-,Room Allotted,-90,ON,35303-8389403-7,24,13890,4050,0301-4607653
+620,H2-UH,B-34N,03-Mar,24013123-016,Sohaib Shoukat,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"68,190",-,Room Allotted,-,ON,34601-2143682-3,24,13890,3990,0326-7937232
+621,H2-UH,B-34N,03-Mar,24013123-020,Bahadur Ali,Open Merit,BS(CE),BS,Chemical Engineering Dept.,Eng. & Tech. Fac.,"75,480",-,Room Allotted,-390,ON,33204-0470240-3,24,14170,4270,0301-1812424
+622,H2-UH,B-35N,03-Mar,24013122-005,Shah Fahad,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"72,460",-,Room Allotted,-350,ON,17101-2525324-9,24,13890,3990,0333-6713053
+623,H2-UH,B-35N,03-Mar,24013122-022,Ashfaq Ahmad,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"68,770",-,Room Allotted,-,ON,34101-8550044-7,24,14150,3990,0320-7420303
+624,H2-UH,B-35N,03-Mar,24013122-033,Muhammad Nouman,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"83,700",-,Room Allotted,"4,870",ON,34601-2648407-5,24,13930,4130,0342-5178567
+625,H2-UH,B-36N,03-Mar,24013122-041,Muhammad Gulzaib,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"65,930",-,Room Allotted,-390,ON,34601-9752566-7,24,14150,4250,0344-6451357
+626,H2-UH,B-36N,03-Mar,24013122-043,Muhammad Hassan Raza Athar,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"74,190",-,Room Allotted,"1,940",ON,35404-5333500-9,24,14330,4430,0332-1917047
+627,H2-UH,B-36N,03-Mar,24813122-004,Muhammad Hassan Tariq,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"73,230",-,Room Allotted,-390,ON,33202-9750617-5,24,14150,4250,0312-1733613
+628,H2-UH,B-37N,02-Feb,24013122-018,Muhammad Sheharyar Asim,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"69,890",-,Room Allotted,-60,ON,34601-3676790-5,24,13890,3990,0341-8736953
+629,H2-UH,B-37N,02-Feb,25011524-059,Muhammad Awais,Open Merit,LLB,BS,School of Law,Arts Fac.,37045,,Room Allotted,-,ON,52302-8041289-1,25,13890,3990,0317-8142250
+630,H2-UH,B-38N,03-Mar,24013122-031,Subhan Ahmed,Open Merit,BS(EE),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"68,310",-,Room Allotted,-,ON,34101-5520268-5,24,13890,4050,0341-7834743
+631,H2-UH,B-38N,03-Mar,24017322-047,Muhammad Awais Raza,Open Merit,BS(CS Eng. Tech.),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"72,340",-,Room Allotted,-,ON,38406-0568943-1,24,13930,4030,0317-6133138
+632,H2-UH,B-38N,03-Mar,24027322-027,Ali Hassan,Open Merit,BS(CS Eng. Tech.),BS,Electrical Engineering Dept.,Eng. & Tech. Fac.,"69,790",-,Room Allotted,-,ON,34601-0641065-3,24,13890,3990,0302-9738233
+633,H2-UH,B-39N,03-Mar,23011556-110,Muhammad Jibran Umar,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,26810,"-3,990",Room Allotted,-,ON,34403-8070149-9,23,13890,-3990,0346-9611244
+634,H2-UH,B-39N,03-Mar,23014156-175,Abdul Haseeb,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"103,110",-,Room Allotted,"1,660",ON,34603-7164372-3,23,14030,4130,0305-4269914
+635,H2-UH,B-39N,03-Mar,24014198-107,Muhammad Abdullah,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"68,780","-3,990",Room Allotted,"3,900",ON,35202-6213603-5,24,14370,4470,0321-7878762
+636,H2-UH,C-01N,03-Mar,22021519-084,Noman Azam,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"136,840","-17,880",Room Allotted,-,ON,34402-2703623-3,22,-13890,-3990,0342-4191474
+637,H2-UH,C-01N,03-Mar,22021519-135,Faizan Ali Goraya,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"132,760","-17,880",Room Allotted,-,ON,34601-3046912-9,22,-13890,-3990,0315-7614770
+638,H2-UH,C-01N,03-Mar,22021519-168,Zohaib Yaqub,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"152,040",-,Room Allotted,-,ON,34502-3111666-9,22,14030,4130,0309-2728511
+639,H2-UH,C-02N,03-Mar,22021519-088,Muhammad Muzammal,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"150,750",-,Room Allotted,-450,ON,34103-0129683-3,22,13890,4290,0346-5041478
+640,H2-UH,C-02N,03-Mar,22021519-128,Hamza Shahid,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"149,180",-,Room Allotted,-600,ON,34602-9080149-3,22,13910,4010,0345-2369259
+641,H2-UH,C-02N,03-Mar,22021519-129,Muhammad Bassam Ilyas,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"148,980",-,Room Allotted,-,ON,34102-3361710-1,22,13890,3990,0321-4732704
+642,H2-UH,C-03N,03-Mar,22021519-054,Muhammad Ubaid,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"268,980",-,Room Allotted,-,ON,34502-2289932-7,22,13890,3990,0320-3660398
+643,H2-UH,C-03N,03-Mar,22021519-062,Zaid Amjad,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"150,730",-,Room Allotted,"7,120",ON,34602-8940295-9,22,13890,3990,0307-6146300
+644,H2-UH,C-03N,03-Mar,22021519-138,Rao Muhammad Zohair Ashraf,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"149,840",-,Room Allotted,-,ON,34601-6259103-1,22,13890,3990,0331-6639683
+645,H2-UH,C-04N,03-Mar,22021519-009,Muhammad Arslan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"124,475",-,Room Allotted,-,ON,34403-4179476-9,22,13890,3990,0342-3407767
+646,H2-UH,C-04N,03-Mar,22021519-070,Ammar Nazar,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"115,720",-,Room Allotted,-,ON,37301-5094278-9,22,13890,4050,0327-5005840
+647,H2-UH,C-04N,03-Mar,22021519-109,Zayam Mushtaq,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"116,100",-,Room Allotted,-,ON,34603-0179769-9,22,14030,4130,0314-4526205
+648,H2-UH,C-06N,02-Feb,22021519-170,Muhammad Iqbal,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"152,070",-,Room Allotted,"1,650",ON,71102-6148708-9,22,14030,4130,0331-2855906
+649,H2-UH,C-06N,02-Feb,22021519-171,Arshad,Blochistan Q.,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"40,740",-,Room Allotted,-180,ON,42401-3451592-1,22,260,4150,0337-9760693
+650,H2-UH,C-07N,10-Sept,25011512-027,Muhib Ullah,FATA,BS(Physical Edu.),BS,Physical Education Dept.,Arts Fac.,"15,560",-,Room Allotted,-600,ON,21302-8035001-5,25,520,4450,0308-5720603
+651,H2-UH,C-07N,10-Sept,25021511-133,Faridullah,FATA,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,15560,-,Room Allotted,-240,ON,21107-6004731-9,25,540,4430,0341-9187594
+652,H2-UH,C-07N,10-Sept,25021511-178,Amjid Ur Rehman,FATA,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,15180,-,Room Allotted,"3,190",ON,21604-8504790-5,25,500,4090,0336-9686281
+653,H2-UH,C-07N,10-Sept,25021520-025,Hamid Ullah,FATA,BS (HCM),BS,Management Sciences Dept.,FMAS,"15,080",-,Room Allotted,-390,ON,21303-6556052-3,25,400,4090,0333-6128092
+654,H2-UH,C-07N,10-Sept,25031578-018,Syed Ghamkhar Hussain,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"30,880",-,Room Allotted,-300,ON,34402-7053149-1,25,13930,4030,0327-9955808
+655,H2-UH,C-07N,10-Sept,25031578-061,Baqir Ali,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"37,125",-,Room Allotted,430,ON,34104-9933601-1,25,13930,4030,0301-7856069
+656,H2-UH,C-07N,10-Sept,25031578-062,Ali Ahmad,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,31120,-,Room Allotted,"1,510",ON,34403-5310839-3,25,14050,4150,0319-1868504
+657,H2-UH,C-07N,10-Sept,25031578-065,Muhammad Talha,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"31,720",-,Room Allotted,"4,370",ON,34403-1251704-1,25,14350,4450,0347-4530667
+658,H2-UH,C-07N,10-Sept,25051554-052,Muhammad Shahid Khan,FATA,BS(Commerce),BS,Commerce Dept.,FMAS,15200,-,Room Allotted,-60,ON,21402-9640228-3,25,360,4250,0325-9395045
+659,H2-UH,C-07N,10-Sept,25811578-007,Muhmmad Bazal Imtiaz,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,31580,-,Room Allotted,-,ON,34402-2328271-7,25,14330,4330,0333-9092317
+660,H2-UH,C-09N,02-Feb,22021519-134,Muhammad Abdullah Ahmed,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"115,740",-,Room Allotted,-240,ON,34402-8565031-1,22,14050,4150,0301-0879865
+661,H2-UH,C-09N,02-Feb,22021519-160,Qaiser Aftab,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"70,320",-,Room Allotted,-30,ON,21506-8633451-9,22,140,4010,0332-5405594
+662,H2-UH,C-10N,03-Mar,22021519-025,Muhammad Hammad Mughal,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"152,720",-,Room Allotted,-,ON,34602-4237769-7,22,14070,4190,0336-1468409
+663,H2-UH,C-10N,03-Mar,22021519-034,Ali Imran,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"150,000",-,Room Allotted,-,ON,34603-2719725-3,22,14010,4250,0309-2201350
+664,H2-UH,C-10N,03-Mar,22021519-040,Rana Faizan Ali,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"147,770","-3,990",Room Allotted,-,ON,34402-4528833-1,22,14310,-3990,0334-4822783
+665,H2-UH,C-11N,03-Mar,22011556-005,Ihtisham Majeed,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,060",-,Room Allotted,-30,ON,34602-69888333-5,22,13910,4010,0342-5480987
+666,H2-UH,C-11N,03-Mar,22011556-008,Zaheer Ali,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,000",-,Room Allotted,-30,ON,37301-5140780-5,22,13910,4010,0336-9334198
+667,H2-UH,C-11N,03-Mar,22011556-053,Hasaan Azeem,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,440",-,Room Allotted,-30,ON,34602-6762802-1,22,13910,4010,0314-6802816
+668,H2-UH,C-12N,03-Mar,22011556-065,Abdul Rehman,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,240",-,Room Allotted,-300,ON,34502-9690030-3,22,13890,4190,0311-0470824
+669,H2-UH,C-12N,03-Mar,22011598-068,Sami Ul Haq,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"149,480",-,Room Allotted,-300,ON,38303-2054902-7,22,14090,4190,0311-7761815
+670,H2-UH,C-12N,03-Mar,22014156-022,Waqar Ahmad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"132,470",-,Room Allotted,-210,ON,34104-5977390-1,22,13890,3990,"0322-0859369, 0347-6287771"
+671,H2-UH,C-13N,03-Mar,22011556-071,Muhammad Tayyab,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"146,090","-3,990",Room Allotted,-,ON,15402-5563965-7,22,14170,4470,0342-9655164
+672,H2-UH,C-13N,03-Mar,22011556-072,Qadar Nawaz,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"146,870","-3,990",Room Allotted,-,ON,15402-0280071-3,22,14170,4470,0326-1069226
+673,H2-UH,C-13N,03-Mar,22011556-079,Muhammad Shoaib,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"150,800",-,Room Allotted,"6,170",ON,32302-8527584-5,22,13890,3990,0301-4498295
+674,H2-UH,C-14N,03-Mar,22011556-032,Muhammad Jabran Munawar,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"151,390",-,Room Allotted,-,ON,34603-3175139-7,22,14350,4450,0307-7145151
+675,H2-UH,C-14N,03-Mar,22014156-067,Ihtisham Hassan,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"99,950",-,Room Allotted,-450,ON,34301-9183928-7,22,14090,4090,0347-9736669
+676,H2-UH,C-14N,03-Mar,22014156-122,Malik Muhammad Ahsan,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"100,190",-,Room Allotted,-390,ON,34301-5189163-9,22,14090,4250,0307-9940288
+677,H2-UH,C-15N,03-Mar,22011556-031,Riyan Zafar,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"115,840",-,Room Allotted,"1,950",ON,81103-7372717-3,22,13890,3990,0342-9167203
+678,H2-UH,C-15N,03-Mar,22011556-061,Umair Tariq,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"150,380",-,Room Allotted,"14,980",ON,81103-5767839-1,22,14090,4190,0348-8996628
+679,H2-UH,C-15N,03-Mar,22021519-055,Muhammad Tahir,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"99,010",-,Room Allotted,-,ON,34604-0493220-1,22,14150,4250,0333-8730575
+680,H2-UH,C-16N,04-Mar,21014109-025,Muhammad Waleed,Open Merit,BS(Math-E),BS-E,Mathematics Dept.,Sciences Fac.,"166,540","-17,880",Room Allotted,-,ON,34602-5211905-3,21,-13890,-3990,0344-2055437
+681,H2-UH,C-16N,04-Mar,22011598-139,Ubaid Ullah,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"150,150",-,Room Allotted,-180,ON,34602-4096661-5,22,13890,4150,0319-2513751
+682,H2-UH,C-16N,04-Mar,22011598-140,Muhammad Asad Arshad,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"151,260",-,Room Allotted,"1,840",ON,34602-3565874-5,22,14150,4250,0304-6856659
+683,H2-UH,C-16N,04-Mar,23011561-078,Muhammad Anas,Open Merit,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"102,160",-,Room Allotted,-90,ON,35503-0181478-1,23,13950,4050,0324-8030625
+684,H2-UH,C-17N,02-Feb,22011556-117,Abdul Shakoor,Blochistan Q.,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"34,620","-3,990",Room Allotted,-480,ON,56304-3430021-7,22,140,-3990,0305-1547969
+685,H2-UH,C-17N,02-Feb,22014156-021,Umer Zulfiqar,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"132,630",-,Room Allotted,-60,ON,34602-9333394-9,22,13890,3990,0307-9629399
+686,H2-UH,C-18N,03-Mar,22011598-005,Muhammad Ahmad,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"132,570",-,Room Allotted,-30,ON,34101-7073223-7,22,13910,3990,0317-7272959
+687,H2-UH,C-18N,03-Mar,22011598-008,Fahad Riaz,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"149,060",-,Room Allotted,-,ON,34301-5826561-5,22,13890,3990,0319-4432153
+688,H2-UH,C-18N,03-Mar,22811598-001,Ali Zain Anwar,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"148,900",-,Room Allotted,-,ON,34302-5002243-5,22,13890,3990,0345-1314782
+689,H2-UH,C-19N,03-Mar,22024119-135,Seeman Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"115,640",-,Room Allotted,-,ON,34104-8196258-3,22,13890,3990,0309-1735564
+690,H2-UH,C-19N,03-Mar,22024119-140,Zain-Ul-Abedeen,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,890",-,Room Allotted,-,OFF,34104-7585768-3,22,14030,4130,0346-6823839
+691,H2-UH,C-19N,03-Mar,22024119-155,Usman Ayaz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"115,800",-,Room Allotted,-,ON,34601-1933177-3,22,13890,3990,0346-0677492
+692,H2-UH,C-20N,03-Mar,22024119-109,Syed Taqi Hussain Zaidi,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"132,590",-,Room Allotted,-,ON,34104-9937070-5,22,13890,3990,0318-5086914
+693,H2-UH,C-20N,03-Mar,22024119-184,Hassan Ishfaq,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"116,480",-,Room Allotted,-,OFF,34101-1022720-5,22,14170,4270,"0308-6042536, 0302-6336382"
+694,H2-UH,C-20N,03-Mar,22814119-005,Muhammad Abubakar Ul Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"115,920",-,Room Allotted,-30,ON,34301-7205384-9,22,13890,3990,0315-7744739
+695,H2-UH,C-21N,03-Mar,23014119-057,Hassnain Raees,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,900",-,Room Allotted,-,ON,34203-3188500-1,23,14030,4130,0314-5797300
+696,H2-UH,C-21N,03-Mar,23014119-095,Muhammad Hasham Toqeer,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"82,950",-,Room Allotted,-,ON,34202-0335192-1,23,13910,4130,0314-6618751
+697,H2-UH,C-21N,03-Mar,23014119-147,Ahsan Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"101,830",-,Room Allotted,-420,ON,37302-1279856-1,23,13860,4270,0327 0382053
+698,H2-UH,C-22N,02-Feb,22011556-033,Abdul Wadood,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,230",-,Room Allotted,-,ON,34501-3028294-3,22,13860,3990,0308-0941366
+699,H2-UH,C-22N,02-Feb,22011556-058,Sajid Ali,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"149,540",-,Room Allotted,200,ON,34502-4113236-7,22,14050,4150,0302 9806881
+700,H2-UH,C-23N,03-Mar,22014198-053,Abdul Wahab,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,990","-13,890",Room Allotted,-,ON,34101-6115033-1,22,-13890,4310,0316-7619481
+701,H2-UH,C-23N,03-Mar,22014198-056,Muhammad Muzamil Bhatti,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"96,780","-17,880",Room Allotted,"3,040",ON,34601-9765692-5,22,-13890,-3990,"03111392509,
+0349-1714812"
+702,H2-UH,C-23N,03-Mar,22014198-168,Adil Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"115,940",-,Room Allotted,-,ON,34104-2392049-7,22,13890,3990,0345-5818604
+703,H2-UH,C-24N,03-Mar,22014198-100,Muhammad Bilal,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"115,600",-,Room Allotted,-,ON,37301-1528352-3,22,13890,3990,0333-0562174
+704,H2-UH,C-24N,03-Mar,22014198-132,Hasaan Tanveer,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"116,040",-,Room Allotted,-,ON,34101-5935066-3,22,13890,3990,"0318-7333992, 0332-8110828"
+705,H2-UH,C-24N,03-Mar,22014198-156,Shahid Mehmood,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"116,590",-,Room Allotted,-,ON,34101-3034771-5,22,13890,3990,0320-7729342
+706,H2-UH,C-25N,03-Mar,22014198-015,Muhammad Muzammal Hussain,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"115,710","-17,880",Room Allotted,790,ON,34603-4583073-5,22,-13890,-3990,0340-9314041
+707,H2-UH,C-25N,03-Mar,22014198-038,Waleed Afzal,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"129,760","-3,990",Room Allotted,-,ON,34601-1643741-5,22,14070,-3990,"0306-1300962, 0323-9563164"
+708,H2-UH,C-25N,03-Mar,22014198-040,Muhammad Usman,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"129,860","-3,990",Room Allotted,-,ON,34601-3775399-3,22,14050,-3990,"0323-9563164, 0306-1300962"
+709,H2-UH,C-26N,03-Mar,23014119-004,Zia Mustafa,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"101,580",-,Room Allotted,-30,ON,37301-8583607-5,23,13890,4010,0305-5377468
+710,H2-UH,C-26N,03-Mar,23014119-016,Muhammad Arham Shahid,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"103,760",-,Room Allotted,-,ON,34104-3447606-1,23,13930,4030,"0322-5513294, 0335-2781478"
+711,H2-UH,C-26N,03-Mar,23814119-005,Maaz Maqbool Abdullah,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"90,740",-,Room Allotted,-,OFF,34101-6354749-7,23,14010,4330,0333-8275280
+712,H2-UH,C-27N,03-Mar,23014119-012,Huzaifa Fayyaz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"97,640",-,Room Allotted,-,ON,34104-0568065-9,23,13890,3990,0325-4484667
+713,H2-UH,C-27N,03-Mar,23014119-013,Nouman Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"97,760",-,Room Allotted,-,ON,34101-9546681-1,23,13890,3990,0324-2299361
+714,H2-UH,C-27N,03-Mar,23014119-172,Abdur Rehman,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,750",-,Room Allotted,-,OFF,34202-6538602-7,23,14050,4150,0319-7632206
+715,H2-UH,C-28N,03-Mar,23014119-039,Muhammad Faisal Bilal,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,380",-,Room Allotted,-60,ON,38101-9973349-7,23,13930,4030,0336-6696048
+716,H2-UH,C-28N,03-Mar,23014119-081,Ahmed,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"103,830",-,Room Allotted,-,ON,90403-0235184-9,23,13890,3990,"0330-4396116, 0033-6696048"
+717,H2-UH,C-28N,03-Mar,23014119-105,Fahad Aziz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"101,940",-,Room Allotted,-,ON,35401-7730369-9,23,13890,3990,0315-4249917
+718,H2-UH,C-29N,03-Mar,23014119-040,Hanzala Gulzar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,120",-,Room Allotted,-,ON,34101-6285645-3,23,14050,4150,0313-4558562
+719,H2-UH,C-29N,03-Mar,23014119-073,Syed Muntazir Mehdi,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,160",-,Room Allotted,-30,ON,34101-8176288-5,23,13910,4010,0336-7204070
+720,H2-UH,C-29N,03-Mar,23014119-100,Ahmad Zia,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"60,780","-13,890",Room Allotted,-,OFF,34101-9295675-7,23,-13890,4250,0312-4681511
+721,H2-UH,C-30N,03-Mar,23014119-050,Abdul Hadi,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,160",-,Room Allotted,-,ON,34101-9314575-9,23,14050,4150,0300-9449958
+722,H2-UH,C-30N,03-Mar,23014119-054,Luqman Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"101,820",-,Room Allotted,-,ON,34101-9018601-7,23,13890,4010,0307-9949349
+723,H2-UH,C-30N,03-Mar,23014119-085,Muhammad Kamran Haider,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"101,820",-,Room Allotted,-,ON,34403-2422491-7,23,13910,4030,"0341-2620877, 0314-7613022"
+724,H2-UH,C-31N,03-Mar,23014119-101,Muhammad Umar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"84,120","-17,880",Room Allotted,-90,ON,34301-4736210-7,23,-13890,-3990,0327-1283160
+725,H2-UH,C-31N,03-Mar,23014119-170,Saad Qadeer,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,650",-,Room Allotted,-420,ON,34203-4002164-5,23,14170,4270,0343-8377255
+726,H2-UH,C-31N,03-Mar,23014119-179,Rehman Nazir,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,200",-,Room Allotted,-210,ON,37302-2719182-1,23,14030,4130,0342-5433449
+727,H2-UH,C-32N,02-Feb,23014119-180,Ali Sheraz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"105,080",-,Room Allotted,-90,ON,34301-7499506-5,23,13890,3990,0320-7783043
+728,H2-UH,C-32N,02-Feb,25014119-209,Syed Safi Hadier,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,37045,-,Room Allotted,-60,ON,34201-0705144-9,25,13890,3990,0305-8356555
+729,H2-UH,C-33N,03-Mar,23014119-020,Muhammad Qasim Imtiaz,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"97,360",-,Room Allotted,-,ON,42201-8206734-7,23,13890,3990,"0313-8036224, 0303-4626281"
+730,H2-UH,C-33N,03-Mar,23014119-092,Muhammad Fazeel Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"97,990","-3,990",Room Allotted,-90,ON,35202-9256266-5,23,13890,-3990,"0346-4609261, 0319-8802667"
+731,H2-UH,C-33N,03-Mar,23014119-156,Muhammad Naeem,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"96,180","-3,990",Room Allotted,"8,100",ON,34103-23876233,23,14170,-3990,"0347-7921060, 0315-1921060"
+732,H2-UH,C-34N,03-Mar,23014119-089,Abdul Jabbar,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,720",-,Room Allotted,-,ON,34104-3411604-5,23,13890,3990,"0322-1231128, 0309-5370227"
+733,H2-UH,C-34N,03-Mar,23014119-113,Muhammad Rafay Hassan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"103,280",-,Room Allotted,-450,ON,34603-4982113-7,23,14170,4270,0340-1429406
+734,H2-UH,C-34N,03-Mar,23014119-122,Abdul Muneeb,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"102,600",-,Room Allotted,-,ON,34102-6976585-9,23,14030,4130,"0317-7612223, 0325-7929100"
+735,H2-UH,C-35N,03-Mar,23814156-003,Mohsin Javed,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,860",-,Room Allotted,-240,ON,81103-0883763-9,23,14050,4150,0355-8329365
+736,H2-UH,C-35N,03-Mar,23814156-025,Mohid Imran,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"104,420",-,Room Allotted,-,ON,34603-4099755-7,23,13930,3990,0344-7252395
+737,H2-UH,C-35N,03-Mar,23814156-026,Mian Ali Raza,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,130",-,Room Allotted,-,ON,34101-8472303-1,23,13890,3990,0325-8075636
+738,H2-UH,C-36N,04-Mar,23014156-068,Muhammad Adil,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,480",-,Room Allotted,-240,ON,34201-8418331-1,23,14050,4150,0334-8870990
+739,H2-UH,C-36N,04-Mar,23014156-088,Abdul Rehman,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,180",-,Room Allotted,-,ON,34501-5477212-7,23,13890,3990,"0336-7145219, 0326-9668142"
+740,H2-UH,C-36N,04-Mar,23014156-106,Muhammad Ahtisham Nasir,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"51,200","-14,640",Room Allotted,-,ON,35302-2920909-9,23,13890,4010,0307-9622878
+741,H2-UH,C-36N,04-Mar,23014156-147,Ghulam Dastgir,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,400",-,Room Allotted,-60,ON,34104-8913061-7,23,14030,4130,0334-8148996
+742,H2-UH,C-37N,02-Feb,23014156-010,Ahmed Raza,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"56,050","-17,880",Room Allotted,"5,580",ON,34601-7866076-5,23,-13890,-3990,0326-6496028
+743,H2-UH,C-37N,02-Feb,23814156-008,Muhammad Waqas,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"59,630","-17,880",Room Allotted,-,ON,36102-2638911-8,23,-13890,-3990,0327-7055552
+744,H2-UH,C-38N,03-Mar,23014156-030,Maimoon Ali,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"78,840","-3,990",Room Allotted,"3,620",ON,81101-6397405-7,23,14110,-3990,0342-0342445
+745,H2-UH,C-38N,03-Mar,23014156-042,Uzair Ahmad,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"84,400","-17,880",Room Allotted,"5,520",ON,34403-7087004-5,23,-13890,-3990,0341-6559941
+746,H2-UH,C-38N,03-Mar,23814156-005,Muhammad Tayyab Yasir,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,420",-,Room Allotted,-,ON,37303-7801011-5,23,14030,4130,0310-5884657
+747,H2-UH,C-39N,03-Mar,23014156-008,Abdul Rahman,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"101,880",-,Room Allotted,-,ON,34402-4998556-1,23,13890,3990,0348-6762645
+748,H2-UH,C-39N,03-Mar,23014156-016,Adil Ashraf,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"103,110",-,Room Allotted,-,ON,34601-0440387-9,23,14050,4150,"0300-7449347, 0326-6246040"
+749,H2-UH,C-39N,03-Mar,23014156-023,Muhammad Zunair,Open Merit,BS(IT-E),BS-E,Information Technology Dept.,C & IT Fac.,"102,720",-,Room Allotted,-,ON,34101-3639557-7,23,13890,3990,0334-4511278
+750,H3-AH,D-001,05-May,22011554-026,Abdullah Usman,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,"149,760",-,Room Allotted,"5,430",ON,34602-0499403-7,22,13890,4410,0316-5174019
+751,H3-AH,D-001,05-May,22011554-052,Inzmimam Ali,Gilgat Baltistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"133,230","-17,880",Room Allotted,"5,520",ON,71501-1438121-7,22,-13890,-3990,0355-4618538
+752,H3-AH,D-001,05-May,22014154-056,Rajab Lal Shahbaz,Open Merit,BS(A&F-E),BS-E,Commerce Dept.,FMAS,"156,610",-,Room Allotted,"6,430",ON,34301-5584670-1,22,14170,4270,0322-5658287
+753,H3-AH,D-001,05-May,22020920-061,Sammi Ul Rehman,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"149,100",-,Room Allotted,-,OFF,34603-5845472-3,22,13890,3990,0310-7756197
+754,H3-AH,D-001,05-May,25011520-091,Muhammad Abbas,FATA,BS(Bsn. Analytics),BS,Management Sciences Dept.,FMAS,15200,-,Room Allotted,-390,ON,21303-9565237-9,25,360,4250,0309-1912428
+755,H3-AH,D-002,05-May,22020920-185,Muhammad Taimoor Ijaz,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"150,120",-,Room Allotted,-240,ON,34402-5370484-9,22,14050,4150,0312-7344184
+756,H3-AH,D-002,05-May,22020920-221,Saeed Rehman,IDP Q.,BBA,BS,Management Sciences Dept.,FMAS,"70,590",-,Room Allotted,-90,ON,21301-8768200-9,22,160,4050,0324-9598654
+757,H3-AH,D-002,05-May,22020920-222,Muhammad Huzaifa Tahir,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"135,510","-17,880",Room Allotted,"4,550",ON,35201-5100928-3,22,-13890,-3990,0318-8051974
+758,H3-AH,D-002,05-May,22020920-225,Ishtiaq Ahmed,Blochistan Q.,BBA,BS,Management Sciences Dept.,FMAS,"39,530",-,Room Allotted,-540,ON,52301-8421292-1,22,440,4330,0331-2823804
+759,H3-AH,D-002,05-May,22021554-048,Mudasar Ali,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,"148,960",-,Room Allotted,-240,ON,34602-9777570-7,22,13890,3990,0305-9351487
+760,H3-AH,D-004,04-Apr,22011516-028,Syed Turab Haider,Open Merit,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"133,960","-17,880",Room Allotted,-,ON,34602-7781508-5,21,-13890,-3990,0313-1473780
+761,H3-AH,D-004,04-Apr,22020920-035,Subtain Arif,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"124,810",-,Room Allotted,-,OFF,34403-9325302-9,22,13890,3990,0342-6646068
+762,H3-AH,D-004,04-Apr,22020920-093,M Ahmad,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"149,800",-,Room Allotted,-510,ON,34602-7668425-5,22,14290,4150,0319-7248608
+763,H3-AH,D-004,04-Apr,22020920-136,Hasnat Akram,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"145,390","-3,990",Room Allotted,650,ON,34603-5167602-5,22,14050,-3990,0348-6710422
+764,H3-AH,D-005,04-Apr,21011515-001,Hanan Ali Bajwa,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"164,180","-17,880",Room Allotted,-,ON,34602-7278526-5,21,-13890,-3990,0300-6124379
+765,H3-AH,D-005,04-Apr,22011554-051,Khalil U Rehmam,Blochistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"36,600",-,Room Allotted,-,ON,54303-2021436-3,22,100,3990,0310-8187507
+766,H3-AH,D-005,04-Apr,22020920-120,Asjad Hussain,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"68,310","-17,880",Room Allotted,-,OFF,34604-0531742-7,22,-13890,-3990,0320 6424291
+767,H3-AH,D-005,04-Apr,23024641-042,Muhammad Faisal Khan,Blochistan Q.,BS(Design),BS,Product Design Dept.,SADA,"24,060","-8,180",Room Allotted,"17,170",OFF,56503-9182153-3,23,-100,-3990,0342-0200901
+768,H3-AH,D-006,05-Apr,22011521-044,Mir Moeez Khan Zehri,Open Merit,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"135,160",-,Room Allotted,-90,ON,51404-0481287-1,22,13890,4050,0333-3667039
+769,H3-AH,D-006,05-Apr,22011521-056,Zubair Ahmed,Blochistan Q.,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"39,500",-100,Room Allotted,-,OFF,54401-8421984-1,22,-100,4410,0336-1200831
+770,H3-AH,D-006,05-Apr,22011587-045,Feroze Khan,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"154,520",-,Room Allotted,-240,ON,56101-9066095-3,22,14050,4150,0333-1717718
+771,H3-AH,D-006,05-Apr,25011598-154,Rafi Ullah,Blochistan Q.,BS(DS),BS,Software Engineering Dept.,C & IT Fac.,14960,-,Room Allotted,-210,ON,54401-8032955-5,25,240,4130,0336-9925259
+772,H3-AH,D-006,05-Apr,25031521-067,Sher Yar Khan,Blochistan Q.,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,14960,-,Room Allotted,-30,ON,54501-2173333-9,25,120,4010,0333-8327495
+773,H3-AH,D-007,04-Apr,22011515-006,Muhammad Hassan,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"154,590",-,Room Allotted,-450,ON,34101-9395519-9,22,14050,4150,0301-9191229
+774,H3-AH,D-007,04-Apr,22011515-015,Shahwaiz,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"157,580",-,Room Allotted,-450,ON,51202-8190175-3,22,14210,4310,0336-2626179
+775,H3-AH,D-007,04-Apr,22011515-025,Muhammad Talha,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"151,410",-,Room Allotted,790,ON,34103-5395870-9,22,14050,4150,0317-7281034
+776,H3-AH,D-007,04-Apr,24011519-175,Saad Hassan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"72,850",-,Room Allotted,-30,ON,31304-2053947-5,24,14270,3990,0340-6063725
+777,H3-AH,D-008,04-Apr,22011508-051,Muhammad Abdullah,Open Merit,BS(RS&GIS),BS,Geography Dept.,Sciences Fac.,"186,650",-,Room Allotted,"3,760",ON,34102-7059395-5,21,14210,4310,0302-6616637
+778,H3-AH,D-008,04-Apr,22011508-052,Muhammad Ahmad Saleem,Open Merit,BS(RS&GIS),BS,Geography Dept.,Sciences Fac.,"186,420",-,Room Allotted,-,ON,35404-2469118-3,21,14350,4450,0331-4082760
+779,H3-AH,D-008,04-Apr,22011510-126,Muhammad Tariq,Blochistan Q.,BS(Physics),BS,Physics Dept.,Sciences Fac.,"38,550",-,Room Allotted,-90,ON,54303-9901889-7,22,160,4050,0333-0217189
+780,H3-AH,D-008,04-Apr,23011556-132,Hikmat Ullah,Blochistan Q.,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"29,670",-,Room Allotted,-,ON,54301-2578111-7,23,100,3990,0317-8082055
+781,H3-AH,D-009,06-Apr,22011506-061,Sohaib Ahmad,Open Merit,BS(Botany),BS,Botany Dept.,Sciences Fac.,"131,900",-,Room Allotted,"3,900",ON,34103-3207560-9,22,14030,4130,0347-0654959
+782,H3-AH,D-009,06-Apr,22011509-016,Mohsin Faraz Masih,Open Merit,BS(Math),BS,Mathematics Dept.,Sciences Fac.,"148,980",-,Room Allotted,-,ON,34601-7940678-1,22,13890,3990,0307-6374196
+783,H3-AH,D-009,06-Apr,22011509-068,Umair Saeed,Open Merit,BS(Math),BS,Mathematics Dept.,Sciences Fac.,"148,580","-3,990",Room Allotted,"4,140",ON,381039-189474-9,22,13950,-3990,0341-0158425
+784,H3-AH,D-009,06-Apr,22011509-097,Shahmir Ali,Open Merit,BS(Math),BS,Mathematics Dept.,Sciences Fac.,"148,920",-,Room Allotted,-30,ON,34101-6217249-1,22,13890,3990,0322-0264203
+785,H3-AH,D-009,06-Apr,22011509-121,Fida Urehman,Blochistan Q.,BS(Math),BS,Mathematics Dept.,Sciences Fac.,"34,470","-3,990",Room Allotted,-,ON,56201-9528813-1,22,100,-3990,0323-8071600
+786,H3-AH,D-009,06-Apr,22021560-049,Muhammad Qasim,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"150,740",-,Room Allotted,-,ON,34603-3788622-7,22,13910,4010,0301-9707684
+787,H3-AH,D-010,03-Apr,22011508-066,Alyan Ahmad,Open Merit,BS(Geography),BS,Geography Dept.,Sciences Fac.,"151,830",-,Room Allotted,-30,ON,71702-0344465-9,22,13910,4010,0311-8964964
+788,H3-AH,D-010,03-Apr,22011508-067,Mohammad Hussain,Blochistan Q.,BS(Geography),BS,Geography Dept.,Sciences Fac.,"40,520",-,Room Allotted,-390,ON,51201-8514923-5,22,360,4250,0333-7093631
+789,H3-AH,D-010,03-Apr,24021553-132,Saqlain Mehdi,Gilgat Baltistan Q.,BS(Bio-Chemistry),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"74,070",-,Room Allotted,-30,ON,71104-7107644-3,24,13930,4010,0319-6947337
+790,H3-AH,D-011,05-Apr,22011506-129,Nasir Hussain,Blochistan Q.,BS(Botany),BS,Botany Dept.,Sciences Fac.,"50,310",-,Room Allotted,-90,ON,51401-3011683-7,22,100,3990,0343-0572749
+791,H3-AH,D-011,05-Apr,22011507-106,Muhammad Ibrahim,Blochistan Q.,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,"34,780","-4,090",Room Allotted,-510,ON,56503-3831230-3,22,-100,-3990,0313-0849154
+792,H3-AH,D-011,05-Apr,22011560-119,Mohammad Mozamil,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"33,890","-3,990",Room Allotted,-60,ON,56301-5529335-7,22,120,-3990,0336-1869373
+793,H3-AH,D-011,05-Apr,23011515-075,Muhammad Adnan,Blochistan Q.,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"27,570","-3,990",Room Allotted,"32,420",ON,56302-8610056-1,23,140,-3990,0331-2020524
+794,H3-AH,D-011,05-Apr,25021556-230,Muhammad Bilal,Blochistan Q.,BS(IT),BS,Information Technology Dept.,C & IT Fac.,15020,-,Room Allotted,-600,ON,56302-9405949-7,25,160,4270,0335-1488314
+795,H3-AH,D-012,04-Apr,22011560-100,Shayan Waleed Basharat,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"149,200",-,Room Allotted,-,ON,37201-8222235-5,22,13910,4010,0301-9577500
+796,H3-AH,D-012,04-Apr,22021560-056,Naqeeb Ullah,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"39,260","-4,090",Room Allotted,"24,570",OFF,56201-8825549-5,22,-100,-3990,0329-7423541
+797,H3-AH,D-012,04-Apr,25041553-124,Jahanzaib,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,15080,-,Room Allotted,-600,ON,51201-0152681-9,25,400,4090,0332-3868141
+798,H3-AH,D-012,04-Apr,25041553-125,Saif Ullah,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,15080,-,Room Allotted,-450,ON,51201-5402939-5,25,400,4090,0343-3445561
+799,H3-AH,D-014,05-May,22014107-009,Muhammad Rizwan,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"133,670","-17,880",Room Allotted,840,ON,34202-5431497-5,22,-13890,-3990,0307-8930577
+800,H3-AH,D-014,05-May,22014107-011,Muhammad Hammad Rafaqat,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"149,880",-,Room Allotted,-,ON,34202-7279625-1,22,13890,3990,0332 8434709
+801,H3-AH,D-014,05-May,22014107-012,Muhammad Anees,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"82,250","-17,880",Room Allotted,890,ON,34601-6689099-9,22,-13890,-3990,0334-4827219
+802,H3-AH,D-014,05-May,22014107-014,Muhammad Usman Arshad,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"135,310",-,Room Allotted,-,ON,34301-0473127-9,22,14290,4390,"0311-0470860, 0307-8930577"
+803,H3-AH,D-014,05-May,22014107-020,Rizwan Akbar,Open Merit,BS(Chemistry-E),BS-E,Chemistry Dept.,Sciences Fac.,"82,130","-17,880",Room Allotted,"2,400",ON,37205-0345417-1,22,-13890,-3990,0316-7608651
+804,H3-AH,D-101,06-May,22011511-088,Hafiz Umer Khaliq,Open Merit,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,"148,960",-,Room Allotted,-,ON,35404-7039746-9,22,13890,3990,0305-8025089
+805,H3-AH,D-101,06-May,22011511-111,Shams Ur Rehman,Blochistan Q.,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,"38,550","-3,990",Room Allotted,"6,440",ON,56201-3027287-1,22,100,-3990,0319-6640188
+806,H3-AH,D-101,06-May,22011518-018,Abdul Nabi,Open Merit,BS(Sociology),BS,Sociology Dept.,Social Sc. Fac.,"132,480","-17,880",Room Allotted,"10,930",ON,53402-3001504-1,22,-13890,-3990,0302-3185131
+807,H3-AH,D-101,06-May,22011518-031,Zeeshan Arif,Open Merit,BS(Sociology),BS,Sociology Dept.,Social Sc. Fac.,"129,080","-3,990",Room Allotted,-60,ON,37301-7035906-5,22,14410,-3990,0316-5853519
+808,H3-AH,D-101,06-May,22011518-057,Muhammad Ajmal,Blochistan Q.,BS(Sociology),BS,Sociology Dept.,Social Sc. Fac.,"35,800","-4,090",Room Allotted,"19,550",ON,53404-1598475-7,22,-100,-3990,0333-3672492
+809,H3-AH,D-101,06-May,25011551-046,Ghulam Sarwar,Blochistan Q.,BS(History),BS,History and Pakistan Studies Dept.,Social Sc. Fac.,15240,-,Room Allotted,-420,ON,51201-0987306-5,25,380,4270,0344-2246722
+810,H3-AH,D-102,07-May,23011503-016,Adnan Jameel,Blochistan Q.,BS(History),BS,History and Pakistan Studies Dept.,Social Sc. Fac.,"31,660",-,Room Allotted,"3,720",ON,51301-4598826-7,23,420,4330,0333-3273778
+811,H3-AH,D-102,07-May,23011515-072,Zohaib Faraz,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"102,850",-,Room Allotted,"5,310",ON,51202-6987443-9,23,14030,4130,0334-4308002
+812,H3-AH,D-102,07-May,23011518-075,Faheem Ur Rahman,Blochistan Q.,BS(Sociology),BS,Sociology Dept.,Social Sc. Fac.,"31,870",-,Room Allotted,"3,270",ON,51402-5121026-7,23,100,3990,0330-2782620
+813,H3-AH,D-102,07-May,23011587-119,Talha Khawar,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"47,650","-17,880",Room Allotted,-,ON,34104-1170497-5,23,-13890,-3990,0324-9981289
+814,H3-AH,D-102,07-May,23013901-061,Mehboob Ali,Blochistan Q.,BS(Education),BS,Education Dept.,Social Sc. Fac.,"25,840","-4,090",Room Allotted,"1,040",ON,55202-1160602-9,23,-100,-3990,0334-1716973
+815,H3-AH,D-102,07-May,25011502-298,Muhammad Arshad,Blochistan Q.,BS(English),BS,English Dept.,Arts Fac.,14800,-,Room Allotted,-90,ON,53501-0343053-5,25,160,4050,0349-8685642
+816,H3-AH,D-102,07-May,25011519-110,Naseeb Ullah,Blochistan Q.,BS(AI),BS,Computer Science Dept.,C & IT Fac.,10590,"-4,090",Room Allotted,"41,790",ON,56401-6424186-7,25,-100,-3990,0331-9582992
+817,H3-AH,D-103,04-Apr,22011503-002,Muhammad Ibrahim,Open Merit,BS(History),BS,History and Pakistan Studies Dept.,Social Sc. Fac.,"66,340",-,Room Allotted,-,ON,34402-0278799-5,22,13890,3990,0304-5140710
+818,H3-AH,D-103,04-Apr,23011516-121,Sanaullah,Blochistan Q.,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"36,726",-,Room Allotted,"24,140",ON,51301-5193757-3,23,560,4450,0336-6720239
+819,H3-AH,D-103,04-Apr,23014111-018,Bilal Ahmad,Open Merit,BS(Psychology-E),BS-E,Psychology Dept.,Social Sc. Fac.,"102,270",-,Room Allotted,"2,920",ON,34301-2435487-5,23,14150,4250,0332-8157313
+820,H3-AH,D-103,04-Apr,23014154-006,Zia Ur Rehman,Open Merit,BS(A&F-E),BS-E,Commerce Dept.,FMAS,"102,620",-,Room Allotted,"3,530",ON,34102-6533236-3,23,14010,4130,0336-7221274
+821,H3-AH,D-104,04-Apr,23020920-080,Muhammad Haseeb Iqbal,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"97,340",-,Room Allotted,-,ON,38407-0341080-1,23,13890,3990,0301-3185292
+822,H3-AH,D-104,04-Apr,23020920-086,Muhammad Safeez Asif,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"98,180",-,Room Allotted,"3,700",ON,37301-4288155-9,23,14050,4150,0318-3514420
+823,H3-AH,D-104,04-Apr,23020920-152,Hassan Sharif Cheema,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"82,810",-,Room Allotted,-180,ON,34104-1280393-3,23,14010,4130,0331-7686831
+824,H3-AH,D-104,04-Apr,23020920-228,Wasee Abbas,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"105,290",-,Room Allotted,"1,400",ON,34102-7219760-1,23,14010,4130,0300-3594500
+825,H3-AH,D-105,03-Apr,23030920-011,Muhammad Asim Ijaz,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"101,680",-,Room Allotted,-90,ON,34202-7684111-9,23,13890,3990,0315-8223944
+826,H3-AH,D-105,03-Apr,23030920-014,Sajjad Ali,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"96,380","-3,990",Room Allotted,"8,140",ON,34103-2482623-3,23,14390,-3990,0319-8774242
+827,H3-AH,D-105,03-Apr,23030920-044,Daniyal Aziz,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"101,830",-,Room Allotted,-90,ON,34202-7062488-3,23,13890,3990,0317-0782925
+828,H3-AH,D-106,04-Apr,23011513-047,Allah Noor,Blochistan Q.,BS(Statistics),BS,Statistics Dept.,Sciences Fac.,"26,360","-3,990",Room Allotted,"11,980",ON,56601-0359395-5,23,140,-3990,0313-8689009
+829,H3-AH,D-106,04-Apr,23031554-053,Muhammad Faisal,Blochistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"30,280",-,Room Allotted,-90,ON,53501-0340514-5,23,100,4050,0348-1393200
+830,H3-AH,D-106,04-Apr,23811554-009,Musadiq Hussain,Gilgat Baltistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"100,780",-,Room Allotted,-90,ON,71103-4337521-3,23,13860,3990,0344-8852723
+831,H3-AH,D-106,04-Apr,23821554-001,Ayaz Khan,Blochistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"31,570",-,Room Allotted,-,ON,56302-5607216-1,23,100,3990,0316-8017372
+832,H3-AH,D-107,04-Apr,23011511-114,Wazir Himayat,Gilgat Baltistan Q.,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,"105,680",-,Room Allotted,-60,ON,71104-2328578-5,23,13930,4030,0325-354764
+833,H3-AH,D-107,04-Apr,23011511-116,Ajmal Khan,Blochistan Q.,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,"30,830",-,Room Allotted,-210,ON,56302-9749257-3,23,240,4130,0335-3048467
+834,H3-AH,D-107,04-Apr,23021554-011,Muhammad Kamran Ashraf,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,"97,420",-,Room Allotted,-,ON,34401-7386068-3,23,13890,3990,0348-4207241
+835,H3-AH,D-107,04-Apr,23031554-041,Muhammad Zohaib,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,"81,960","-17,880",Room Allotted,"5,750",ON,34601-7677678-3,23,-13890,-3990,0342-4074335
+836,H3-AH,D-108,05-Apr,23011507-042,Muneeb Ahmad,Open Merit,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,"97,360",-,Room Allotted,-,ON,34502-1761820-9,23,13890,3990,0331-4252538
+837,H3-AH,D-108,05-Apr,23011507-113,Umair Ahmed,Open Merit,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,"82,470",-,Room Allotted,-210,ON,34202-3172322-5,23,13890,3990,0302-1511429
+838,H3-AH,D-108,05-Apr,23011507-115,Qadir Bakhsh,Blochistan Q.,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,"22,760","-8,000",Room Allotted,"10,420",ON,51602-0933314-7,23,-100,-3990,0330-8260344
+839,H3-AH,D-108,05-Apr,23011509-108,Muhammad Umair Nadeem,Open Merit,BS(Math),BS,Mathematics Dept.,Sciences Fac.,"96,600","-3,990",Room Allotted,"7,290",ON,34601-5130942-5,23,14290,-3990,0348-1044804
+840,H3-AH,D-108,05-Apr,25021519-243,Nazeer Ahmad,Blochistan Q.,BS(CS),BS,Computer Science Dept.,C & IT Fac.,10890,"-3,990",Room Allotted,"7,880",ON,56401-9573418-5,25,300,-3990,0324-4277195
+841,H3-AH,D-109,05-Apr,22011504-018,Ayyaz Ahmed,Open Merit,BS(ISL),BS,Islamic Studies Dept.,Arts Fac.,"101,860","-17,880",Room Allotted,"5,290",ON,34403-4351923-1,22,-13890,-3990,0348-8080422
+842,H3-AH,D-109,05-Apr,22021508-075,Shay Ragam Barkat,Blochistan Q.,BS(Geography),BS,Geography Dept.,Sciences Fac.,"36,860",-,Room Allotted,-30,ON,52203-6365701-3,22,100,3990,0310-2888238
+843,H3-AH,D-109,05-Apr,23011508-030,Sheeraz,Blochistan Q.,BS(Geography),BS,Geography Dept.,Sciences Fac.,"30,150",-,Room Allotted,-30,ON,52203-4672754-5,23,100,3990,0330-3561813
+844,H3-AH,D-109,05-Apr,23021508-029,Sahir Mehmood,Blochistan Q.,BS(Geography),BS,Geography Dept.,Sciences Fac.,"30,420",-,Room Allotted,-180,OFF,53402-8368485-3,23,100,3990,0309-8164751
+845,H3-AH,D-109,05-Apr,25031561-063,Raz Muhammad,Blochistan Q.,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,15080,-,Room Allotted,-180,ON,56302-9237715-1,25,380,4110,0337-2560860
+846,H3-AH,D-110,05-Apr,23011510-095,Gul Sher,Open Merit,BS(Physics),BS,Physics Dept.,Sciences Fac.,"102,370",-,Room Allotted,-,ON,34301-9899284-7,23,14050,4150,0331-5852243
+847,H3-AH,D-110,05-Apr,23011560-070,Najeeb Ullah,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"95,430","-3,990",Room Allotted,-,OFF,34603-1943785-7,23,14150,-3990,0314-4632213
+848,H3-AH,D-110,05-Apr,23021560-038,Anas Khalid,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"98,000",-,Room Allotted,-210,ON,34601-7385280-1,23,14030,4130,0313-1490812
+849,H3-AH,D-110,05-Apr,23021560-078,Khurram Rizwan,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"99,060",-,Room Allotted,-,ON,34101-5133740-3,23,14130,4450,0302-6779746
+850,H3-AH,D-110,05-Apr,23021560-125,Liaquat Ali,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"29,550","-4,090",Room Allotted,"20,020",ON,23402-0240574-1,23,-100,-3990,0312-8682104
+851,H3-AH,D-111,04-Apr,23011560-017,Danish Ali,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"101,700",-,Room Allotted,-,ON,38401-9259030-3,23,14030,4130,0346-4694552
+852,H3-AH,D-111,04-Apr,23011560-063,Hamad Ali,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"98,830",-,Room Allotted,-,ON,34101-5695701-9,23,14050,4150,0328-9937103
+853,H3-AH,D-111,04-Apr,23011560-101,Syed Aoun Mohammad,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"97,760",-,Room Allotted,-,OFF,34102-4053338-9,23,13910,4010,0335-4255687
+854,H3-AH,D-111,04-Apr,23011560-117,Yahya Shah,Blochistan Q.,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"30,110",-,Room Allotted,-90,ON,54401-2609640-9,23,100,4050,0331-8127756
+855,H3-AH,D-112,03-Apr,22011513-071,Zahid Khan,Blochistan Q.,BS(Statistics),BS,Statistics Dept.,Sciences Fac.,"38,090","-4,090",Room Allotted,-,ON,56101-0599056-5,22,-100,-3990,0336-1711917
+856,H3-AH,D-112,03-Apr,22014109-001,Saqib Ali,Open Merit,BS(Math-E),BS-E,Mathematics Dept.,Sciences Fac.,"150,560",-,Room Allotted,-,ON,34104-1298236-9,22,13890,3990,"0345-3600784, 0325-0019194"
+857,H3-AH,D-112,03-Apr,22014110-031,Qadeer Ahmad,Open Merit,BS(Physics-E),BS-E,Physics Dept.,Sciences Fac.,"151,090",-,Room Allotted,-450,ON,34101-6332368-9,22,14050,4090,"0303-4947223, 0303-4947723"
+858,H3-AH,D-113,05-May,22014160-001,Abdul Rehman,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"149,360",-,Room Allotted,-,ON,37303-6213527-9,22,13890,3990,0332-5695116
+859,H3-AH,D-113,05-May,22014160-013,Muhammad Bilal,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"150,670",-,Room Allotted,-30,ON,34101- 8361870-1,22,13930,4010,0300-8149562
+860,H3-AH,D-113,05-May,22014160-052,Karam Nawaz Ahmed,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"148,980",-,Room Allotted,-,ON,37304-0361769-5,22,13890,3990,0304-0535215
+861,H3-AH,D-113,05-May,22014187-014,Syed Muhammad Saqlain,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"98,280","-17,880",Room Allotted,-,ON,34403-2645729-7,22,-13890,-3990,0348-4459221
+862,H3-AH,D-113,05-May,22021560-052,Hussnain Akbar,Open Merit,BS(Bio-Technology),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"148,980",-,Room Allotted,-30,ON,35404-3077686-5,22,13910,4010,0316-2800688
+863,H3-AH,D-114,05-May,24014119-079,Abdulwahab Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,610",-,Room Allotted,-60,ON,34301-5262372-7,24,13930,4030,0321-7864780
+864,H3-AH,D-114,05-May,24014119-212,Muzaffar Mehmood Khan,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,270",-,Room Allotted,-,ON,32304-1379021-1,24,13890,3990,0306-1174950
+865,H3-AH,D-114,05-May,24014119-232,Abdullah Saad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"55,470","-17,880",Room Allotted,"9,670",ON,34202-1075630-7,24,-13890,-3990,0331-6702477
+866,H3-AH,D-114,05-May,24014119-270,Abdullah Ahmad,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"74,220",-,Room Allotted,"1,410",ON,34104-7557430-3,24,14030,4130,0340-3856661
+867,H3-AH,D-114,05-May,24014119-285,Muhammad Jarri Abbas,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"73,770",-,Room Allotted,-,ON,34603-8740612-7,24,13910,4010,0306-6582204
+868,H3-AH,D-116,01-Jan,21016109-013,Sohail Ahmad,Open Merit,PhD(Math),PhD,Mathematics Dept.,Sciences Fac.,"182,690",-,Room Allotted,-,OFF,32303-5921083-5,21,13890,3990,0301-6972100
+869,H3-AH,D-117,01-Jan,24015524-008,Sadam Hussain,Open Merit,LLM,MS/M.Phil,School of Law,Arts Fac.,"69,030",-,Room Allotted,-,ON,34104-4454687-5,24,13890,3990,0347-1628694
+870,H3-AH,D-119,01-Jan,23016111-001,Muhammad Anwaar Ul Mustafa,Open Merit,PhD(Psychology),PhD,Psychology Dept.,Social Sc. Fac.,"116,380",-,Room Allotted,-,ON,36402-6840480-9,23,13910,3990,0322-5433443
+871,H3-AH,D-120,01-Jan,25011718-001,Abid Ali,Open Merit,MPhil(Sociology),MS/M.Phil,Sociology Dept.,Social Sc. Fac.,"37,165",-,Room Allotted,"2,520",ON,33403-0464090-3,25,13950,4050,0328-0758177
+872,H3-AH,D-121,01-Jan,25011718-002,Muhammad Saad Ul Hassan,Open Merit,MPhil(Sociology),MS/M.Phil,Sociology Dept.,Social Sc. Fac.,"32,960",-,Room Allotted,-60,ON,37301-8035120-9,25,13930,4030,0316-9449697
+873,H3-AH,D-122,01-Jan,24011710-016,Muhammad Riasat,Disable Q.,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"43,140","-3,990",Room Allotted,"28,670",ON,37203-5681547-7,24,520,-3990,0307-5096821
+874,H3-AH,D-123,01-Jan,24011710-010,Rana Ahmad Jamil,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"80,690","-17,880",Room Allotted,-30,ON,34301-3276388-5,24,-13890,-3990,0337-4947633
+875,H3-AH,D-127,08-Sept,23011515-001,Asad Ali,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"103,710",-,Room Allotted,-30,ON,34501-1152263-5,23,13890,3990,0327-4495843
+876,H3-AH,D-127,08-Sept,23011515-002,Muhammad Usman Saif,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"97,110","-3,990",Room Allotted,790,ON,34603-8856416-5,23,14310,-3990,0326-0801476
+877,H3-AH,D-127,08-Sept,23011515-027,Abdul Rehman,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"99,290",-,Room Allotted,-30,ON,34104-6461657-5,23,13890,3990,0305-6214950
+878,H3-AH,D-127,08-Sept,23011587-009,Qasim Ali,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"88,010","-17,880",Room Allotted,"4,190",ON,34301-7606787-1,23,-13890,-3990,0341-0703236
+879,H3-AH,D-127,08-Sept,23011587-122,Shoaib Ahmed,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"104,590",-,Room Allotted,-,ON,51301-1367542-5,23,14270,4330,0333-3882051
+880,H3-AH,D-127,08-Sept,24021578-007,Syed Ali Abdullah,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"67,430",-,Room Allotted,-90,ON,34402-9623898-3,24,13890,3990,0329-6966529
+881,H3-AH,D-127,08-Sept,24021578-058,Hamza Imran,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"84,450",-,Room Allotted,-600,ON,34402-6344599-3,24,13860,3990,0344-8292118
+882,H3-AH,D-127,08-Sept,25011556-127,Mubarak Hussain,Open Merit,BS(Cyber Sec.),BS,Information Technology Dept.,C & IT Fac.,37125,-,Room Allotted,"4,580",ON,72403-0341815-1,25,13890,4070,0347-1085492
+883,H3-AH,D-128,08-Sept,24017029-009,Muhammad Tabish Hussain,Open Merit,ADP(IHRM),ADP,IHRM,FMAS,"73,720",-,Room Allotted,-,ON,34604-0438143-7,24,14030,4130,0346-1488795
+884,H3-AH,D-128,08-Sept,24020920-097,Muhammad Haseeb Ahmed,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"66,190",-,Room Allotted,-90,ON,34403-1242398-7,24,13890,3990,0370-4488642
+885,H3-AH,D-128,08-Sept,24020920-168,Mohsin Anwar,FATA,BBA,BS,Management Sciences Dept.,FMAS,"32,150","-3,990",Room Allotted,-180,ON,21502-7973297-7,24,140,-3990,0325-6093364
+886,H3-AH,D-128,08-Sept,24020920-199,Shahid Hussain,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"72,690",-,Room Allotted,-90,ON,34301-0664184-3,24,13950,4050,0344-9580041
+887,H3-AH,D-128,08-Sept,24020920-212,Muhammad Ullah,FATA,BBA,BS,Management Sciences Dept.,FMAS,"22,600",-,Room Allotted,-60,ON,21601-7836578-5,24,140,4030,0332-1876676
+888,H3-AH,D-128,08-Sept,24020920-303,Haris Bin Saqlain,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"74,090",-,Room Allotted,-210,ON,34203-7560804-1,24,13890,3990,0370-5245798
+889,H3-AH,D-128,08-Sept,24030920-079,Naeem Ullah,Open Merit,BBA,BS,Management Sciences Dept.,FMAS,"74,270",-,Room Allotted,"2,590",ON,34402-9220648-7,24,14350,4450,0317-4804835
+890,H3-AH,D-128,08-Sept,25021553-098,Zia Ullah,Blochistan Q.,BS(MLT),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,14800,-,Room Allotted,-90,ON,54303-8932678-7,25,160,4050,0333-7777460
+891,H3-AH,D-129,07-Sept,24011506-026,Ikram Ullah,FATA,BS(Botany),BS,Botany Dept.,Sciences Fac.,"23,280",-,Room Allotted,-420,ON,21405-2388883-3,24,380,4270,0349-0951830
+892,H3-AH,D-129,07-Sept,24811508-002,Hanzala,FATA,BS(Geography),BS,Geography Dept.,Sciences Fac.,"24,780",-,Room Allotted,-390,ON,21701-4580864-1,24,100,4250,0336-5388310
+893,H3-AH,D-129,07-Sept,25010920-248,Mansoor Ahmed,FATA,BBA,BS,Management Sciences Dept.,FMAS,15120,-,Room Allotted,"5,330",ON,21701-8456471-1,25,100,4430,0306-5002066
+894,H3-AH,D-129,07-Sept,25011510-076,Fazli Hadi,FATA,BS(Physics),BS,Physics Dept.,Sciences Fac.,15100,-,Room Allotted,-600,ON,21104-0239516-1,25,100,4410,0303-8694330
+895,H3-AH,D-129,07-Sept,25014198-049,Muhammad Saad Abdullah,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37325,-,Room Allotted,-,ON,34403-1167398-9,25,14030,4130,0345-3524233
+896,H3-AH,D-129,07-Sept,25014198-167,Muhammad Faizan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,37045,-,Room Allotted,-,ON,42201-7757294-5,25,13890,3990,0318-0765505
+897,H3-AH,D-129,07-Sept,25021521-025,Sami Ullah,FATA,BS(Eco. Data Sc.),BS,Economics Dept.,Social Sc. Fac.,10590,"-4,090",Room Allotted,"5,700",ON,21104-5849535-1,25,-100,-3990,0324-9371407
+898,H3-AH,D-130,09-Sept,23011514-133,Javid Ahmed,Blochistan Q.,BS(Zoology),BS,Zoology Dept.,Sciences Fac.,"30,770",-,Room Allotted,-,ON,53402-4519268-7,23,100,3990,0331 3455196
+899,H3-AH,D-130,09-Sept,23014160-007,Zain Hassan,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"102,360",-,Room Allotted,-210,ON,34101-5999668-9,23,14170,4270,"0342-4902561, 0327-1001227"
+900,H3-AH,D-130,09-Sept,23014160-010,Rana Abdul Rahman,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"102,220",-,Room Allotted,-480,ON,34602-4286146-5,23,14170,4270,"0347-4508542,
+0300-6136959"
+901,H3-AH,D-130,09-Sept,23014160-012,Muhammad Zeeshan,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"101,800",-,Room Allotted,-,ON,37301-7331720-1,23,13890,3990,0315-5869482
+902,H3-AH,D-130,09-Sept,23014160-020,Abdullah,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"102,280",-,Room Allotted,-,ON,34602-6274749-1,23,14050,4150,0324-9528130
+903,H3-AH,D-130,09-Sept,23014160-022,Ahmed Ali,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"101,860",-,Room Allotted,-,ON,34203-4530649-1,23,14050,4150,0326-2062315
+904,H3-AH,D-130,09-Sept,23014160-025,Muhammad Taha,Open Merit,BS(Bio-Technology-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"101,760",-,Room Allotted,-,ON,34101-8851143-9,23,13890,3990,0309-1691411
+905,H3-AH,D-130,09-Sept,24011553-072,Zain Ul Abadin,Open Merit,BS(Bio-Chemistry),BS,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"78,750",-,Room Allotted,-60,ON,34301-2358365-5,24,14030,4130,0309-6127383
+906,H3-AH,D-130,09-Sept,24014153-010,Irtaza Mehdi,Open Merit,BS(Bio-Chemistry-E),BS-E,Biochemistry and Molecular Biology Dept.,Sciences Fac.,"73,090",-,Room Allotted,-,ON,34101-5986652-5,24,13890,3990,0310-7161349
+907,H3-AH,D-201,06-May,23014198-025,Ali Zubair,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,720",-,Room Allotted,-,ON,35101-9363903-1,23,13930,4010,0333-8760165
+908,H3-AH,D-201,06-May,23014198-028,Tayyab Irfan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,640",-,Room Allotted,-30,ON,35403-6938897-5,23,13910,4010,"0328-6446889, 0321-6045200"
+909,H3-AH,D-201,06-May,23014198-059,Abdullah,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,540",-,Room Allotted,-450,ON,34104-8505949-3,23,13890,3990,0310-7291042
+910,H3-AH,D-201,06-May,23014198-137,Abdullah Aslam,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,140",-,Room Allotted,-240,ON,34104-2828564-3,23,14030,4130,0349-4675481
+911,H3-AH,D-201,06-May,23014198-151,Ibtisam Haider,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,930",-,Room Allotted,-90,ON,34601-7630249-7,23,13860,3990,0310-7992036
+912,H3-AH,D-201,06-May,23014198-176,Hunain,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,000",-,Room Allotted,-240,ON,34101-8132923-3,23,14030,4130,0325-7296320
+913,H3-AH,D-202,05-May,23014198-019,Hamza Tanveer,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"85,580","-17,880",Room Allotted,-,ON,34603-0654048-5,23,-13890,-3990,0317-7767728
+914,H3-AH,D-202,05-May,23014198-029,Muhammad Taha,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,060",-,Room Allotted,-,ON,34203-7889636-7,23,14150,4250,0331-5634467
+915,H3-AH,D-202,05-May,23014198-030,Abdul Hadi,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,060",-,Room Allotted,-,ON,34203-7899231-7,23,14150,4250,0336-7611628
+916,H3-AH,D-202,05-May,23014198-158,Mahad Ahsan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,820",-,Room Allotted,-30,ON,34301-9766121-1,23,13890,3990,0348-8649795
+917,H3-AH,D-202,05-May,25016820-029,Shahryar,Open Merit,BBA (2Y-E),MA/MSc-E,Management Sciences Dept.,FMAS,37565,-,Room Allotted,-,ON,34601-1033272-3,25,14150,4250,0343-6160529
+918,H3-AH,D-203,05-Apr,24011521-010,Syed Aziz,FATA,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"23,250",-,Room Allotted,-180,ON,21505-2574682-7,24,220,4110,0324-1586184
+919,H3-AH,D-203,05-Apr,24011521-025,Imtiaz Hussain,Open Merit,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"55,920","-17,880",Room Allotted,"3,560",ON,34302-3897497-3,24,-13890,-3990,0331-4877572
+920,H3-AH,D-203,05-Apr,24011521-051,Asad Ur Rehman,Open Merit,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"50,250","-17,880",Room Allotted,-450,ON,34402-6882859-7,24,-13890,-3990,0344-0680579
+921,H3-AH,D-203,05-Apr,24011521-079,Muhammad Faisal,Open Merit,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"70,330",-,Room Allotted,-450,ON,37301-6842664-7,24,14170,4270,0348-5253627
+922,H3-AH,D-203,05-Apr,25811561-002,Akhtar Muhammad,FATA,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"30,020",-,Room Allotted,-,ON,21302-1754138-3,25,540,4430,0302-0922259
+923,H3-AH,D-204,04-Apr,23011521-134,Gulbat Shah,Blochistan Q.,BS(Economics),BS,Economics Dept.,Social Sc. Fac.,"29,800",-,Room Allotted,-,ON,55301-6366416-3,23,100,3990,0331-2876695
+924,H3-AH,D-204,04-Apr,24011511-059,Samad Ullah,FATA,BS(Psychology),BS,Psychology Dept.,Social Sc. Fac.,"16,080",-,Room Allotted,-30,ON,21708-9894602-9,24,120,4030,0332-5696386
+925,H3-AH,D-204,04-Apr,24013901-066,Muhammad Sadiq,Blochistan Q.,BS(Education),BS,Education Dept.,Social Sc. Fac.,"24,930",-,Room Allotted,-30,ON,56101-9831905-3,24,160,4050,0344-0590622
+926,H3-AH,D-204,04-Apr,24021578-014,Muhammad Usman Haider,Open Merit,BS(Political Sc.),BS,Political Sciences Dept.,Social Sc. Fac.,"47,240",-,Room Allotted,"1,010",ON,34403-2972734-1,24,13890,3990,0347-1911208
+927,H3-AH,D-205,04-Apr,24011578-008,Khalid Bin Sagheer,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"69,410",-,Room Allotted,-450,ON,34602-1718729-5,24,14130,4250,0329-9691712
+928,H3-AH,D-205,04-Apr,24011578-033,Hammad Ahmad Khan,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"52,160","-17,880",Room Allotted,-50,ON,34102-9201771-3,24,-13890,-3990,0311-0685094
+929,H3-AH,D-205,04-Apr,24011578-063,Zubair Akhtar,FATA,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"36,580",-,Room Allotted,-90,ON,21405-7531604-7,24,160,4050,0302-9651842
+930,H3-AH,D-205,04-Apr,24011578-089,Maaz,Open Merit,BS(IR),BS,International Relations Dept.,Social Sc. Fac.,"73,240",-,Room Allotted,-600,ON,43102-8041563-7,24,13940,4250,0332-3117240
+931,H3-AH,D-206,04-Apr,24011529-003,Ahmad Ullah,FATA,BS(Hospitality Mngt.),BS,IHRM,FMAS,"32,500","-3,990",Room Allotted,-60,ON,21302-8878786-9,24,160,-3990,0308-9357882
+932,H3-AH,D-206,04-Apr,24031554-001,Burhan Uddin,FATA,BS(A&F),BS,Commerce Dept.,FMAS,"22,670",-,Room Allotted,-,ON,21509-0912625-1,24,100,3990,0331-2929086
+933,H3-AH,D-206,04-Apr,24031554-060,Muhammad Hashim,Blochistan Q.,BS(A&F),BS,Commerce Dept.,FMAS,"24,120",-,Room Allotted,-,ON,54303-3711707-5,24,100,3990,0336-2766489
+934,H3-AH,D-206,04-Apr,24821554-003,Muhammad Husnain,Open Merit,BS(A&F),BS,Commerce Dept.,FMAS,"73,510",-,Room Allotted,-,ON,34403-6296588-1,24,13890,4130,0341-7278029
+935,H3-AH,D-207,04-Apr,24014119-005,Chaudhry Muhammad Ali,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"52,210",-,Room Allotted,-30,ON,34101-8374283-7,24,13890,3990,0326-6103694
+936,H3-AH,D-207,04-Apr,24020920-252,Muhammad Munib,FATA,BBA,BS,Management Sciences Dept.,FMAS,"22,600",-,Room Allotted,-,ON,21706-4165497-9,24,140,4030,0332-9538093
+937,H3-AH,D-207,04-Apr,24020920-292,Imdad Ullah,FATA,BBA,BS,Management Sciences Dept.,FMAS,"37,280",-,Room Allotted,-240,ON,21403-0763189-9,24,380,4270,0342-0090052
+938,H3-AH,D-207,04-Apr,24020920-293,Dost Muhammad,FATA,BBA,BS,Management Sciences Dept.,FMAS,"22,840",-,Room Allotted,-30,ON,21707-5851812-7,24,120,4010,0335-0964625
+939,H3-AH,D-208,04-Apr,24011519-022,Rizwan Ahmad Khan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"72,270",-,Room Allotted,-,ON,34202-6487876-5,24,13890,3990,0320-8484675
+940,H3-AH,D-208,04-Apr,24011519-112,Abdul Ahad Malik,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"78,500",-,Room Allotted,-,ON,32304-5634957-9,24,13890,3990,0305-3272851
+941,H3-AH,D-208,04-Apr,24011519-122,Muhammad Talha,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"82,790",-,Room Allotted,-,ON,34301-3714284-7,24,13910,4030,0325-6460107
+942,H3-AH,D-208,04-Apr,24011519-174,Muhammad Sami Ul Hassan,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"67,010",-,Room Allotted,-,ON,34402-0348377-9,24,13890,3990,0342-5650067
+943,H3-AH,D-209,04-Apr,24011519-033,Asmatullah,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"22,800",-,Room Allotted,-,ON,21103-9030093-3,24,100,3990,0323-9218362
+944,H3-AH,D-209,04-Apr,24011519-234,Naeem Ullah,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"22,760",-,Room Allotted,-,ON,21106-4125406-1,24,100,3990,0307-5919765
+945,H3-AH,D-209,04-Apr,24011519-238,Attaullah .,Gilgat Baltistan Q.,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"74,250",-,Room Allotted,-300,ON,71302-0543292-1,24,14090,4190,0355-4864402
+946,H3-AH,D-209,04-Apr,24011519-239,Muhammad Rasool,Blochistan Q.,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"20,710","-3,990",Room Allotted,-420,ON,56302-7923630-7,24,360,-3990,0323-4534548
+947,H3-AH,D-210,04-Apr,24011510-079,Muhammad Tayyab Faiz,Open Merit,BS(Physics),BS,Physics Dept.,Sciences Fac.,"82,510",-,Room Allotted,-60,ON,81101-7862028-9,24,13890,3990,0300-6203596
+948,H3-AH,D-210,04-Apr,24011510-086,Danish Abbas,FATA,BS(Physics),BS,Physics Dept.,Sciences Fac.,"22,750",-,Room Allotted,-60,ON,21303-2881503-7,24,140,4030,0304-9572206
+949,H3-AH,D-210,04-Apr,24011510-099,Husnain Zafar,Open Merit,BS(Physics),BS,Physics Dept.,Sciences Fac.,"67,980",-,Room Allotted,-,OFF,34403-4401915-7,24,14290,4390,"0340-6037925,
+0311-0476324"
+950,H3-AH,D-210,04-Apr,25021556-229,Muhammad Sohail,FATA,BS(IT),BS,Information Technology Dept.,C & IT Fac.,14800,-,Room Allotted,-90,ON,21705-9044762-3,25,160,4050,0329-1595138
+951,H3-AH,D-211,05-Apr,23014198-036,Muhammad Sufyan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,220",-,Room Allotted,-60,ON,81103-3789074-5,23,13890,3990,0348-8879759
+952,H3-AH,D-211,05-Apr,24011556-002,Arbaz Mudassar,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"70,270",-,Room Allotted,-30,ON,81103-1066326-7,24,13890,3990,0349-1721391
+953,H3-AH,D-211,05-Apr,24011556-243,Qamar Abbas,Gilgat Baltistan Q.,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"74,350",-,Room Allotted,-60,ON,72403-0348879-5,24,13930,4030,0055-4720625
+954,H3-AH,D-211,05-Apr,24011598-216,Husnain Shabir,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,350",-,Room Allotted,-240,ON,81103-2436498-1,24,13890,3990,0347-9912958
+955,H3-AH,D-211,05-Apr,24014119-193,Muhammad Awais,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,970",-,Room Allotted,-90,ON,34602-0765369-9,24,13890,3990,0330-2548999
+956,H3-AH,D-212,04-Apr,24011507-002,Wajahat Ullah,FATA,BS(Chemistry),BS,Chemistry Dept.,Sciences Fac.,"23,390",-,Room Allotted,-210,ON,21105-7193811-9,24,240,4130,0303-9360183
+957,H3-AH,D-212,04-Apr,24011516-139,Qahir Khan,Blochistan Q.,BS(MCM),BS,Centre for Media and Communication Studies,Arts Fac.,"24,700",-,Room Allotted,-300,ON,56302-1888646-7,24,240,4130,0334-7692885
+958,H3-AH,D-212,04-Apr,24011561-009,Sayed Muhammad Anwar,FATA,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"22,810",-,Room Allotted,-,ON,21303-5816569-9,24,100,3990,0307-8449975
+959,H3-AH,D-212,04-Apr,24011561-015,Waji Ul Hassan,Open Merit,BS(Environment Science),BS,Environmental Sciences Dept.,Sciences Fac.,"67,130",-,Room Allotted,-450,ON,37302-7897652-7,24,13890,3990,0347-7149684
+960,H3-AH,D-213,05-May,24011519-027,Muhammad Zubair,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"82,710",-,Room Allotted,-,ON,34602-2556012-7,24,13890,3990,0310-3380851
+961,H3-AH,D-213,05-May,24011519-032,Mehran Ali,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"83,350",-,Room Allotted,-,ON,34602-5585377-1,24,13890,3990,0340-7722070
+962,H3-AH,D-213,05-May,24011519-035,Tajuddin,FATA,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"23,550",-,Room Allotted,-60,ON,21505-3124729-7,24,380,4090,0332-8973026
+963,H3-AH,D-213,05-May,24011598-008,Muhammad Javaid,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"68,230",-,Room Allotted,-,ON,34604-0470240-3,24,13890,3990,0312-7893547
+964,H3-AH,D-213,05-May,24014119-041,Amaar Yaseen,Open Merit,BS(CS-E),BS-E,Computer Science Dept.,C & IT Fac.,"72,650",-,Room Allotted,-,ON,34104-9528817-3,24,14030,4130,0319-7184237
+965,H3-AH,D-214,07-May,24011519-034,Muhammad Ali Shahzad,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"78,500",-,Room Allotted,-,ON,37301-5919938-5,24,13890,3990,0310-5026453
+966,H3-AH,D-214,07-May,24011519-052,Muhammad Muneeb Asif,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"72,330",-,Room Allotted,-,ON,34302-7247333-1,24,13890,3990,0342-7151093
+967,H3-AH,D-214,07-May,24011519-099,Muhammad Haroon,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"68,190",-,Room Allotted,-,ON,34101-2957954-7,24,13890,3990,0320-6054797
+968,H3-AH,D-214,07-May,24011519-178,Muhammad Khuzaima,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"82,470",-,Room Allotted,-,ON,34103-2693802-7,24,13890,3990,0320-1529355
+969,H3-AH,D-214,07-May,24011519-201,Noor Ul Qamar,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"72,650",-,Room Allotted,-,ON,35405-0455388-5,24,13910,4010,0370-4308507
+970,H3-AH,D-214,07-May,24011519-202,Muhammad Anees Tahir,Open Merit,BS(CS),BS,Computer Science Dept.,C & IT Fac.,"68,190",-,Room Allotted,-,ON,34103-4549270-5,24,13890,3990,0313-7459426
+971,H3-AH,D-214,07-May,24011556-192,Abdul Hanan Mughal,Open Merit,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"64,260","-3,990",Room Allotted,-,ON,34601-4663665-9,24,13890,-3990,0327-7721015
+972,H3-AH,D-215,01-Jan,24011710-001,Muhammad Faisal Ayaz,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"81,690","-17,880",Room Allotted,-90,ON,34101-4968993-3,24,-13890,-3990,0343-4968993
+973,H3-AH,D-216,01-Jan,24016102-009,Muhammad Shaffaqat,Open Merit,PhD(English),PhD,English Dept.,Arts Fac.,"56,930","-17,880",Room Allotted,-,ON,38402-3395900-1,24,-13890,-3990,0310-2540312
+974,H3-AH,D-217,01-Jan,25014422-005,Sajjad Ali,Open Merit,MS(EE),MS/M.Phil,Electrical Engineering Dept.,Eng. & Tech. Fac.,33120,-,Room Allotted,-180,ON,34602-0410864-7,25,14010,4110,0313-7552278
+975,H3-AH,D-219,01-Jan,24021778-004,Zain Ul Abadeen,Open Merit,MPhil(IR),MS/M.Phil,International Relations Dept.,Social Sc. Fac.,"68,300",-,Room Allotted,-,ON,34604-0455887-7,24,13930,4030,0342-6708977
+976,H3-AH,D-220,01-Jan,24011709-030,Mian Nabeel Afzal,Open Merit,MPhil(Math),MS/M.Phil,Mathematics Dept.,Sciences Fac.,"82,790",-,Room Allotted,-210,ON,34103-1672421-9,24,14030,4130,0305-8878710
+977,H3-AH,D-221,01-Jan,24011709-042,Arslan Hassan,Open Merit,MPhil(Math),MS/M.Phil,Mathematics Dept.,Sciences Fac.,"72,270",-,Room Allotted,-,ON,34301-3220406-7,24,13890,3990,0316-5860764
+978,H3-AH,D-223,01-Jan,25011710-010,Muhammad Junaid Sultan,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"37,125",-,Room Allotted,-,ON,38103-7501652-3,25,13930,4030,0318-7031673
+979,H3-AH,D-224,01-Jan,25011710-018,M Noshairwan Akbar,Open Merit,MPhil(Physics),MS/M.Phil,Physics Dept.,Sciences Fac.,"37,045",-,Room Allotted,-,ON,37201-1593221-5,25,13890,3990,0341-5471714
+980,H3-AH,D-226,01-Jan,25021778-004,Muhammad Ali Hashmi,Open Merit,MPhil(IR),MS/M.Phil,International Relations Dept.,Social Sc. Fac.,"19,410","-13,890",Room Allotted,-,ON,34601-6111642-5,25,-13890,4410,0310-7746778
+981,H3-AH,D-227,08-Sept,23014198-008,Hafiz Hasham Ahmad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"98,610",-,Room Allotted,-180,ON,34101-1563821-3,23,14030,4130,0305-9881121
+982,H3-AH,D-227,08-Sept,23014198-037,Muhammad Zeeshan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,480",-,Room Allotted,-,ON,42501-0246474-7,23,13890,3990,0303-2346597
+983,H3-AH,D-227,08-Sept,23014198-043,Muhammad Mudasir,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,920",-,Room Allotted,-,ON,35404-5571283-5,23,14030,4130,0313-4396827
+984,H3-AH,D-227,08-Sept,23014198-058,Muhammad Bilal,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,980",-,Room Allotted,-,ON,34301-7259456-1,23,13910,4010,0341-4665720
+985,H3-AH,D-227,08-Sept,23014198-131,Muhammad Rehan,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,640",-,Room Allotted,-,ON,34403-2723513-3,23,13890,3990,0344-4950611
+986,H3-AH,D-227,08-Sept,23014198-152,Hammad Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,260",-,Room Allotted,-,ON,34503-0382830-3,23,13930,4030,0344-6365577
+987,H3-AH,D-227,08-Sept,23014198-155,Saood Ahmad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"101,480",-,Room Allotted,-180,ON,34601-9904489-5,23,13890,3990,0341-0122853
+988,H3-AH,D-227,08-Sept,24011556-242,Nizam Udin,Blochistan Q.,BS(IT),BS,Information Technology Dept.,C & IT Fac.,"24,350",-,Room Allotted,-90,ON,56304-6212170-5,24,160,4050,0346-0239317
+989,H3-AH,D-228,08-Sept,24011598-011,Istafa Iqbal,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,730",-,Room Allotted,-60,ON,34203-6850002-1,24,13930,4030,0347-0521499
+990,H3-AH,D-228,08-Sept,24011598-013,Muhammad Amir Shafique,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,270",-,Room Allotted,-,ON,34502-0233225-7,24,13890,3990,0307-6153331
+991,H3-AH,D-228,08-Sept,24011598-044,Sohail Ahmad,FATA,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"22,670",-,Room Allotted,-,ON,21103-3242119-3,24,100,3990,0308-2000256
+992,H3-AH,D-228,08-Sept,24011598-050,Adil Naeem,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,510",-,Room Allotted,-180,ON,34501-4040092-9,24,13930,4030,0329-7707699
+993,H3-AH,D-228,08-Sept,24011598-059,Talha Mustafa,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"72,570",-,Room Allotted,-,ON,33101-4411167-3,24,14030,4150,0344-3488575
+994,H3-AH,D-228,08-Sept,24011598-063,Muhammad Sulaman Khan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"73,730",-,Room Allotted,-420,ON,38103-0844550-7,24,13890,3990,0347-6908277
+995,H3-AH,D-228,08-Sept,24011598-064,Hamid Ali,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"68,920",-,Room Allotted,-,ON,34601-5910781-7,24,13890,3990,0344-4217406
+996,H3-AH,D-228,08-Sept,24011598-228,Tipu Sultan,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"68,710",-,Room Allotted,-300,ON,34601-8254887-5,24,14070,4190,0340-5975155
+997,H3-AH,D-229,08-Sept,23014198-006,Rana Mashhood Ul Haq,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,990",-,Room Allotted,-,OFF,35501-0334180-7,23,13890,3990,0301-0563903
+998,H3-AH,D-229,08-Sept,23014198-016,Ali Raza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"99,700",-,Room Allotted,-,OFF,34601-1090871-9,23,13890,3990,0331-1067639
+999,H3-AH,D-229,08-Sept,23014198-033,Muhammad Awais Muzaffar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,640",-,Room Allotted,-,OFF,17301-1696148-9,23,13890,3990,0344-4154529
+1000,H3-AH,D-229,08-Sept,23014198-079,Shawaiz Ali,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,600",-,Room Allotted,-240,ON,34402-4792917-3,23,14050,4150,0344-7931144
+1001,H3-AH,D-229,08-Sept,23014198-091,Ahmad Husnain,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"103,510",-,Room Allotted,-,ON,34104-6311178-5,23,14030,4130,0307-6453600
+1002,H3-AH,D-229,08-Sept,23014198-165,Muhammad Ahmad,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"86,870","-17,880",Room Allotted,"25,530",ON,34101-0994712-3,23,-13890,-3990,0305-1601608
+1003,H3-AH,D-229,08-Sept,23014198-178,Shahram Umer Ansar,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,840",-,Room Allotted,-,ON,34403-8417355-1,23,13890,3990,0314-7742460
+1004,H3-AH,D-229,08-Sept,23014198-179,Zain Raza,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,120",-,Room Allotted,-,ON,34104-8402138-5,23,13890,3990,0305-4882223
+1005,H3-AH,D-230,08-Sept,23014198-002,Asjad Hafeez Chaudhry,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"92,440",-,Room Allotted,-,ON,34101-3191474-5,23,13890,3990,0328-9616569
+1006,H3-AH,D-230,08-Sept,23014198-010,Moaaz Mustafa,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"84,500","-17,880",Room Allotted,-,ON,35401-7720039-5,23,-13890,-3990,0304-0044459
+1007,H3-AH,D-230,08-Sept,23014198-027,Baidar Bakhat,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,660",-,Room Allotted,-,ON,37301-2723592-5,23,14170,4270,0303-5990611
+1008,H3-AH,D-230,08-Sept,23014198-087,Aijaz Ul Haq,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,620",-,Room Allotted,-240,ON,42201-4100958-1,23,14050,4150,0327-2029955
+1009,H3-AH,D-230,08-Sept,23014198-138,Samar Abbas,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"102,200",-,Room Allotted,-,ON,34301-8686509_5,23,14030,4130,0347-4254046
+1010,H3-AH,D-230,08-Sept,23014198-168,Abdulrehman Arshad Mand,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"85,840","-17,880",Room Allotted,-,OFF,34104-6280652-1,23,-13890,-3990,0330-6366636
+1011,H3-AH,D-230,08-Sept,23014198-172,Muhammad Nafees,Open Merit,BS(SE-E),BS-E,Software Engineering Dept.,C & IT Fac.,"93,440","-17,880",Room Allotted,-,OFF,34203-0580402-9,23,-13890,-3990,0314-5533319
+1012,H3-AH,D-230,08-Sept,24811598-006,Muhammad Fahid Arif,Open Merit,BS(SE),BS,Software Engineering Dept.,C & IT Fac.,"49,560","-17,880",Room Allotted,-90,ON,34502-1664751-7,24,-13890,-3990,0329-7917942
