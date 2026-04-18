@@ -9,7 +9,6 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Students from './pages/Students';
 import Reports from './pages/Reports';
-import Settings from './pages/Settings';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -74,9 +73,6 @@ const App = () => {
             showUnique={showUnique}
             toggleUnique={toggleUnique}
           />
-        )}
-        {activeTab === 'settings' && (
-          <Settings isMobile={isMobile} onLogout={handleLogout} />
         )}
       </AppShell>
     );

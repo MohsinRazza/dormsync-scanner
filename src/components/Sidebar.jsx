@@ -1,4 +1,4 @@
-import { Users, LayoutDashboard, Settings, FileText, ChevronLeft, ChevronRight, Moon, Sun } from 'lucide-react';
+import { Users, LayoutDashboard, FileText, ChevronLeft, ChevronRight, Moon, Sun } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { useState, useEffect } from 'react';
 
@@ -53,7 +53,6 @@ const Sidebar = ({ activeTab, setActiveTab, collapsed, setCollapsed, isMobile, o
     { id: 'dashboard', icon: LayoutDashboard, label: 'Dashboard' },
     { id: 'students', icon: Users, label: 'Students' },
     { id: 'reports', icon: FileText, label: 'Reports' },
-    { id: 'settings', icon: Settings, label: 'Settings' },
   ];
 
   // Mobile Bottom Dock
