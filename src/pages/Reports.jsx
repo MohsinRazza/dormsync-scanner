@@ -187,7 +187,7 @@ const Reports = ({ logs, allotments }) => {
 
   return (
     <div className="flex-1 flex flex-col overflow-hidden">
-      <PageHeader title="Reports" description="Download scan reports" />
+      {/* <PageHeader title="Reports" description="Download scan reports" /> */}
 
       <div className="flex-1 overflow-auto p-3 md:p-6 pb-20 md:pb-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

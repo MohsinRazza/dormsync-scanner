@@ -210,10 +210,10 @@ const Students = ({ allotments }) => {
 
   return (
     <div className="p-3 flex-1 flex flex-col overflow-hidden">
-      <div className="hidden md:block px-3 md:px-6 pt-4 md:pt-6 pb-2">
+      {/* <div className="hidden md:block px-3 md:px-6 pt-1 md:pt-2 pb-2">
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Student Allotments</h1>
         <p className="text-sm text-slate-500 mt-1">View and manage student hostel allotments</p>
-      </div>
+      </div> */}
 
       {/* Filters */}
       <Card>
