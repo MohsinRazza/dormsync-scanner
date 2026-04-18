@@ -15,6 +15,7 @@ export function useDashboardLogs({
   startDate,
   endDate,
   sortConfig,
+  hideInvalid = true,
 }) {
   const uniqueLogs = useMemo(() => {
     if (!showUnique) return logs;
@@ -32,6 +33,7 @@ export function useDashboardLogs({
         filterTab,
         allotments,
         searchTerm,
+        hideInvalid,
       }),
     [
       logs,
@@ -42,6 +44,7 @@ export function useDashboardLogs({
       allotments,
       startDate,
       endDate,
+      hideInvalid,
     ]
   );
 
@@ -57,8 +60,9 @@ export function useDashboardLogs({
         uniqueLogs,
         showUnique,
         allotments,
+        hideInvalid,
       }),
-    [logs, uniqueLogs, showUnique, allotments]
+    [logs, uniqueLogs, showUnique, allotments, hideInvalid]
   );
 
   return { uniqueLogs, filteredLogs, sortedLogs, stats };

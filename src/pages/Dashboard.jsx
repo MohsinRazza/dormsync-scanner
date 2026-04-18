@@ -3,6 +3,7 @@ import {
   Search,
   Calendar,
   Filter,
+  EyeOff,
 } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import ImageModal from '../components/ImageModal';
@@ -40,6 +41,7 @@ export default function Dashboard({
   const [processing, setProcessing] = useState(false);
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   const [searchInput, setSearchInput] = useState('');
+  const [hideInvalid, setHideInvalid] = useState(true);
 
   const { filteredLogs, sortedLogs, stats } = useDashboardLogs({
     logs,
@@ -50,6 +52,7 @@ export default function Dashboard({
     startDate,
     endDate,
     sortConfig,
+    hideInvalid,
   });
 
   const handleTabChange = (tab) => {
@@ -138,6 +141,14 @@ export default function Dashboard({
                 {showUnique ? 'Unique' : 'All Entries'}
               </Button>
               <Button
+                variant={hideInvalid ? 'default' : 'outline'}
+                onClick={() => setHideInvalid(v => !v)}
+                className="gap-2"
+              >
+                <EyeOff size={16} />
+                {hideInvalid ? 'Valid Only' : 'Show Invalid'}
+              </Button>
+              <Button
                 variant="outline"
                 onClick={() => setIsDateModalOpen(true)}
                 className="gap-2"
@@ -166,6 +177,14 @@ export default function Dashboard({
             >
               <Filter size={14} />
               {showUnique ? 'Unique' : 'All'}
+            </Button>
+            <Button
+              variant={hideInvalid ? 'default' : 'outline'}
+              onClick={() => setHideInvalid(v => !v)}
+              size="sm"
+              className="gap-1.5 px-3"
+            >
+              <EyeOff size={14} />
             </Button>
             <Button
               variant="outline"

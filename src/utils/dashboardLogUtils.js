@@ -20,8 +20,15 @@ export function filterDashboardLogs({
   filterTab,
   allotments,
   searchTerm,
+  hideInvalid = true,
 }) {
   let filtered = showUnique ? uniqueLogs : logs;
+
+  // Strip invalid entries (non-standard QR codes) unless user explicitly wants them
+  if (hideInvalid) {
+    const ROLL_NO_RE = /^\d{8}-\d{3}$/;
+    filtered = filtered.filter((log) => ROLL_NO_RE.test(log['QR Code']?.trim() || ''));
+  }
 
   if (startDate || endDate) {
     filtered = filtered.filter((log) => {
@@ -133,8 +140,13 @@ export function computeDashboardStats({
   uniqueLogs,
   showUnique,
   allotments,
+  hideInvalid = true,
 }) {
-  const dataToAnalyze = showUnique ? uniqueLogs : logs;
+  const ROLL_NO_RE = /^\d{8}-\d{3}$/;
+  let dataToAnalyze = showUnique ? uniqueLogs : logs;
+  if (hideInvalid) {
+    dataToAnalyze = dataToAnalyze.filter((l) => ROLL_NO_RE.test(l['QR Code']?.trim() || ''));
+  }
 
   const totalScans = dataToAnalyze.length;
   const boarders = dataToAnalyze.filter((l) => l.Status === 'Boarder').length;
