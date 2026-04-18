@@ -1,5 +1,5 @@
 import { UserCircle, Clock, Home } from 'lucide-react';
-import moment from 'moment';
+import { parseLogMoment } from '../utils/logDateTime';
 import { Badge } from './ui/badge';
 import { Card, CardContent } from './ui/card';
 import LazyAvatar from './LazyAvatar';
@@ -14,8 +14,8 @@ const LogsGrid = ({ logs, allotments, onCardClick }) => {
   };
 
   const isLateEntry = (dateTime, lateEntryHour) => {
-    const hour = moment(dateTime, 'DD/MM/YYYY HH:mm:ss', true).hour();
-    return hour >= lateEntryHour;
+    const hour = parseLogMoment(dateTime).hour();
+    return !Number.isNaN(hour) && hour >= lateEntryHour;
   };
 
   return (
@@ -59,7 +59,12 @@ const LogsGrid = ({ logs, allotments, onCardClick }) => {
               <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 mt-2">
                 <div className="flex items-center gap-1 text-xs text-slate-600 dark:text-slate-400 truncate">
                   <Clock size={11} className="text-cyan-600 flex-shrink-0" />
-                  <span className="truncate">{moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).format('hh:mm A')}</span>
+                  <span className="truncate">
+                    {(() => {
+                      const m = parseLogMoment(log.DateTime);
+                      return m.isValid() ? m.format('hh:mm A') : '—';
+                    })()}
+                  </span>
                 </div>
                 <div className="flex items-center gap-1 text-xs text-slate-600 dark:text-slate-400 truncate">
                   <Home size={11} className="text-cyan-600 flex-shrink-0" />
@@ -67,7 +72,12 @@ const LogsGrid = ({ logs, allotments, onCardClick }) => {
                 </div>
                 <div className="flex items-center gap-1 text-xs text-slate-500 truncate col-span-2">
                   <Clock size={11} className="text-slate-400 flex-shrink-0" />
-                  <span className="truncate">{moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).format('DD MMM YYYY')}</span>
+                  <span className="truncate">
+                    {(() => {
+                      const m = parseLogMoment(log.DateTime);
+                      return m.isValid() ? m.format('DD MMM YYYY') : '—';
+                    })()}
+                  </span>
                   {student?.Arrears && student.Arrears !== '-' && (
                     <span className="ml-2 text-red-500 truncate">· Arrears: {student.Arrears}</span>
                   )}

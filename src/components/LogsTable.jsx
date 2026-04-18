@@ -1,5 +1,5 @@
 import { UserCircle, ArrowUpDown } from 'lucide-react';
-import moment from 'moment';
+import { parseLogMoment } from '../utils/logDateTime';
 import { Badge } from './ui/badge';
 
 const LogsTable = ({ logs, allotments, onRowClick, sortConfig, onSort }) => {
@@ -15,8 +15,8 @@ const LogsTable = ({ logs, allotments, onRowClick, sortConfig, onSort }) => {
   };
 
   const isLateEntry = (dateTime, lateEntryHour) => {
-    const hour = moment(dateTime, 'DD/MM/YYYY HH:mm:ss', true).hour();
-    return hour >= lateEntryHour;
+    const hour = parseLogMoment(dateTime).hour();
+    return !Number.isNaN(hour) && hour >= lateEntryHour;
   };
 
   return (
@@ -87,10 +87,16 @@ const LogsTable = ({ logs, allotments, onRowClick, sortConfig, onSort }) => {
               {/* Scan Time */}
               <div className="col-span-3 flex flex-col justify-center">
                 <span className="text-sm font-medium text-slate-900 dark:text-white">
-                  {moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).format('hh:mm A')}
+                  {(() => {
+                    const m = parseLogMoment(log.DateTime);
+                    return m.isValid() ? m.format('hh:mm A') : '—';
+                  })()}
                 </span>
                 <span className="text-xs text-slate-500">
-                  {moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).format('DD MMM YYYY')}
+                  {(() => {
+                    const m = parseLogMoment(log.DateTime);
+                    return m.isValid() ? m.format('DD MMM YYYY') : '—';
+                  })()}
                 </span>
                 {isLate && (
                   <Badge variant="destructive" className="mt-1 w-fit text-xs py-0">Late</Badge>

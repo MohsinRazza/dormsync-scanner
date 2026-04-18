@@ -1,40 +1,47 @@
 import { X, MapPin, Phone, Clock } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import moment from 'moment';
+import { parseLogMoment } from '../utils/logDateTime';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { resolveImageUrl, getCachedImageUrl, getPlaceholderImage } from '../utils/imageLoader';
 import FullscreenImageViewer from './FullscreenImageViewer';
 
 const ImageModal = ({ log, student, onClose }) => {
-  if (!log) return null;
-
   const scanImagesPath = localStorage.getItem('scanImagesPath') || '/captured/';
   const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
 
-  const imagePath = log.ImagePath?.replace(/\\/g, '/').split('/').pop();
-  const scanImageUrl = `${scanImagesPath}${imagePath}`;
-
-  const rollNo = log['QR Code']?.trim();
+  const rollNo = log?.['QR Code']?.trim();
   const profileImageBasePath = rollNo ? `${profileImagesPath}${rollNo}` : null;
 
-  const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22');
-  const entryHour = moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss').hour();
-  const isLateEntry = entryHour >= lateEntryHour;
+  const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22', 10);
+  const entryMoment = parseLogMoment(log?.DateTime);
+  const entryHour = entryMoment.hour();
+  const isLateEntry =
+    !!log &&
+    entryMoment.isValid() &&
+    !Number.isNaN(entryHour) &&
+    entryHour >= lateEntryHour;
+
+  const [fullscreenBasePath, setFullscreenBasePath] = useState(null);
+  const [profileSrc, setProfileSrc] = useState(() =>
+    getCachedImageUrl(profileImageBasePath)
+  );
+
+  useEffect(() => {
+    if (!profileImageBasePath || profileSrc) return;
+    resolveImageUrl(profileImageBasePath).then(setProfileSrc);
+  }, [profileImageBasePath, profileSrc]);
+
+  if (!log) return null;
+
+  const imagePath = log.ImagePath?.replace(/\\/g, '/').split('/').pop();
+  const scanImageUrl = `${scanImagesPath}${imagePath}`;
 
   const getStatusVariant = (status) => {
     if (status === 'Boarder') return 'success';
     if (status === 'Non-Boarder') return 'warning';
     return 'destructive';
   };
-
-  const [fullscreenBasePath, setFullscreenBasePath] = useState(null);
-  const [profileSrc, setProfileSrc] = useState(() => getCachedImageUrl(profileImageBasePath));
-
-  useEffect(() => {
-    if (!profileImageBasePath || profileSrc) return;
-    resolveImageUrl(profileImageBasePath).then(setProfileSrc);
-  }, [profileImageBasePath, profileSrc]);
 
   return (
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-3">
@@ -44,7 +51,9 @@ const ImageModal = ({ log, student, onClose }) => {
           <div>
             <h2 className="text-base font-semibold text-slate-900 dark:text-white">Scan Record</h2>
             <p className="text-xs text-slate-500">
-              {moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss').format('MMM DD, YYYY [at] hh:mm A')}
+              {entryMoment.isValid()
+                ? entryMoment.format('MMM DD, YYYY [at] hh:mm A')
+                : '—'}
             </p>
           </div>
           <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
@@ -110,7 +119,7 @@ const ImageModal = ({ log, student, onClose }) => {
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><Clock size={10} /> Time</p>
               <p className="font-medium text-slate-900 dark:text-white">
-                {moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss').format('hh:mm A')}
+                {entryMoment.isValid() ? entryMoment.format('hh:mm A') : '—'}
               </p>
             </div>
           </div>

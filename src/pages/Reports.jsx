@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import moment from 'moment';
+import { parseLogMoment } from '../utils/logDateTime';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
 import { Users, Clock, AlertTriangle, Calendar, Download, FileText, CalendarRange, Filter } from 'lucide-react';
 import { Button } from '../components/ui/button';
@@ -8,6 +9,16 @@ import PageHeader from '../components/PageHeader';
 import DateRangeModal from '../components/DateRangeModal';
 import { toast } from '../components/ui/toast';
 import { cn } from '../lib/utils';
+
+const logDayKey = (dt) => {
+  const m = parseLogMoment(dt);
+  return m.isValid() ? m.format('YYYY-MM-DD') : '';
+};
+
+const logHour = (dt) => {
+  const h = parseLogMoment(dt).hour();
+  return Number.isNaN(h) ? -1 : h;
+};
 
 const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
   const [startDate, setStartDate] = useState('');
@@ -35,7 +46,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
     if (!startDate && !endDate) return dataToFilter;
 
     return dataToFilter.filter(log => {
-      const logDate = moment(log.DateTime).format('YYYY-MM-DD');
+      const logDate = logDayKey(log.DateTime);
       
       if (startDate && endDate) {
         return logDate >= startDate && logDate <= endDate;
@@ -71,7 +82,8 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
   const peakTimesData = useMemo(() => {
     const hourCounts = {};
     filteredLogs.forEach(log => {
-      const hour = moment(log.DateTime).hour();
+      const hour = logHour(log.DateTime);
+      if (hour < 0) return;
       hourCounts[hour] = (hourCounts[hour] || 0) + 1;
     });
 
@@ -120,7 +132,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
       for (let m = moment(start); m.isSameOrBefore(end); m.add(1, 'days')) {
         const date = m.format('YYYY-MM-DD');
         const count = filteredLogs.filter(log => 
-          moment(log.DateTime).format('YYYY-MM-DD') === date
+          logDayKey(log.DateTime) === date
         ).length;
         days.push({
           date: m.format('MMM DD'),
@@ -133,7 +145,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
       for (let i = 6; i >= 0; i--) {
         const date = moment().subtract(i, 'days').format('YYYY-MM-DD');
         const count = filteredLogs.filter(log => 
-          moment(log.DateTime).format('YYYY-MM-DD') === date
+          logDayKey(log.DateTime) === date
         ).length;
         last7Days.push({
           date: moment().subtract(i, 'days').format('MMM DD'),
@@ -147,7 +159,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
   // Late Entries Data
   const lateEntriesData = useMemo(() => {
     const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22');
-    const lateCount = filteredLogs.filter(log => moment(log.DateTime).hour() >= lateEntryHour).length;
+    const lateCount = filteredLogs.filter(log => logHour(log.DateTime) >= lateEntryHour).length;
     const onTimeCount = filteredLogs.length - lateCount;
     const total = filteredLogs.length;
     return [
@@ -167,7 +179,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
       ? moment(endDate).diff(moment(startDate), 'days') + 1 
       : 7;
     const avgPerDay = daysCount > 0 ? (filteredLogs.length / daysCount).toFixed(0) : '0';
-    const lateEntries = filteredLogs.filter(log => moment(log.DateTime).hour() >= lateEntryHour).length;
+    const lateEntries = filteredLogs.filter(log => logHour(log.DateTime) >= lateEntryHour).length;
     const invalidEntries = filteredLogs.filter(l => l.Status !== 'Boarder' && l.Status !== 'Non-Boarder').length;
 
     return {
@@ -191,7 +203,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
   const generateDailyReport = () => {
     const today = moment().format('YYYY-MM-DD');
     const todayLogs = logs.filter(log => 
-      moment(log.DateTime).format('YYYY-MM-DD') === today
+      logDayKey(log.DateTime) === today
     );
     
     downloadHTMLReport(todayLogs, 'Daily', moment().format('MMMM DD, YYYY'));
@@ -201,8 +213,8 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
     const weekStart = moment().startOf('week');
     const weekEnd = moment().endOf('week');
     const weekLogs = logs.filter(log => {
-      const logDate = moment(log.DateTime);
-      return logDate.isSameOrAfter(weekStart, 'day') && logDate.isSameOrBefore(weekEnd, 'day');
+      const logDate = parseLogMoment(log.DateTime);
+      return logDate.isValid() && logDate.isSameOrAfter(weekStart, 'day') && logDate.isSameOrBefore(weekEnd, 'day');
     });
     
     downloadHTMLReport(weekLogs, 'Weekly', `${weekStart.format('MMM DD')} - ${weekEnd.format('MMM DD, YYYY')}`);
@@ -212,8 +224,8 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
     const monthStart = moment().startOf('month');
     const monthEnd = moment().endOf('month');
     const monthLogs = logs.filter(log => {
-      const logDate = moment(log.DateTime);
-      return logDate.isSameOrAfter(monthStart, 'day') && logDate.isSameOrBefore(monthEnd, 'day');
+      const logDate = parseLogMoment(log.DateTime);
+      return logDate.isValid() && logDate.isSameOrAfter(monthStart, 'day') && logDate.isSameOrBefore(monthEnd, 'day');
     });
     
     downloadHTMLReport(monthLogs, 'Monthly', moment().format('MMMM YYYY'));
@@ -228,7 +240,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
     }
     
     const customLogs = logs.filter(log => {
-      const logDate = moment(log.DateTime).format('YYYY-MM-DD');
+      const logDate = logDayKey(log.DateTime);
       return logDate >= customStart && logDate <= customEnd;
     });
     
@@ -244,7 +256,7 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
     const boarders = reportLogs.filter(l => l.Status === 'Boarder').length;
     const nonBoarders = reportLogs.filter(l => l.Status === 'Non-Boarder').length;
     const invalid = reportLogs.filter(l => l.Status !== 'Boarder' && l.Status !== 'Non-Boarder').length;
-    const lateEntries = reportLogs.filter(log => moment(log.DateTime).hour() >= lateEntryHour).length;
+    const lateEntries = reportLogs.filter(log => logHour(log.DateTime) >= lateEntryHour).length;
 
     // Generate table rows
     const tableRows = reportLogs.map((log, index) => {
@@ -254,8 +266,8 @@ const Reports = ({ logs, allotments, isMobile, showUnique, toggleUnique }) => {
       
       return `
         <div style="display: grid; grid-template-columns: 1fr 1fr 1.2fr 1fr 1.5fr 1fr 0.8fr; border-bottom: 1px solid #e5e7eb; background: ${bgColor};">
-          <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${moment(log.DateTime).format('MMM DD, YYYY')}</div>
-          <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${moment(log.DateTime).format('hh:mm A')}</div>
+          <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${(() => { const m = parseLogMoment(log.DateTime); return m.isValid() ? m.format('MMM DD, YYYY') : '—'; })()}</div>
+          <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${(() => { const m = parseLogMoment(log.DateTime); return m.isValid() ? m.format('hh:mm A') : '—'; })()}</div>
           <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${rollNo}</div>
           <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${log.Status || 'Unknown'}</div>
           <div style="padding: 12px; border-right: 1px solid #e5e7eb;">${student?.Name || 'Unknown'}</div>

@@ -1,475 +1,53 @@
-import { useState, useEffect, useMemo } from 'react';
-import Papa from 'papaparse';
-import moment from 'moment';
-import { Users, ShieldAlert, AlertTriangle, Search, Calendar, LayoutGrid, List, Filter, Activity, X } from 'lucide-react';
-import { cn } from './lib/utils';
-import { isSessionValid, clearSession } from './utils/auth';
-
-import Sidebar from './components/Sidebar';
-import PageHeader from './components/PageHeader';
-import StatsCard from './components/StatsCard';
-import LogsTable from './components/LogsTable';
-import LogsGrid from './components/LogsGrid';
-import ImageModal from './components/ImageModal';
-import DateRangeModal from './components/DateRangeModal';
+import { useState, useCallback } from 'react';
+import { clearSession } from './utils/auth';
+import { toast } from './components/ui/toast';
+import { useAuthSession } from './hooks/useAuthSession';
+import { useMobileLayout } from './hooks/useMobileLayout';
+import { useScanDataset } from './hooks/useScanDataset';
+import { AppShell } from './components/layout/AppShell';
 import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 import Students from './pages/Students';
 import Reports from './pages/Reports';
 import Settings from './pages/Settings';
-import { Tabs, TabsList, TabsTrigger } from './components/ui/tabs';
-import { toast } from './components/ui/toast';
-import { Input } from './components/ui/input';
-import { Button } from './components/ui/button';
 
 const App = () => {
-  // Authentication
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  
-  // Data
-  const [logs, setLogs] = useState([]);
-  const [allotments, setAllotments] = useState({});
-  const [lastScan, setLastScan] = useState(null);
-  
-  // UI State
-  const [loading, setLoading] = useState(true);
-  const [processing, setProcessing] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
   const [activeTab, setActiveTab] = useState('dashboard');
-  const [selectedLog, setSelectedLog] = useState(null);
-  const [filterTab, setFilterTab] = useState('all');
-  const [sortConfig, setSortConfig] = useState({ key: 'time', direction: 'desc' });
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
-  const [startDate, setStartDate] = useState('');
-  const [endDate, setEndDate] = useState('');
-  const [viewMode, setViewMode] = useState('table');
-  const [isDateModalOpen, setIsDateModalOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const [showUnique, setShowUnique] = useState(false);
-  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
-  const [searchInput, setSearchInput] = useState('');
 
-  // Check authentication on mount and set up session checking
-  useEffect(() => {
-    const checkAuth = () => {
-      if (isSessionValid()) {
-        setIsAuthenticated(true);
-      } else {
-        setIsAuthenticated(false);
-        if (activeTab !== 'dashboard') {
-          setActiveTab('dashboard');
-        }
-      }
-    };
+  const { isAuthenticated, setIsAuthenticated } = useAuthSession(
+    activeTab,
+    setActiveTab
+  );
 
-    checkAuth();
+  const {
+    isMobile,
+    sidebarCollapsed,
+    setSidebarCollapsed,
+    viewMode,
+    setViewMode,
+  } = useMobileLayout();
 
-    // Check session every minute
-    const interval = setInterval(checkAuth, 60000);
+  const { logs, allotments, lastScan, loading } =
+    useScanDataset(isAuthenticated);
 
-    return () => clearInterval(interval);
-  }, [activeTab]);
-
-  // Detect mobile screen
-  useEffect(() => {
-    const checkMobile = () => {
-      const mobile = window.innerWidth < 768;
-      setIsMobile(mobile);
-      if (mobile) {
-        setSidebarCollapsed(true);
-        setViewMode('grid');
-      }
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
-
-  useEffect(() => {
-    if (isAuthenticated) {
-      loadData();
-    }
-  }, [isAuthenticated]);
-
-  const loadData = async () => {
-    try {
-      setLoading(true);
-      // https://raw.githubusercontent.com/G5-UOGIAN/scanner-logs/main/scan_log.csv
-      // Get URLs from env or localStorage
-      let scanLogsUrl = import.meta.env.VITE_SCAN_LOGS_URL || 
-                         localStorage.getItem('scanLogsPath') || 
-                         '/scan_log.csv';
-      
-      let allotmentsUrl = scanLogsUrl.replace('scan_log.csv', 'allotments.csv');
-      
-      // Get GitHub token from environment
-      const githubToken = import.meta.env.VITE_GITHUB_PAT;
-      // console.log(githubToken);
-      
-      // Convert raw.githubusercontent.com URLs to API URLs if token is present
-      if (githubToken && scanLogsUrl.includes('raw.githubusercontent.com')) {
-        // Convert: https://raw.githubusercontent.com/owner/repo/branch/path
-        // To: https://api.github.com/repos/owner/repo/contents/path?ref=branch
-        const rawUrlPattern = /https:\/\/raw\.githubusercontent\.com\/([^\/]+)\/([^\/]+)\/([^\/]+)\/(.+)/;
-        const match = scanLogsUrl.match(rawUrlPattern);
-        
-        if (match) {
-          const [, owner, repo, branch, path] = match;
-          scanLogsUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-          
-          const allotmentsPath = path.replace('scan_log.csv', 'allotments.csv');
-          allotmentsUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${allotmentsPath}?ref=${branch}`;
-        }
-      }
-      
-      // Prepare headers
-      const headers = {};
-      if (githubToken && (scanLogsUrl.includes('api.github.com') || scanLogsUrl.includes('github'))) {
-        headers['Authorization'] = `token ${githubToken}`;
-        headers['Accept'] = 'application/vnd.github.v3.raw'; // Get raw content directly
-      }
-      // console.log(headers);
-      
-      // Fetch both files
-      const [logsResponse, allotmentsResponse] = await Promise.all([
-        fetch(scanLogsUrl, { headers }),
-        fetch(allotmentsUrl, { headers })
-      ]);
-      
-      // Check for errors
-      if (!logsResponse.ok) {
-        throw new Error(`Failed to fetch scan logs: ${logsResponse.status} ${logsResponse.statusText}`);
-      }
-      
-      if (!allotmentsResponse.ok) {
-        throw new Error(`Failed to fetch allotments: ${allotmentsResponse.status} ${allotmentsResponse.statusText}`);
-      }
-      
-      const csvText = await logsResponse.text();
-      const allotmentsText = await allotmentsResponse.text();
-
-      // Parse allotments first
-      Papa.parse(allotmentsText, {
-        header: true,
-        skipEmptyLines: true,
-        complete: (result) => {
-          const allotMap = {};
-          result.data.forEach(row => {
-            const rollNo = row['Roll No.']?.trim();
-            if (rollNo) {
-              allotMap[rollNo] = {
-                'Roll No.': rollNo,
-                Name: row.Name?.trim(),
-                Hostel: row.Hostel?.trim(),
-                Room: row.Room?.trim(),
-                Allotment: row.Hostel?.trim(),
-                Contact: row.Contact?.trim(),
-                Batch: row.Batch?.trim()
-              };
-            }
-          });
-          setAllotments(allotMap);
-        }
-      });
-
-      // Parse scan logs
-      Papa.parse(csvText, {
-        header: true,
-        skipEmptyLines: true,
-        complete: (result) => {
-          // Process logs
-          const processedLogs = result.data
-            .filter(row => {
-              // Skip the last update marker row
-              if (row.Name?.trim() === 'LAST UPDAED LOGS' || row.Name?.trim() === 'LAST UPDATED LOGS') {
-                return false;
-              }
-              return row.Date_ && row.QR_Code && row.QR_Code !== 'NULL';
-            })
-            .map(row => {
-              // Clean date and time, removing any extra spaces or commas
-              const date = row.Date_?.trim().replace(/,\s*$/, ''); // Remove trailing comma and spaces
-              const time = row.Time?.trim().replace(/^\s*,?\s*/, ''); // Remove leading comma and spaces
-              
-              // Construct DateTime string
-              const dateTimeStr = `${date} ${time}`;
-              
-              // Parse with moment using the exact format
-              const parsedDate = moment(dateTimeStr, 'DD/MM/YYYY HH:mm:ss', true);
-              
-              // Log any invalid dates for debugging
-              if (!parsedDate.isValid()) {
-                console.warn('Invalid date:', dateTimeStr, 'from row:', row);
-              }
-              
-              return {
-                DateTime: dateTimeStr,
-                'QR Code': row.QR_Code?.trim(),
-                Status: row.Status?.trim(),
-                Name: row.Name?.trim(),
-                Hostel: row.Hostel?.trim(),
-                Room: row.RoomNo?.trim(),
-                Mobile: row.MobileNo?.trim(),
-                ImagePath: row.Image_Path?.trim()
-              };
-            });
-
-          setLogs(processedLogs);
-          
-          // Set last scan to the most recent entry
-          if (processedLogs.length > 0) {
-            // Find the most recent scan by parsing all dates
-            const sortedByDate = [...processedLogs].sort((a, b) => {
-              const dateA = moment(a.DateTime, 'DD/MM/YYYY HH:mm:ss', true);
-              const dateB = moment(b.DateTime, 'DD/MM/YYYY HH:mm:ss', true);
-              return dateB.valueOf() - dateA.valueOf();
-            });
-            const lastScanDate = moment(sortedByDate[0].DateTime, 'DD/MM/YYYY HH:mm:ss', true);
-            if (lastScanDate.isValid()) {
-              setLastScan(lastScanDate.toDate());
-            }
-          }
-          
-          setLoading(false);
-          toast.success('Data loaded successfully');
-        },
-        error: (error) => {
-          console.error('CSV Parse Error:', error);
-          setLoading(false);
-          toast.error('Failed to parse CSV data');
-        }
-      });
-    } catch (err) {
-      console.error('Fetch Error:', err);
-      setLoading(false);
-      toast.error('Failed to load data');
-    }
-  };
-
-  // Get unique logs (filter duplicates by QR Code)
-  const uniqueLogs = useMemo(() => {
-    if (!showUnique) return logs;
-    
-    const seen = new Set();
-    return logs.filter(log => {
-      const key = log['QR Code'];
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-  }, [logs, showUnique]);
-
-  // Apply filters
-  const filteredLogs = useMemo(() => {
-    let filtered = showUnique ? uniqueLogs : logs;
-
-    // Date range filter
-    if (startDate || endDate) {
-      filtered = filtered.filter(log => {
-        const logDate = moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).format('YYYY-MM-DD');
-        
-        if (startDate && endDate) {
-          return logDate >= startDate && logDate <= endDate;
-        } else if (startDate) {
-          return logDate >= startDate;
-        } else if (endDate) {
-          return logDate <= endDate;
-        }
-        
-        return true;
-      });
-    }
-
-    // Tab filter
-    if (filterTab === 'late') {
-      const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22');
-      filtered = filtered.filter(log => {
-        const hour = moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).hour();
-        return hour >= lateEntryHour;
-      });
-    } else if (filterTab === 'boarder') {
-      filtered = filtered.filter(log => log.Status === 'Boarder');
-    } else if (filterTab === 'non-boarder') {
-      filtered = filtered.filter(log => log.Status === 'Non-Boarder');
-    } else if (filterTab === 'invalid') {
-      filtered = filtered.filter(log => 
-        log.Status !== 'Boarder' && log.Status !== 'Non-Boarder'
-      );
-    } else if (filterTab === 'missing') {
-      // Show boarders who haven't scanned in the selected date range
-      const scannedRollNos = new Set(
-        filtered.filter(l => l.Status === 'Boarder').map(l => l['QR Code'])
-      );
-      const missingBoarders = Object.values(allotments).filter(
-        student => !scannedRollNos.has(student['Roll No.'])
-      );
-      // Convert to log format for display
-      return missingBoarders.map(student => ({
-        DateTime: 'Not Scanned',
-        'QR Code': student['Roll No.'],
-        Status: 'Absent',
-        Name: student.Name,
-        Hostel: student.Hostel,
-        Room: student.Room
-      }));
-    }
-
-    // Search filter
-    if (searchTerm) {
-      filtered = filtered.filter(log => {
-        const name = log.Name || '';
-        const rollNo = log['QR Code'] || '';
-        return (
-          name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          rollNo.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-      });
-    }
-
-    return filtered;
-  }, [logs, uniqueLogs, showUnique, searchTerm, filterTab, allotments, startDate, endDate]);
-
-  // Sort logs
-  const sortedLogs = useMemo(() => {
-    const sorted = [...filteredLogs];
-    
-    sorted.sort((a, b) => {
-      let aValue, bValue;
-      
-      switch (sortConfig.key) {
-        case 'identity':
-          aValue = a.Name || '';
-          bValue = b.Name || '';
-          break;
-        case 'time':
-          aValue = moment(a.DateTime, 'DD/MM/YYYY HH:mm:ss', true).valueOf();
-          bValue = moment(b.DateTime, 'DD/MM/YYYY HH:mm:ss', true).valueOf();
-          break;
-        case 'room':
-          aValue = a.Room || '';
-          bValue = b.Room || '';
-          break;
-        case 'status':
-          aValue = a.Status || '';
-          bValue = b.Status || '';
-          break;
-        default:
-          return 0;
-      }
-
-      if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1;
-      if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1;
-      return 0;
-    });
-
-    return sorted;
-  }, [filteredLogs, sortConfig]);
-
-  // Calculate stats (reactive to showUnique toggle)
-  const stats = useMemo(() => {
-    const dataToAnalyze = showUnique ? uniqueLogs : logs;
-    
-    const totalScans = dataToAnalyze.length;
-    const boarders = dataToAnalyze.filter(l => l.Status === 'Boarder').length;
-    const nonBoarders = dataToAnalyze.filter(l => l.Status === 'Non-Boarder').length;
-    const invalid = dataToAnalyze.filter(l => 
-      l.Status !== 'Boarder' && l.Status !== 'Non-Boarder'
-    ).length;
-
-    // Calculate absent boarders (allotment entries with no matching scan)
-    const scannedBoarderRollNos = new Set(
-      dataToAnalyze.filter(l => l.Status === 'Boarder').map(l => l['QR Code'])
-    );
-    const missingBoarders = Object.values(allotments).filter(
-      student => !scannedBoarderRollNos.has(student['Roll No.'])
-    ).length;
-
-    // Calculate peak time
-    const hourCounts = {};
-    dataToAnalyze.forEach(log => {
-      const hour = moment(log.DateTime, 'DD/MM/YYYY HH:mm:ss', true).hour();
-      if (!isNaN(hour)) {
-        hourCounts[hour] = (hourCounts[hour] || 0) + 1;
-      }
-    });
-
-    let peakHour = 0;
-    let maxCount = 0;
-    Object.entries(hourCounts).forEach(([hour, count]) => {
-      if (count > maxCount) {
-        maxCount = count;
-        peakHour = parseInt(hour);
-      }
-    });
-
-    const peakTime = moment().hour(peakHour).format('hh:00 A');
-
-    return {
-      totalScans,
-      boarders,
-      nonBoarders,
-      invalid,
-      missingBoarders,
-      peakTime
-    };
-  }, [logs, uniqueLogs, showUnique, allotments]);
-
-  const handleLogin = () => {
+  const handleLogin = useCallback(() => {
     setIsAuthenticated(true);
-  };
+  }, [setIsAuthenticated]);
 
-  const handleLogout = () => {
+  const handleLogout = useCallback(() => {
     clearSession();
     setIsAuthenticated(false);
     setActiveTab('dashboard');
     toast.success('Logged out successfully');
-  };
+  }, [setIsAuthenticated]);
 
-  const handleTabChange = (tab) => {
-    setProcessing(true);
-    setFilterTab(tab);
-    setTimeout(() => {
-      setProcessing(false);
-    }, 100);
-  };
-
-  const handleViewModeChange = (mode) => {
-    setProcessing(true);
-    setViewMode(mode);
-    setTimeout(() => {
-      setProcessing(false);
-    }, 100);
-  };
-
-  const handleSort = (key) => {
-    setSortConfig(prev => ({
-      key,
-      direction: prev.key === key && prev.direction === 'asc' ? 'desc' : 'asc'
-    }));
-  };
-
-  const handleDateRangeApply = (start, end) => {
-    setIsDateModalOpen(false);
-    setStartDate(start);
-    setEndDate(end);
-    
-    if (start || end) {
-      toast.success('Date range filter applied');
-    } else {
-      toast.success('Showing all records');
-    }
-  };
-
-  const clearDateRange = () => {
-    setStartDate('');
-    setEndDate('');
-    toast.success('Showing all records');
-  };
-
-  const toggleUnique = () => {
-    setShowUnique(!showUnique);
-    toast.success(showUnique ? 'Showing all entries' : 'Showing unique entries');
-  };
+  const toggleUnique = useCallback(() => {
+    setShowUnique((v) => !v);
+    toast.success(
+      showUnique ? 'Showing all entries' : 'Showing unique entries'
+    );
+  }, [showUnique]);
 
   if (!isAuthenticated) {
     return <Login onLogin={handleLogin} />;
@@ -477,432 +55,54 @@ const App = () => {
 
   if (activeTab !== 'dashboard') {
     return (
-      <div className="flex h-screen overflow-hidden bg-slate-50 dark:bg-slate-950">
-        {!isMobile && (
-          <Sidebar 
-            activeTab={activeTab} 
-            setActiveTab={setActiveTab}
-            collapsed={sidebarCollapsed}
-            setCollapsed={setSidebarCollapsed}
+      <AppShell
+        isMobile={isMobile}
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        sidebarCollapsed={sidebarCollapsed}
+        setSidebarCollapsed={setSidebarCollapsed}
+        onLogout={handleLogout}
+      >
+        {activeTab === 'students' && (
+          <Students allotments={allotments} isMobile={isMobile} />
+        )}
+        {activeTab === 'reports' && (
+          <Reports
+            logs={logs}
+            allotments={allotments}
             isMobile={isMobile}
-            onLogout={handleLogout}
+            showUnique={showUnique}
+            toggleUnique={toggleUnique}
           />
         )}
-        
-        <div className={cn(
-          "flex-1 flex flex-col overflow-hidden",
-          isMobile && "pb-16"
-        )}>
-          {activeTab === 'students' && <Students allotments={allotments} isMobile={isMobile} />}
-          {activeTab === 'reports' && <Reports logs={logs} allotments={allotments} isMobile={isMobile} showUnique={showUnique} toggleUnique={toggleUnique} />}
-          {activeTab === 'settings' && <Settings isMobile={isMobile} onLogout={handleLogout} />}
-        </div>
-
-        {isMobile && (
-          <Sidebar 
-            activeTab={activeTab} 
-            setActiveTab={setActiveTab}
-            collapsed={sidebarCollapsed}
-            setCollapsed={setSidebarCollapsed}
-            isMobile={isMobile}
-            onLogout={handleLogout}
-          />
+        {activeTab === 'settings' && (
+          <Settings isMobile={isMobile} onLogout={handleLogout} />
         )}
-      </div>
+      </AppShell>
     );
   }
 
   return (
-    <div className="flex h-screen overflow-hidden bg-slate-50 dark:bg-slate-950">
-      {!isMobile && (
-        <Sidebar 
-          activeTab={activeTab} 
-          setActiveTab={setActiveTab}
-          collapsed={sidebarCollapsed}
-          setCollapsed={setSidebarCollapsed}
-          isMobile={isMobile}
-          onLogout={handleLogout}
-        />
-      )}
-      
-      <div className={cn(
-        "flex-1 flex flex-col overflow-hidden",
-        isMobile && "pb-16"
-      )}>
-        {!isMobile && (
-        <PageHeader 
-          title="Dashboard" 
-          description="Monitor and manage hostel scan entries"
-          search={
-            <div className="flex items-center gap-3 w-full md:w-auto">
-              <div className="flex-1 relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-                <Input
-                  type="text"
-                  placeholder="Search by name or roll number..."
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') setSearchTerm(searchInput);
-                  }}
-                  className="pl-10"
-                />
-              </div>
-              <Button onClick={() => setSearchTerm(searchInput)}>
-                Search
-              </Button>
-              {searchTerm && (
-                <Button variant="outline" onClick={() => { setSearchTerm(''); setSearchInput(''); }}>
-                  Clear
-                </Button>
-              )}
-            </div>
-          }
-          actions={
-            <div className="flex items-center gap-3">
-              <Button
-                variant={showUnique ? 'default' : 'outline'}
-                onClick={toggleUnique}
-                className="gap-2"
-              >
-                <Filter size={16} />
-                {showUnique ? 'Unique' : 'All Entries'}
-              </Button>
-              <Button
-                variant="outline"
-                onClick={() => setIsDateModalOpen(true)}
-                className="gap-2"
-              >
-                <Calendar size={16} />
-                {startDate || endDate ? 'Change Range' : 'Date Range'}
-              </Button>
-                {(startDate || endDate) && (
-                  <Button variant="outline" onClick={clearDateRange}>
-                    Clear
-                  </Button>
-                )}
-              </div>
-          }
-        />
-        )}
-
-        <div className="flex-1 overflow-hidden p-3 md:p-6 space-y-4 md:space-y-6 pb-20 md:pb-6">
-          {/* Mobile controls */}
-          {isMobile && (
-            <div className="flex gap-2">
-              <Button
-                variant={showUnique ? 'default' : 'outline'}
-                onClick={toggleUnique}
-                size="sm"
-                className="flex-1 gap-2"
-              >
-                <Filter size={14} />
-                {showUnique ? 'Unique' : 'All'}
-              </Button>
-              <Button
-                variant="outline"
-                onClick={() => setIsDateModalOpen(true)}
-                size="sm"
-                className="flex-1 gap-2"
-              >
-                <Calendar size={14} />
-                Range
-              </Button>
-              <Button
-                variant={searchTerm ? 'default' : 'outline'}
-                onClick={() => { setSearchInput(searchTerm); setIsSearchModalOpen(true); }}
-                size="sm"
-                className="gap-1 px-3"
-              >
-                <Search size={14} />
-              </Button>
-              {(startDate || endDate) && (
-                <Button variant="outline" onClick={clearDateRange} size="sm">
-                  Clear
-                </Button>
-              )}
-            </div>
-          )}
-
-          {/* Last Scan Info */}
-          {lastScan && (
-            <div className="flex items-center justify-center bg-cyan-50 dark:bg-cyan-950/20 border border-cyan-200 dark:border-cyan-800 rounded-lg px-4 py-2">
-              <div className="flex items-center gap-2">
-                <Activity className="w-4 h-4 text-cyan-600" />
-                <span className="text-sm text-cyan-900 dark:text-cyan-100">
-                  Last scan: {moment(lastScan).format('MMM DD, YYYY [at] hh:mm A')}
-                </span>
-              </div>
-            </div>
-          )}
-
-          {/* Analytics Widgets - 2 per row on mobile, 4 on desktop */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
-            <StatsCard
-              label="Boarders"
-              value={stats.boarders}
-              icon={Users}
-              description={`Total: ${stats.totalScans} scans`}
-              variant="default"
-            />
-            <StatsCard
-              label="Non-Boarders"
-              value={stats.nonBoarders}
-              icon={Users}
-              description="Visitors"
-              variant="default"
-            />
-            <StatsCard
-              label="Absent Boarders"
-              value={stats.missingBoarders}
-              icon={AlertTriangle}
-              description="Haven't scanned"
-              variant="warning"
-            />
-            <StatsCard
-              label="Invalid Scans"
-              value={stats.invalid}
-              icon={ShieldAlert}
-              variant="danger"
-            />
-          </div>
-
-          {/* Tabs and Table Container */}
-          <div className="flex-1 bg-white dark:bg-slate-950 rounded-lg border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden flex flex-col min-h-0">
-            {/* Date Display */}
-            <div className="px-3 md:px-6 py-2 md:py-3 border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900">
-              <p className="text-xs md:text-sm font-medium text-slate-600 dark:text-slate-400">
-                Showing records: {' '}
-                <span className="text-slate-900 dark:text-white font-semibold">
-                  {startDate || endDate 
-                    ? `${startDate ? moment(startDate).format('MMM DD, YYYY') : 'Beginning'} to ${endDate ? moment(endDate).format('MMM DD, YYYY') : 'Now'}`
-                    : 'All Time'
-                  }
-                </span>
-                {' '}({filteredLogs.length} records)
-                {showUnique && <span className="text-cyan-600"> • Unique entries</span>}
-              </p>
-            </div>
-
-            <div className="p-1 md:p-2 border-b border-slate-200 dark:border-slate-800 flex-shrink-0">
-              <div className="flex items-center justify-between gap-3">
-                <div className="flex-1 overflow-x-auto">
-                  <Tabs value={filterTab} onValueChange={handleTabChange}>
-                    <TabsList className="w-full md:w-auto">
-                      <TabsTrigger 
-                        value="all" 
-                        active={filterTab === 'all'}
-                        onClick={() => handleTabChange('all')}
-                        disabled={processing}
-                        className="text-xs md:text-sm whitespace-nowrap"
-                      >
-                        All
-                      </TabsTrigger>
-                      <TabsTrigger 
-                        value="boarder" 
-                        active={filterTab === 'boarder'}
-                        onClick={() => handleTabChange('boarder')}
-                        disabled={processing}
-                        className="text-xs md:text-sm whitespace-nowrap"
-                      >
-                        Boarders
-                      </TabsTrigger>
-                      <TabsTrigger 
-                        value="non-boarder" 
-                        active={filterTab === 'non-boarder'}
-                        onClick={() => handleTabChange('non-boarder')}
-                        disabled={processing}
-                        className="text-xs md:text-sm whitespace-nowrap"
-                      >
-                        Non-Boarders
-                      </TabsTrigger>
-                      <TabsTrigger 
-                        value="missing" 
-                        active={filterTab === 'missing'}
-                        onClick={() => handleTabChange('missing')}
-                        disabled={processing}
-                        className="text-xs md:text-sm whitespace-nowrap"
-                      >
-                        Absent
-                      </TabsTrigger>
-                      <TabsTrigger 
-                        value="invalid" 
-                        active={filterTab === 'invalid'}
-                        onClick={() => handleTabChange('invalid')}
-                        disabled={processing}
-                        className="text-xs md:text-sm whitespace-nowrap"
-                      >
-                        Invalid
-                      </TabsTrigger>
-                    </TabsList>
-                  </Tabs>
-                </div>
-
-                {!isMobile && (
-                  <div className="flex items-center gap-2">
-                    <Button
-                      variant={viewMode === 'table' ? 'default' : 'outline'}
-                      size="sm"
-                      onClick={() => handleViewModeChange('table')}
-                      className="gap-2"
-                      disabled={processing}
-                    >
-                      <List size={16} />
-                      Table
-                    </Button>
-                    <Button
-                      variant={viewMode === 'grid' ? 'default' : 'outline'}
-                      size="sm"
-                      onClick={() => handleViewModeChange('grid')}
-                      className="gap-2"
-                      disabled={processing}
-                    >
-                      <LayoutGrid size={16} />
-                      Cards
-                    </Button>
-                  </div>
-                )}
-              </div>
-            </div>
-
-            <div className="flex-1 overflow-auto" style={{ maxHeight: 'calc(100svh - 490px)' }}>
-              {loading ? (
-                <div className="flex items-center justify-center h-full min-h-[150px] sm:min-h-[300px]">
-                  <div className="text-center">
-                    <svg className="animate-spin h-10 w-10 text-cyan-600 mx-auto mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                    </svg>
-                    <p className="text-slate-600 dark:text-slate-400">Loading data...</p>
-                  </div>
-                </div>
-              ) : processing ? (
-                <div className="flex items-center justify-center h-full min-h-[150px] sm:min-h-[300px]">
-                  <svg className="animate-spin h-8 w-8 text-cyan-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                </div>
-              ) : sortedLogs.length === 0 ? (
-                <div className="flex items-center justify-center h-full min-h-[150px] sm:min-h-[300px]">
-                  <div className="text-center">
-                    <p className="text-lg font-medium text-slate-900 dark:text-white mb-2">No Records Found</p>
-                    <p className="text-sm text-slate-500">
-                      {filterTab === 'missing' 
-                        ? 'All boarders have scanned their cards'
-                        : 'Try adjusting your filters or date range'}
-                    </p>
-                  </div>
-                </div>
-              ) : viewMode === 'table' ? (
-                <LogsTable 
-                  logs={sortedLogs}
-                  allotments={allotments}
-                  onSort={handleSort}
-                  sortConfig={sortConfig}
-                  onRowClick={setSelectedLog}
-                />
-              ) : (
-                <LogsGrid 
-                  logs={sortedLogs}
-                  allotments={allotments}
-                  onCardClick={setSelectedLog}
-                />
-              )}
-            </div>
-          </div>
-        </div>
-
-        {selectedLog && (
-          <ImageModal
-            log={selectedLog}
-            student={allotments[selectedLog['QR Code']?.trim()]}
-            onClose={() => setSelectedLog(null)}
-          />
-        )}
-
-        <DateRangeModal
-          isOpen={isDateModalOpen}
-          onClose={() => setIsDateModalOpen(false)}
-          onApply={handleDateRangeApply}
-          currentStartDate={startDate}
-          currentEndDate={endDate}
-        />
-
-        {/* Mobile Search Modal */}
-        {isSearchModalOpen && (
-          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-start justify-center z-50 p-4 pt-16">
-            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-xl w-full max-w-sm p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <h3 className="text-base font-semibold text-slate-900 dark:text-white">Search</h3>
-                <button
-                  onClick={() => setIsSearchModalOpen(false)}
-                  className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-                >
-                  <X size={20} />
-                </button>
-              </div>
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-                <Input
-                  type="text"
-                  placeholder="Search by name or roll number..."
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') {
-                      setSearchTerm(searchInput);
-                      setIsSearchModalOpen(false);
-                    }
-                  }}
-                  className="pl-10"
-                  autoFocus
-                />
-              </div>
-              <div className="flex gap-2">
-                <Button
-                  className="flex-1"
-                  onClick={() => {
-                    setSearchTerm(searchInput);
-                    setIsSearchModalOpen(false);
-                  }}
-                >
-                  Search
-                </Button>
-                {searchTerm && (
-                  <Button
-                    variant="outline"
-                    onClick={() => {
-                      setSearchTerm('');
-                      setSearchInput('');
-                      setIsSearchModalOpen(false);
-                    }}
-                  >
-                    Clear
-                  </Button>
-                )}
-              </div>
-              {searchTerm && (
-                <p className="text-xs text-cyan-600 dark:text-cyan-400">
-                  Active: "{searchTerm}"
-                </p>
-              )}
-            </div>
-          </div>
-        )}
-
-        {isMobile && (
-          <Sidebar 
-            activeTab={activeTab} 
-            setActiveTab={setActiveTab}
-            collapsed={sidebarCollapsed}
-            setCollapsed={setSidebarCollapsed}
-            isMobile={isMobile}
-            onLogout={handleLogout}
-          />
-        )}
-      </div>
-    </div>
+    <AppShell
+      isMobile={isMobile}
+      activeTab={activeTab}
+      setActiveTab={setActiveTab}
+      sidebarCollapsed={sidebarCollapsed}
+      setSidebarCollapsed={setSidebarCollapsed}
+      onLogout={handleLogout}
+    >
+      <Dashboard
+        logs={logs}
+        allotments={allotments}
+        lastScan={lastScan}
+        loading={loading}
+        isMobile={isMobile}
+        showUnique={showUnique}
+        onToggleUnique={toggleUnique}
+        viewMode={viewMode}
+        setViewMode={setViewMode}
+      />
+    </AppShell>
   );
 };
 
