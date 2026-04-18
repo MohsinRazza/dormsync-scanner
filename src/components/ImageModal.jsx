@@ -1,4 +1,4 @@
-import { X, MapPin, Phone, Clock, Home, Calendar, CreditCard, Mail, BookOpen, User } from 'lucide-react';
+import { X, MapPin, Phone, Home, CreditCard, Mail, BookOpen, User } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { parseLogMoment } from '../utils/logDateTime';
 import { Button } from './ui/button';
@@ -45,7 +45,7 @@ const ImageModal = ({ log, student, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-start justify-center z-50 p-3">
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-3">
       <div className="bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 shadow-xl w-full max-w-sm max-h-[90svh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-slate-200 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-950 z-10">
@@ -79,8 +79,7 @@ const ImageModal = ({ log, student, onClose }) => {
             >
               {profileSrc
                 ? <img src={profileSrc} alt="Profile" className="w-full h-full object-cover" />
-                : <User size={18} />
-              }
+                : <User size={18} />}
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-sm text-slate-900 dark:text-white truncate">
@@ -94,16 +93,7 @@ const ImageModal = ({ log, student, onClose }) => {
             </div>
           </div>
 
-          {/* Scan time */}
-          {/* <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2 text-xs flex items-center gap-2">
-            <Clock size={11} className="text-cyan-600 flex-shrink-0" />
-            <span className="text-slate-400">Scanned at</span>
-            <span className="font-medium text-slate-900 dark:text-white ml-auto">
-              {entryMoment.isValid() ? entryMoment.format('hh:mm A') : '—'}
-            </span>
-          </div> */}
-
-          {/* Location */}
+          {/* Hostel / Room / Contact / CNIC + full-width Location */}
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><Home size={10} /> Hostel</p>
@@ -118,16 +108,26 @@ const ImageModal = ({ log, student, onClose }) => {
               <p className="font-medium text-slate-900 dark:text-white truncate">{student?.Contact || 'N/A'}</p>
             </div>
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><Calendar size={10} /> Batch</p>
-              <p className="font-medium text-slate-900 dark:text-white">{student?.Batch || 'N/A'}</p>
+              <p className="text-slate-400 mb-0.5">CNIC</p>
+              <p className="font-medium text-slate-900 dark:text-white truncate">{student?.CNIC || 'N/A'}</p>
+            </div>
+            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2 col-span-2">
+              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><MapPin size={10} /> Location</p>
+              <p className="font-medium text-slate-900 dark:text-white">
+                {[student?.City, student?.District, student?.Province].filter(Boolean).join(', ') || 'N/A'}
+              </p>
             </div>
           </div>
 
-          {/* Academic */}
+          {/* Degree + Department */}
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><BookOpen size={10} /> Degree</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student?.DegreeLevel || 'N/A'}</p>
+              <p className="font-medium text-slate-900 dark:text-white truncate">
+                {student?.DegreeLevel
+                  ? `${student.DegreeLevel}${student?.Batch ? ` (20${student.Batch})` : ''}`
+                  : 'N/A'}
+              </p>
             </div>
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5">Department</p>
@@ -145,18 +145,6 @@ const ImageModal = ({ log, student, onClose }) => {
               )}
             </div>
           )}
-
-          {/* CNIC + City */}
-          <div className="grid grid-cols-2 gap-2 text-xs">
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5">CNIC</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student?.CNIC || 'N/A'}</p>
-            </div>
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><MapPin size={10} /> City</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student?.City || 'N/A'}</p>
-            </div>
-          </div>
 
           {/* Mess + Arrears */}
           <div className="grid grid-cols-2 gap-2 text-xs">

@@ -77,10 +77,12 @@ function parseAllotmentsCsv(allotmentsText) {
             Arrears: hasArrears ? arrears : '',
             MessStatus: row['Mess Status']?.trim(),
             DegreeLevel: row['Degree Level']?.trim(),
-            Department: row['Department']?.trim(),
+            Department: row['Department']?.trim().replace(/\s*Dept\.?$/i, ''),
             SecondaryEmail: secondaryEmail,
             CNIC: row['CNIC']?.trim(),
             City: row['City']?.trim(),
+            District: (row['District'] || row['Ditrict'])?.trim(),
+            Province: row['Province']?.trim(),
           };
         });
         resolve(allotMap);

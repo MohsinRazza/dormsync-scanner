@@ -1,8 +1,14 @@
-import { UserCircle, Clock, Home } from 'lucide-react';
+import { UserCircle, Clock, Home, MapPin } from 'lucide-react';
 import { parseLogMoment } from '../utils/logDateTime';
 import { Badge } from './ui/badge';
 import { Card, CardContent } from './ui/card';
 import LazyAvatar from './LazyAvatar';
+
+const HOSTEL_LABELS = {
+  'H1-ABH': 'Abubakar Hostel',
+  'H2-UH': 'Usman Hostel',
+  'H3-AH': 'Ali Hostel',
+};
 
 const LogsGrid = ({ logs, allotments, onCardClick }) => {
   const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
@@ -56,30 +62,24 @@ const LogsGrid = ({ logs, allotments, onCardClick }) => {
                 </div>
               </div>
               {/* Bottom row: two-column detail grid */}
-              <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 mt-2">
-                <div className="flex items-center gap-1 text-xs text-slate-600 dark:text-slate-400 truncate">
-                  <Clock size={11} className="text-cyan-600 flex-shrink-0" />
-                  <span className="truncate">
-                    {(() => {
-                      const m = parseLogMoment(log.DateTime);
-                      return m.isValid() ? m.format('hh:mm A') : '—';
-                    })()}
-                  </span>
-                </div>
+              <div className="flex flex-col gap-0.5 mt-2">
                 <div className="flex items-center gap-1 text-xs text-slate-600 dark:text-slate-400 truncate">
                   <Home size={11} className="text-cyan-600 flex-shrink-0" />
-                  <span className="truncate">{student?.Hostel || 'N/A'} · {student?.Room || '??'}</span>
+                  <span className="truncate">{HOSTEL_LABELS[student?.Hostel] || student?.Hostel || 'N/A'}</span>
+                  <span className="text-slate-400 mx-0.5">·</span>
+                  <MapPin size={11} className="text-cyan-600 flex-shrink-0" />
+                  <span className="truncate">Room {student?.Room || 'N/A'}</span>
                 </div>
-                <div className="flex items-center gap-1 text-xs text-slate-500 truncate col-span-2">
+                <div className="flex items-center gap-1 text-xs text-slate-500 truncate">
                   <Clock size={11} className="text-slate-400 flex-shrink-0" />
-                  <span className="truncate">
-                    {(() => {
-                      const m = parseLogMoment(log.DateTime);
-                      return m.isValid() ? m.format('DD MMM YYYY') : '—';
-                    })()}
-                  </span>
-                  {student?.Arrears && student.Arrears !== '-' && (
-                    <span className="ml-2 text-red-500 truncate">· Arrears: {student.Arrears}</span>
+                  {(() => {
+                    const m = parseLogMoment(log.DateTime);
+                    return m.isValid()
+                      ? <span className="truncate">{m.format('DD MMM YYYY')} · {m.format('hh:mm A')}</span>
+                      : <span>—</span>;
+                  })()}
+                  {student?.Arrears && (
+                    <span className="ml-1 text-red-500 truncate flex-shrink-0">· Arrears</span>
                   )}
                 </div>
               </div>

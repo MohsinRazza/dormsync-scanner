@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, Phone, User, Home, X, Calendar, CreditCard, Mail, BookOpen, AlertCircle } from 'lucide-react';
+import { Search, MapPin, Phone, User, Home, X, CreditCard, Mail, BookOpen, AlertCircle } from 'lucide-react';
 import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
@@ -90,8 +90,14 @@ const StudentModal = ({ student, onClose }) => {
               <p className="font-medium text-slate-900 dark:text-white truncate">{student.Contact || 'N/A'}</p>
             </div>
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><Calendar size={10} /> Batch</p>
-              <p className="font-medium text-slate-900 dark:text-white">{student.Batch || 'N/A'}</p>
+              <p className="text-slate-400 mb-0.5">CNIC</p>
+              <p className="font-medium text-slate-900 dark:text-white truncate">{student.CNIC || 'N/A'}</p>
+            </div>
+            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2 col-span-2">
+              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><MapPin size={10} /> Location</p>
+              <p className="font-medium text-slate-900 dark:text-white">
+                {[student.City, student.District, student.Province].filter(Boolean).join(', ') || 'N/A'}
+              </p>
             </div>
           </div>
 
@@ -99,7 +105,11 @@ const StudentModal = ({ student, onClose }) => {
           <div className="grid grid-cols-2 gap-2 text-xs">
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5 flex items-center gap-1"><BookOpen size={10} /> Degree</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student.DegreeLevel || 'N/A'}</p>
+              <p className="font-medium text-slate-900 dark:text-white truncate">
+                {student.DegreeLevel
+                  ? `${student.DegreeLevel}${student.Batch ? ` (20${student.Batch})` : ''}`
+                  : 'N/A'}
+              </p>
             </div>
             <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
               <p className="text-slate-400 mb-0.5">Department</p>
@@ -114,18 +124,6 @@ const StudentModal = ({ student, onClose }) => {
             {student.SecondaryEmail && (
               <p className="text-slate-500 truncate mt-0.5">{student.SecondaryEmail}</p>
             )}
-          </div>
-
-          {/* CNIC + City */}
-          <div className="grid grid-cols-2 gap-2 text-xs">
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5">CNIC</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student.CNIC || 'N/A'}</p>
-            </div>
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-lg p-2">
-              <p className="text-slate-400 mb-0.5 flex items-center gap-1"><MapPin size={10} /> City</p>
-              <p className="font-medium text-slate-900 dark:text-white truncate">{student.City || 'N/A'}</p>
-            </div>
           </div>
 
           {/* Mess + Arrears */}
