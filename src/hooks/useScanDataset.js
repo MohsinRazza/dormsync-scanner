@@ -5,7 +5,7 @@ import {
   ScanDataParseError,
 } from '../services/loadScanDataset';
 
-export function useScanDataset(isAuthenticated) {
+export function useScanDataset(isAuthenticated, dataSource = 'local') {
   const [logs, setLogs] = useState([]);
   const [allotments, setAllotments] = useState({});
   const [lastScan, setLastScan] = useState(null);
@@ -15,7 +15,7 @@ export function useScanDataset(isAuthenticated) {
     try {
       setLoading(true);
       const { allotments: nextAllotments, logs: nextLogs, lastScan: nextLast } =
-        await loadScanDataset();
+        await loadScanDataset(dataSource);
       setAllotments(nextAllotments);
       setLogs(nextLogs);
       setLastScan(nextLast);
@@ -33,7 +33,7 @@ export function useScanDataset(isAuthenticated) {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [dataSource]);
 
   useEffect(() => {
     if (isAuthenticated) {

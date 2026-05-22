@@ -14,6 +14,7 @@ import { fetchLiveArrears, mergeArrearsIntoAllotments } from './services/liveArr
 const App = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [showUnique, setShowUnique] = useState(false);
+  const [dataSource, setDataSource] = useState('local');
   const [liveArrears, setLiveArrears] = useState(false);
   const [liveAllotments, setLiveAllotments] = useState(null);
   const [liveArrearsLoading, setLiveArrearsLoading] = useState(false);
@@ -32,7 +33,11 @@ const App = () => {
   } = useMobileLayout();
 
   const { logs, allotments, lastScan, loading } =
-    useScanDataset(isAuthenticated);
+    useScanDataset(isAuthenticated, dataSource);
+
+  const toggleDataSource = useCallback(() => {
+    setDataSource((prev) => (prev === 'local' ? 'remote' : 'local'));
+  }, []);
 
   const handleLogin = useCallback(() => {
     setIsAuthenticated(true);
@@ -132,6 +137,8 @@ const App = () => {
         onToggleUnique={toggleUnique}
         viewMode={viewMode}
         setViewMode={setViewMode}
+        dataSource={dataSource}
+        toggleDataSource={toggleDataSource}
       />
     </AppShell>
   );

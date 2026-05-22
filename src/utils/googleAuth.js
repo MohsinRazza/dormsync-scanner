@@ -28,10 +28,10 @@ export const initializeGoogleAuth = () => {
 };
 
 /**
- * Get authorized users from localStorage
+ * Get authorized users from sessionStorage
  */
 export const getAuthorizedUsers = () => {
-  const users = localStorage.getItem('dormsyncscanner_authorized_users');
+  const users = sessionStorage.getItem('dormsyncscanner_authorized_users');
   if (!users) {
     // Default authorized users
     const defaultUsers = [
@@ -41,7 +41,7 @@ export const getAuthorizedUsers = () => {
       'moeen.khalid@uog.edu.pk',
       '23011556-110@uog.edu.pk'
     ];
-    localStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(defaultUsers));
+    sessionStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(defaultUsers));
     return defaultUsers;
   }
   return JSON.parse(users);
@@ -54,7 +54,7 @@ export const addAuthorizedUser = (email) => {
   const users = getAuthorizedUsers();
   if (!users.includes(email)) {
     users.push(email);
-    localStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(users));
+    sessionStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(users));
   }
   return users;
 };
@@ -65,7 +65,7 @@ export const addAuthorizedUser = (email) => {
 export const removeAuthorizedUser = (email) => {
   const users = getAuthorizedUsers();
   const filteredUsers = users.filter(user => user !== email);
-  localStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(filteredUsers));
+  sessionStorage.setItem('dormsyncscanner_authorized_users', JSON.stringify(filteredUsers));
   return filteredUsers;
 };
 

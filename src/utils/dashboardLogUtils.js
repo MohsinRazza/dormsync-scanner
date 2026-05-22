@@ -50,10 +50,7 @@ export function filterDashboardLogs({
   }
 
   if (filterTab === 'late') {
-    const lateEntryHour = parseInt(
-      localStorage.getItem('lateEntryHour') || '22',
-      10
-    );
+    const lateEntryHour = 22;
     filtered = filtered.filter((log) => {
       const hour = parseLogMoment(log.DateTime).hour();
       return hour >= lateEntryHour;

@@ -7,7 +7,7 @@ const Sidebar = ({ activeTab, setActiveTab, collapsed, setCollapsed, isMobile, o
 
   useEffect(() => {
     // Check for saved dark mode preference
-    const savedDarkMode = localStorage.getItem('dormsyncscannertheme') === 'dark';
+    const savedDarkMode = sessionStorage.getItem('dormsyncscannertheme') === 'dark';
     setDarkMode(savedDarkMode);
     if (savedDarkMode) {
       document.documentElement.classList.add('dark');
@@ -18,7 +18,7 @@ const Sidebar = ({ activeTab, setActiveTab, collapsed, setCollapsed, isMobile, o
 
   useEffect(() => {
     // Load sidebar collapsed state
-    const savedCollapsed = localStorage.getItem('dormsyncscannersidebar') === 'true';
+    const savedCollapsed = sessionStorage.getItem('dormsyncscannersidebar') === 'true';
     if (!isMobile) {
       setCollapsed(savedCollapsed);
     }
@@ -27,7 +27,7 @@ const Sidebar = ({ activeTab, setActiveTab, collapsed, setCollapsed, isMobile, o
   const toggleDarkMode = () => {
     const newDarkMode = !darkMode;
     setDarkMode(newDarkMode);
-    localStorage.setItem('dormsyncscannertheme', newDarkMode ? 'dark' : 'light');
+    sessionStorage.setItem('dormsyncscannertheme', newDarkMode ? 'dark' : 'light');
     
     if (newDarkMode) {
       document.documentElement.classList.add('dark');
@@ -39,7 +39,7 @@ const Sidebar = ({ activeTab, setActiveTab, collapsed, setCollapsed, isMobile, o
   const handleCollapse = () => {
     const newCollapsed = !collapsed;
     setCollapsed(newCollapsed);
-    localStorage.setItem('dormsyncscannersidebar', newCollapsed.toString());
+    sessionStorage.setItem('dormsyncscannersidebar', newCollapsed.toString());
   };
 
   const handleMenuClick = (id) => {

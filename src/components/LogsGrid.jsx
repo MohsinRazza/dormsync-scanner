@@ -11,7 +11,7 @@ const HOSTEL_LABELS = {
 };
 
 const LogsGrid = ({ logs, allotments, onCardClick }) => {
-  const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
+  const profileImagesPath = '/images/students/';
 
   const getStatusVariant = (status) => {
     if (status === 'Boarder') return 'success';
@@ -28,7 +28,7 @@ const LogsGrid = ({ logs, allotments, onCardClick }) => {
     <div className="p-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
       {logs.map((log, i) => {
         const student = allotments[log['QR Code']?.trim()];
-        const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22');
+        const lateEntryHour = 22;
         const isLate = isLateEntry(log.DateTime, lateEntryHour);
         const rollNo = log['QR Code']?.trim();
         const profileImageBasePath = rollNo ? `${profileImagesPath}${rollNo}` : null;

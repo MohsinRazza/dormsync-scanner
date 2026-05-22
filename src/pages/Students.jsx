@@ -37,7 +37,7 @@ const StudentModal = ({ student, onClose }) => {
   if (!student) return null;
   const [fullscreenBasePath, setFullscreenBasePath] = useState(null);
 
-  const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
+  const profileImagesPath = '/images/students/';
   const rollNo = student['Roll No.']?.trim();
   const profileImageBasePath = rollNo ? `${profileImagesPath}${rollNo}` : null;
   const primaryEmail = rollNo ? `${rollNo}@uog.edu.pk` : null;
@@ -159,7 +159,7 @@ const Students = ({ allotments, liveArrears = false, liveArrearsLoading = false,
   const [showArrearsOnly, setShowArrearsOnly] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
 
-  const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
+  const profileImagesPath = '/images/students/';
   const allotmentsList = useMemo(() => Object.values(allotments), [allotments]);
 
   const hostels = useMemo(() =>

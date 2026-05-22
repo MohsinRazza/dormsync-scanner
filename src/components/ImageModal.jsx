@@ -14,14 +14,14 @@ const HOSTEL_LABELS = {
 const hostelLabel = (code) => HOSTEL_LABELS[code] || code || 'N/A';
 
 const ImageModal = ({ log, student, onClose }) => {
-  const scanImagesPath = localStorage.getItem('scanImagesPath') || '/captured/';
-  const profileImagesPath = localStorage.getItem('profileImagesPath') || '/images/students/';
+  const scanImagesPath = '/captured/';
+  const profileImagesPath = '/images/students/';
 
   const rollNo = log?.['QR Code']?.trim();
   const profileImageBasePath = rollNo ? `${profileImagesPath}${rollNo}` : null;
   const primaryEmail = rollNo ? `${rollNo}@uog.edu.pk` : null;
 
-  const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22', 10);
+  const lateEntryHour = 22;
   const entryMoment = parseLogMoment(log?.DateTime);
   const isLateEntry = entryMoment.isValid() && entryMoment.hour() >= lateEntryHour;
 

@@ -4,6 +4,8 @@ import {
   Calendar,
   Filter,
   EyeOff,
+  Cloud,
+  Database,
 } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import ImageModal from '../components/ImageModal';
@@ -12,6 +14,9 @@ import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
 import { toast } from '../components/ui/toast';
 import { useDashboardLogs } from '../hooks/useDashboardLogs';
+import ConfirmModal from '../components/ConfirmModal';
+import { downloadHTMLReport, isValidRollNo } from '../utils/reportGenerator';
+import { buildUniqueLogs } from '../utils/dashboardLogUtils';
 import { MobileSearchModal } from '../components/dashboard/MobileSearchModal';
 import { LastScanBanner } from '../components/dashboard/LastScanBanner';
 import { DashboardStatsGrid } from '../components/dashboard/DashboardStatsGrid';
@@ -27,6 +32,8 @@ export default function Dashboard({
   onToggleUnique,
   viewMode,
   setViewMode,
+  dataSource,
+  toggleDataSource,
 }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLog, setSelectedLog] = useState(null);
@@ -42,6 +49,7 @@ export default function Dashboard({
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   const [searchInput, setSearchInput] = useState('');
   const [hideInvalid, setHideInvalid] = useState(true);
+  const [pendingReport, setPendingReport] = useState(null);
 
   const { filteredLogs, sortedLogs, stats } = useDashboardLogs({
     logs,
@@ -90,6 +98,38 @@ export default function Dashboard({
     setStartDate('');
     setEndDate('');
     toast.success('Showing all records');
+  };
+
+  const handleGenerateDashboardReport = () => {
+    if (!pendingReport) return;
+    
+    let baseLogs = showUnique ? buildUniqueLogs(logs) : logs;
+    if (hideInvalid) {
+      baseLogs = baseLogs.filter(l => isValidRollNo(l['QR Code']));
+    }
+
+    let reportLogs = [];
+    if (pendingReport === 'Boarders') {
+      reportLogs = baseLogs.filter(l => l.Status === 'Boarder');
+    } else if (pendingReport === 'Non-Boarders') {
+      reportLogs = baseLogs.filter(l => l.Status === 'Non-Boarder');
+    } else if (pendingReport === 'Invalid Scans') {
+      reportLogs = baseLogs.filter(l => l.Status !== 'Boarder' && l.Status !== 'Non-Boarder');
+    } else if (pendingReport === 'Absent Boarders') {
+      const scannedRollNos = new Set(baseLogs.filter(l => l.Status === 'Boarder').map(l => l['QR Code']));
+      const missing = Object.values(allotments).filter(student => !scannedRollNos.has(student['Roll No.']));
+      reportLogs = missing.map(student => ({
+        DateTime: 'Not Scanned',
+        'QR Code': student['Roll No.'],
+        Status: 'Absent',
+        Name: student.Name,
+        Hostel: student.Hostel,
+        Room: student.Room,
+      }));
+    }
+
+    downloadHTMLReport(reportLogs, allotments, pendingReport, 'Dashboard Snapshot');
+    setPendingReport(null);
   };
 
   return (
@@ -141,6 +181,14 @@ export default function Dashboard({
                 {showUnique ? 'Unique' : 'All Entries'}
               </Button>
               <Button
+                variant={dataSource === 'local' ? 'outline' : 'default'}
+                onClick={toggleDataSource}
+                className="gap-2"
+              >
+                {dataSource === 'local' ? <Cloud size={16} /> : <Database size={16} />}
+                {dataSource === 'local' ? 'Remote Data' : 'Local Data'}
+              </Button>
+              <Button
                 variant={hideInvalid ? 'default' : 'outline'}
                 onClick={() => setHideInvalid(v => !v)}
                 className="gap-2"
@@ -179,6 +227,14 @@ export default function Dashboard({
               {showUnique ? 'Unique' : 'All'}
             </Button>
             <Button
+              variant={dataSource === 'local' ? 'outline' : 'default'}
+              onClick={toggleDataSource}
+              size="sm"
+              className="gap-1.5 px-3"
+            >
+              {dataSource === 'local' ? <Cloud size={14} /> : <Database size={14} />}
+            </Button>
+            <Button
               variant={hideInvalid ? 'default' : 'outline'}
               onClick={() => setHideInvalid(v => !v)}
               size="sm"
@@ -215,7 +271,7 @@ export default function Dashboard({
         )}
 
         <LastScanBanner lastScan={lastScan} />
-        <DashboardStatsGrid stats={stats} />
+        <DashboardStatsGrid stats={stats} onCardClick={setPendingReport} />
 
         <DashboardLogsSection
           startDate={startDate}
@@ -265,6 +321,15 @@ export default function Dashboard({
           setSearchInput('');
         }}
       />
+
+      {pendingReport && (
+        <ConfirmModal
+          title={`Generate ${pendingReport} Report`}
+          description={`Do you want to generate and download a report for ${pendingReport}?`}
+          onConfirm={handleGenerateDashboardReport}
+          onClose={() => setPendingReport(null)}
+        />
+      )}
     </>
   );
 }

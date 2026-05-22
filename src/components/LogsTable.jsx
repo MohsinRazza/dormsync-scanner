@@ -62,7 +62,7 @@ const LogsTable = ({ logs, allotments, onRowClick, sortConfig, onSort }) => {
       <div className="bg-white dark:bg-slate-950">
         {logs.map((log, i) => {
           const student = allotments[log['QR Code']?.trim()];
-          const lateEntryHour = parseInt(localStorage.getItem('lateEntryHour') || '22');
+          const lateEntryHour = 22;
           const isLate = isLateEntry(log.DateTime, lateEntryHour);
           
           return (

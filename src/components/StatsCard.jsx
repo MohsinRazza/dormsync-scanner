@@ -1,7 +1,7 @@
 import { Card, CardContent } from './ui/card';
 import { cn } from '../lib/utils';
 
-const StatsCard = ({ label, value, icon: Icon, description, variant = 'default' }) => {
+const StatsCard = ({ label, value, icon: Icon, description, variant = 'default', onClick }) => {
   const variants = {
     default: 'bg-white dark:bg-slate-950',
     warning: 'bg-yellow-50 dark:bg-yellow-950/20 border-yellow-200 dark:border-yellow-800',
@@ -21,7 +21,10 @@ const StatsCard = ({ label, value, icon: Icon, description, variant = 'default' 
   };
 
   return (
-    <Card className={cn(variants[variant])}>
+    <Card 
+      onClick={onClick}
+      className={cn(variants[variant], onClick && 'cursor-pointer hover:shadow-md transition-shadow')}
+    >
       <CardContent className="p-3 md:p-6">
         <div className="flex items-center justify-between">
           <div className="flex-1">

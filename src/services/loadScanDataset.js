@@ -8,42 +8,19 @@ export class ScanDataParseError extends Error {
   }
 }
 
-function resolveDataUrls() {
-  const scanLogsUrl =
-    import.meta.env.VITE_SCAN_LOGS_URL ||
-    localStorage.getItem('scanLogsPath') ||
-    '/scanner-logs/scan_log.csv';
+function resolveDataUrls(dataSource) {
+  let scanLogsUrl, allotmentsUrl;
 
-  let allotmentsUrl = scanLogsUrl.replace('scan_log.csv', 'allotments.csv');
-  const githubToken = import.meta.env.VITE_GITHUB_PAT;
-
-  let resolvedScanUrl = scanLogsUrl;
-  let resolvedAllotmentsUrl = allotmentsUrl;
-
-  if (githubToken && scanLogsUrl.includes('raw.githubusercontent.com')) {
-    const rawUrlPattern =
-      /https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)/;
-    const match = scanLogsUrl.match(rawUrlPattern);
-
-    if (match) {
-      const [, owner, repo, branch, path] = match;
-      resolvedScanUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-      const allotmentsPath = path.replace('scan_log.csv', 'allotments.csv');
-      resolvedAllotmentsUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${allotmentsPath}?ref=${branch}`;
-    }
+  if (dataSource === 'local') {
+    scanLogsUrl = '/scanner-logs/scan_log.csv';
+    allotmentsUrl = '/scanner-logs/allotments.csv';
+  } else {
+    // remote
+    scanLogsUrl = import.meta.env.VITE_SCAN_LOGS_URL;
+    allotmentsUrl = scanLogsUrl.replace('scan_log.csv', 'allotments.csv');
   }
 
-  const headers = {};
-  if (
-    githubToken &&
-    (resolvedScanUrl.includes('api.github.com') ||
-      resolvedScanUrl.includes('github'))
-  ) {
-    headers.Authorization = `token ${githubToken}`;
-    headers.Accept = 'application/vnd.github.v3.raw';
-  }
-
-  return { scanLogsUrl: resolvedScanUrl, allotmentsUrl: resolvedAllotmentsUrl, headers };
+  return { scanLogsUrl, allotmentsUrl, headers: {} };
 }
 
 function parseAllotmentsCsv(allotmentsText) {
@@ -153,8 +130,8 @@ function parseScanLogsCsv(csvText) {
 /**
  * Fetches scan_log.csv + allotments.csv, parses them, returns structured data.
  */
-export async function loadScanDataset() {
-  const { scanLogsUrl, allotmentsUrl, headers } = resolveDataUrls();
+export async function loadScanDataset(dataSource = 'local') {
+  const { scanLogsUrl, allotmentsUrl, headers } = resolveDataUrls(dataSource);
 
   const [logsResponse, allotmentsResponse] = await Promise.all([
     fetch(scanLogsUrl, { headers }),

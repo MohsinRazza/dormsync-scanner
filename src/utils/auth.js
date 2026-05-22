@@ -25,11 +25,11 @@ export const createSession = (userInfo = null) => {
     authMethod: userInfo ? 'google' : 'credentials'
   };
   
-  localStorage.setItem(AUTH_KEY, 'true');
-  localStorage.setItem(SESSION_KEY, JSON.stringify(sessionData));
+  sessionStorage.setItem(AUTH_KEY, 'true');
+  sessionStorage.setItem(SESSION_KEY, JSON.stringify(sessionData));
   
   if (userInfo) {
-    localStorage.setItem(USER_KEY, JSON.stringify(userInfo));
+    sessionStorage.setItem(USER_KEY, JSON.stringify(userInfo));
   }
 };
 
@@ -37,7 +37,7 @@ export const createSession = (userInfo = null) => {
  * Get current user info
  */
 export const getCurrentUser = () => {
-  const userInfo = localStorage.getItem(USER_KEY);
+  const userInfo = sessionStorage.getItem(USER_KEY);
   return userInfo ? JSON.parse(userInfo) : null;
 };
 
@@ -45,8 +45,8 @@ export const getCurrentUser = () => {
  * Check if current session is valid
  */
 export const isSessionValid = () => {
-  const authValue = localStorage.getItem(AUTH_KEY);
-  const sessionData = localStorage.getItem(SESSION_KEY);
+  const authValue = sessionStorage.getItem(AUTH_KEY);
+  const sessionData = sessionStorage.getItem(SESSION_KEY);
   
   // Check if auth flag exists
   if (authValue !== 'true' || !sessionData) {
@@ -74,16 +74,16 @@ export const isSessionValid = () => {
  * Clear session data
  */
 export const clearSession = () => {
-  localStorage.removeItem(AUTH_KEY);
-  localStorage.removeItem(SESSION_KEY);
-  localStorage.removeItem(USER_KEY);
+  sessionStorage.removeItem(AUTH_KEY);
+  sessionStorage.removeItem(SESSION_KEY);
+  sessionStorage.removeItem(USER_KEY);
 };
 
 /**
  * Get remaining session time in minutes
  */
 export const getRemainingTime = () => {
-  const sessionData = localStorage.getItem(SESSION_KEY);
+  const sessionData = sessionStorage.getItem(SESSION_KEY);
   
   if (!sessionData) return 0;
   
@@ -110,7 +110,7 @@ export const extendSession = () => {
  * Get authentication method
  */
 export const getAuthMethod = () => {
-  const sessionData = localStorage.getItem(SESSION_KEY);
+  const sessionData = sessionStorage.getItem(SESSION_KEY);
   
   if (!sessionData) return null;
   
